@@ -2,20 +2,24 @@ name: Gerador de BD Cartoonzine
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roda todos os dias à meia-noite (UTC)
-  workflow_dispatch: # Permite rodar manualmente apertando um botão no GitHub
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# ESSENCIAL: Dá permissão para o bot salvar os arquivos no repositório
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Atualizado para v4 (remove o aviso do Node)
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # Atualizado para v4
         with:
-          node-version: '18' # Suporte nativo ao fetch
+          node-version: '20'
 
       - name: Executar Scraper Ponte
         run: npm start
@@ -27,4 +31,5 @@ jobs:
           git config --global user.name "Cartoonzine Bot"
           git config --global user.email "bot@cartoonzine.com"
           git add canais_saimo.m3u vod_saimo.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "☁️ Atualização diária do BD Saimo" && git push)
+          git commit -m "☁️ Atualização diária do BD Saimo" || echo "Sem mudanças para comitar"
+          git push
