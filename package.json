@@ -1,0 +1,10 @@
+{
+  "name": "cartoonzine-saimo-bridge",
+  "version": "1.0.0",
+  "description": "Ponte entre SaimoPlayer e Cartoonzine Cloud Engine",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scraper.js"
+  }
+}
