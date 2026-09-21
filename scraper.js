@@ -175,7 +175,7 @@ async function processarVOD() {
                     url: urlFinal,
                     year: tmdbData.year,
                     genre: generoTxt,
-                    destaque: false
+                    destaque: 
                 });
             }
         }
