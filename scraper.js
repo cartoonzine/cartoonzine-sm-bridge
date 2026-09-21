@@ -9,32 +9,44 @@ const delay = ms => new Promise(r => setTimeout(r, ms));
 
 function limparTituloParaBusca(titulo) {
     if (!titulo) return "";
-    return titulo.replace(/\s*\(\d{4}\)|\s*\[.*?\]|\b(4K|1080p|UHD|FHD)\b/gi, '').trim();
+    return titulo.replace(/\s*\(\d{4}\)|\s*\[.*?\]|\b(4K|1080p|UHD|FHD|HD|SD|LEG|DUB)\b/gi, '').trim();
 }
 
+const tmdbCache = new Map();
+
 async function fetchTMDB(titulo, isSerie = false) {
+    const tituloLimpo = limparTituloParaBusca(titulo);
+    if (!tituloLimpo) return { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
+
+    const cacheKey = `${isSerie ? 's' : 'f'}|${tituloLimpo.toLowerCase()}`;
+    if (tmdbCache.has(cacheKey)) {
+        return tmdbCache.get(cacheKey);
+    }
+
     const tipo = isSerie ? 'tv' : 'movie';
-    const query = encodeURIComponent(limparTituloParaBusca(titulo));
+    const query = encodeURIComponent(tituloLimpo);
     const url = `${TMDB_BASE}/search/${tipo}?query=${query}&api_key=${TMDB_KEY}&language=pt-BR`;
     
+    let resData = { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
+
     try {
         const res = await fetch(url);
-        if (!res.ok) return { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
-        
-        const data = await res.json();
-        if (data.results && data.results.length > 0) {
-            const item = data.results[0];
-            return {
-                desc: item.overview || "Sinopse não disponível.",
-                thumb: item.poster_path ? `${TMDB_IMG}${item.poster_path}` : "",
-                bannerThumb: item.backdrop_path ? `${TMDB_IMG}${item.backdrop_path}` : "",
-                year: (item.release_date || item.first_air_date || "").substring(0, 4)
-            };
+        if (res.ok) {
+            const data = await res.json();
+            if (data.results && data.results.length > 0) {
+                const item = data.results[0];
+                resData = {
+                    desc: item.overview || "Sinopse não disponível.",
+                    thumb: item.poster_path ? `${TMDB_IMG}${item.poster_path}` : "",
+                    bannerThumb: item.backdrop_path ? `${TMDB_IMG}${item.backdrop_path}` : "",
+                    year: (item.release_date || item.first_air_date || "").substring(0, 4)
+                };
+            }
         }
-    } catch (e) {
-        // Silencia erro e retorna valores padrão para não travar
-    }
-    return { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
+    } catch (e) {}
+
+    tmdbCache.set(cacheKey, resData);
+    return resData;
 }
 
 async function carregarGeneros() {
@@ -83,7 +95,7 @@ async function processarCanais() {
             if (!linha || linha.startsWith('#')) continue;
 
             const partes = linha.split(':');
-            if (partes.length < 2) continue; // Proteção contra linhas sem ':'
+            if (partes.length < 2) continue;
 
             const chave = partes.shift().trim().toLowerCase();
             const valor = partes.join(':').trim();
@@ -111,7 +123,7 @@ async function processarCanais() {
 }
 
 async function processarVOD() {
-    console.log("🎬 Baixando índice, gêneros e construindo VOD...");
+    console.log("🎬 Baixando índice, gêneros e construindo catálogos...");
     const generosMap = await carregarGeneros();
     
     const resIndice = await fetch(`${GITHUB_RAW_BASE}vod/indice.txt`);
@@ -119,11 +131,22 @@ async function processarVOD() {
     const textoIndice = await resIndice.text();
     
     const bases = {};
+    const gavetas = [];
     
     textoIndice.split('\n').forEach(linha => {
+        linha = linha.trim();
         if (linha.startsWith("base:")) {
             const partes = linha.replace("base:", "").trim().split(' ');
             if (partes.length >= 2) bases[partes[0]] = partes[1];
+        } else if (linha.includes('\t')) {
+            const campos = linha.split('\t');
+            if (campos[0]) {
+                gavetas.push({
+                    letra: campos[0],
+                    filmes: parseInt(campos[1] || '0'),
+                    series: parseInt(campos[2] || '0')
+                });
+            }
         }
     });
 
@@ -132,38 +155,41 @@ async function processarVOD() {
         if (valor.startsWith("http")) return valor;
         
         const partesUrl = valor.split(':');
-        if (partesUrl.length < 2) return null; // Linha inválida
+        if (partesUrl.length < 2) return null;
         
         const numero = partesUrl[0].trim();
         const resto = partesUrl.slice(1).join(':').trim();
         const base = bases[numero];
         
-        if (!base || !resto) return null; // Base não mapeada
+        if (!base || !resto) return null;
         return resto.includes('.') ? `${base}${resto}` : `${base}${resto}.mp4`;
     }
 
-    const vodCartoonzine = [];
-    
-    // Alerta: Ainda limitado a 3 letras para você testar com sucesso sem o TMDB te banir por volume
-    for (let letra of ['A', 'B', 'C']) { 
-        console.log(`Buscando filmes da letra: ${letra}`);
-        const resFilmes = await fetch(`${GITHUB_RAW_BASE}vod/filmes-${letra}.txt`);
-        if (!resFilmes.ok) continue;
-        
-        const textoFilmes = await resFilmes.text();
-        const linhas = textoFilmes.split('\n');
+    const filmesCartoonzine = [];
+    const seriesCartoonzine = [];
 
-        for (let linha of linhas) {
-            try {
+    // 1. PROCESSAMENTO DE FILMES
+    for (let g of gavetas) {
+        if (g.filmes <= 0) continue;
+        const letra = g.letra;
+        const nomeArquivo = letra === '#' ? '%23' : letra;
+        console.log(`🎥 Processando Filmes da letra: ${letra}...`);
+        
+        try {
+            const resFilmes = await fetch(`${GITHUB_RAW_BASE}vod/filmes-${nomeArquivo}.txt`);
+            if (!resFilmes.ok) continue;
+            
+            const textoFilmes = await resFilmes.text();
+            const linhas = textoFilmes.split('\n');
+
+            for (let linha of linhas) {
                 if (!linha.trim()) continue;
-                
                 const campos = linha.split('\t');
                 if (campos.length < 2 || !campos[0]) continue;
                 
                 const tituloCompleto = campos[0];
                 const tituloSemAno = tituloCompleto.replace(/\s*\(\d{4}\)$/, '').trim();
                 
-                // Pega a coluna que contém os links (geralmente tem "dub=" ou "leg=")
                 const linksParte = campos.find(c => c.includes('='));
                 if (!linksParte) continue;
                 
@@ -173,11 +199,11 @@ async function processarVOD() {
                 const urlFinal = montarUrl(urlBruta);
                 if (!urlFinal) continue;
                 
-                await delay(120); // Respeito rigoroso ao limite da API do TMDB
+                await delay(30);
                 const tmdbData = await fetchTMDB(tituloCompleto, false);
                 const generoTxt = generosMap.get(`f|${tituloSemAno}`) || "Filme";
 
-                vodCartoonzine.push({
+                filmesCartoonzine.push({
                     cat: "Filmes",
                     title: tituloCompleto,
                     desc: tmdbData.desc,
@@ -186,16 +212,116 @@ async function processarVOD() {
                     url: urlFinal,
                     year: tmdbData.year,
                     genre: generoTxt,
+                    destaque: false
                 });
-            } catch (errLine) {
-                // Se um único filme der erro bizarro, ele falha aqui e o laço 'for' continua para o próximo filme
-                console.warn(`Erro pulando linha do filme: ${errLine.message}`);
             }
+        } catch (e) {
+            console.warn(`Aviso em filmes (${letra}): ${e.message}`);
         }
     }
 
-    await fs.writeFile('vod_saimo.json', JSON.stringify(vodCartoonzine, null, 2));
-    console.log(`✅ vod_saimo.json gerado com ${vodCartoonzine.length} títulos!`);
+    // 2. PROCESSAMENTO DE SÉRIES
+    for (let g of gavetas) {
+        if (g.series <= 0) continue;
+        const letra = g.letra;
+        const nomeArquivo = letra === '#' ? '%23' : letra;
+        console.log(`📺 Processando Séries da letra: ${letra}...`);
+
+        try {
+            const resSeriesIdx = await fetch(`${GITHUB_RAW_BASE}vod/series-${nomeArquivo}.txt`);
+            if (!resSeriesIdx.ok) continue;
+            const textoSeriesIdx = await resSeriesIdx.text();
+
+            const pedacosSet = new Set();
+            textoSeriesIdx.split('\n').forEach(linha => {
+                const campos = linha.split('\t');
+                if (campos.length >= 3 && campos[2]) {
+                    pedacosSet.add(campos[2].trim());
+                }
+            });
+
+            for (let pedaco of pedacosSet) {
+                const resPedaco = await fetch(`${GITHUB_RAW_BASE}vod/series-${nomeArquivo}-${pedaco}.txt`);
+                if (!resPedaco.ok) continue;
+                
+                const textoPedaco = await resPedaco.text();
+                const linhasPedaco = textoPedaco.split('\n');
+
+                let serieAtual = null;
+
+                const salvarSerieAtual = () => {
+                    if (serieAtual) {
+                        serieAtual.seasons = Object.keys(serieAtual.seasonsMap).map(sNum => ({
+                            season: parseInt(sNum),
+                            episodes: serieAtual.seasonsMap[sNum]
+                        }));
+                        delete serieAtual.seasonsMap;
+                        
+                        if (serieAtual.seasons.length > 0) {
+                            seriesCartoonzine.push(serieAtual);
+                        }
+                    }
+                };
+
+                for (let linha of linhasPedaco) {
+                    linha = linha.trim();
+                    if (!linha) continue;
+
+                    if (linha.startsWith('@')) {
+                        salvarSerieAtual();
+
+                        const camposCabecalho = linha.substring(1).split('\t');
+                        const tituloSerie = camposCabecalho[0] || "";
+                        const anoSerie = camposCabecalho[1] || "";
+                        
+                        await delay(30);
+                        const tmdbData = await fetchTMDB(tituloSerie, true);
+                        const generoTxt = generosMap.get(`s|${tituloSerie}`) || "Série";
+
+                        serieAtual = {
+                            cat: "Séries",
+                            title: tituloSerie,
+                            desc: tmdbData.desc,
+                            thumb: tmdbData.thumb,
+                            bannerThumb: tmdbData.bannerThumb,
+                            year: anoSerie || tmdbData.year,
+                            genre: generoTxt,
+                            destaque: false,
+                            seasonsMap: {}
+                        };
+                    } else if (serieAtual) {
+                        const camposEp = linha.split('\t');
+                        if (camposEp.length >= 4) {
+                            const tempNum = parseInt(camposEp[0]) || 1;
+                            const epNum = parseInt(camposEp[1]) || 1;
+                            const urlBruta = camposEp[3].split(',')[0];
+                            const urlFinal = montarUrl(urlBruta);
+
+                            if (urlFinal) {
+                                if (!serieAtual.seasonsMap[tempNum]) {
+                                    serieAtual.seasonsMap[tempNum] = [];
+                                }
+                                serieAtual.seasonsMap[tempNum].push({
+                                    season: tempNum,
+                                    episode: epNum,
+                                    url: urlFinal
+                                });
+                            }
+                        }
+                    }
+                }
+                salvarSerieAtual();
+            }
+        } catch (e) {
+            console.warn(`Aviso em séries (${letra}): ${e.message}`);
+        }
+    }
+
+    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
+    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
+    
+    console.log(`✅ filmes_saimo.json gerado (${filmesCartoonzine.length} títulos)`);
+    console.log(`✅ series_saimo.json gerado (${seriesCartoonzine.length} títulos)`);
 }
 
 (async () => {
