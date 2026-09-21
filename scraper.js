@@ -81,44 +81,76 @@ function classificarCanal(nome) {
 }
 
 async function processarCanais() {
-    console.log("📺 Baixando e categorizando canais...");
+    console.log("📺 Baixando e montando canais minuciosamente...");
     try {
         const res = await fetch(`${GITHUB_RAW_BASE}catalogo.txt`);
         if (!res.ok) throw new Error("Falha ao baixar catálogo de canais");
         const texto = await res.text();
         
-        let m3u = "#EXTM3U\n";
-        let canalAtual = {};
+        const canaisAgrupados = [];
+        let canalEmConstrucao = null;
 
         for (let linha of texto.split('\n')) {
             linha = linha.trim();
             if (!linha || linha.startsWith('#')) continue;
 
-            const partes = linha.split(':');
-            if (partes.length < 2) continue;
+            // Extração segura usando o primeiro dois-pontos (evita quebrar links HTTPS)
+            const separadorIdx = linha.indexOf(':');
+            if (separadorIdx === -1) continue;
 
-            const chave = partes.shift().trim().toLowerCase();
-            const valor = partes.join(':').trim();
+            const chave = linha.substring(0, separadorIdx).trim().toLowerCase();
+            const valor = linha.substring(separadorIdx + 1).trim();
+
             if (!valor) continue;
 
             if (chave === 'canal') {
-                canalAtual = { nome: valor, logo: "", categoria: classificarCanal(valor), url: "" };
-            } else if (chave === 'logo') {
-                canalAtual.logo = valor;
-            } else if (chave === 'categoria') {
-                canalAtual.categoria = valor;
-            } else if (chave === 'fonte') {
-                canalAtual.url = valor;
-                if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
-                    m3u += `#EXTINF:-1 tvg-logo="${canalAtual.logo}" group-title="${canalAtual.categoria}",${canalAtual.nome}\n${canalAtual.url}\n`;
+                // Guarda o canal anterior finalizado antes de iniciar um novo
+                if (canalEmConstrucao && canalEmConstrucao.nome) {
+                    canaisAgrupados.push(canalEmConstrucao);
+                }
+                canalEmConstrucao = {
+                    nome: valor,
+                    logo: "",
+                    categoria: "",
+                    fontes: []
+                };
+            } else if (canalEmConstrucao) {
+                if (chave === 'logo') {
+                    canalEmConstrucao.logo = valor;
+                } else if (chave === 'categoria') {
+                    canalEmConstrucao.categoria = valor;
+                } else if (chave === 'fonte') {
+                    canalEmConstrucao.fontes.push(valor);
                 }
             }
         }
+        
+        // Empurra o último canal do arquivo que ficou na memória
+        if (canalEmConstrucao && canalEmConstrucao.nome) {
+            canaisAgrupados.push(canalEmConstrucao);
+        }
+
+        let m3u = "#EXTM3U\n";
+        let contadorValidos = 0;
+
+        canaisAgrupados.forEach(c => {
+            const nome = c.nome;
+            const logo = c.logo;
+            const cat = c.categoria || classificarCanal(nome);
+
+            // Busca a primeira fonte que seja HTTP válida e que não seja restrita por DRM (.mpd)
+            const fonteValida = c.fontes.find(f => !f.toLowerCase().includes('.mpd') && f.startsWith('http'));
+
+            if (fonteValida) {
+                m3u += `#EXTINF:-1 tvg-logo="${logo}" group-title="${cat}",${nome}\n${fonteValida}\n`;
+                contadorValidos++;
+            }
+        });
 
         await fs.writeFile('canais_saimo.m3u', m3u);
-        console.log("✅ canais_saimo.m3u gerado!");
+        console.log(`✅ canais_saimo.m3u montado! Foram extraídos ${contadorValidos} canais reais, limpos e com logotipos.`);
     } catch (e) {
-        console.error("Erro nos canais:", e.message);
+        console.error("❌ Erro nos canais:", e.message);
     }
 }
 
