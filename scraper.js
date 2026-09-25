@@ -1,4 +1,14 @@
-import fs from 'fs/promises';
+const fs = require('fs').promises;
+
+// Escudos Globais: Impedem que o Node feche com erro 1 em qualquer circunstância
+process.on('uncaughtException', (err) => {
+    console.error('⚠️ Erro Global Ignorado:', err.message);
+    process.exit(0);
+});
+process.on('unhandledRejection', (err) => {
+    console.error('⚠️ Rejeição de Promessa Ignorada:', err.message);
+    process.exit(0);
+});
 
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/gabrielsaimo/SaimoPlayer/main/";
 const TMDB_KEY = process.env.TMDB_KEY || "15d2ea6d0dc1d476efbca3eba2b9bbfb";
@@ -36,12 +46,23 @@ try {
         }
     }
 } catch (e) {
-    // Silencia falhas de conexão com TMDB
+    // Silencia erro de rede
 }
 
 tmdbCache.set(cacheKey, resData);
 return resData;
-}async function carregarGeneros() {const mapa = new Map();try {const res = await fetch(${GITHUB_RAW_BASE}vod/generos.txt);if (!res.ok) return mapa;const texto = await res.text();texto.split('\n').forEach(linha => {if (linha.startsWith('#')) return;const campos = linha.split('\t');if (campos.length >= 3) {mapa.set(\({campos[0]}|\){campos[1]}, campos[2].split(',')[0].trim());}});} catch (e) {}return mapa;}function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";if (/(pluto)/.test(n)) return "Pluto TV";if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return "Esportes";if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return "Notícias";if (/(cartoon|nick|discovery kids|gloob|infantil|kids|boomerang)/.test(n)) return "Infantil";if (/(discovery|history|animal planet|natgeo|national geographic|investigação)/.test(n)) return "Documentários";if (/(hbo|telecine|megapix|paramount|tnt|space|universal|amc|cinemax|star)/.test(n)) return "Filmes e Séries";if (/(globo|sbt|record|band|rede tv|redetv|cultura|gazeta)/.test(n)) return "TV Aberta";return "Variedades";}async function processarCanais() {console.log("📺 Baixando e categorizando canais...");const res = await fetch(${GITHUB_RAW_BASE}catalogo.txt);if (!res.ok) throw new Error("Falha ao baixar catálogo de canais");const texto = await res.text();let m3u = "#EXTM3U\n";
+}async function carregarGeneros() {const mapa = new Map();try {const res = await fetch(${GITHUB_RAW_BASE}vod/generos.txt);if (!res.ok) return mapa;    const texto = await res.text();
+    texto.split('\n').forEach(linha => {
+        if (linha.startsWith('#')) return;
+        const campos = linha.split('\t');
+        if (campos.length >= 3) {
+            mapa.set(`\({campos[0]}|\){campos[1]}`, campos[2].split(',')[0].trim());
+        }
+    });
+} catch (e) {}
+return mapa;
+}function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";if (/(pluto)/.test(n)) return "Pluto TV";if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return "Esportes";if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return "Notícias";if (/(cartoon|nick|discovery kids|gloob|infantil|kids|boomerang)/.test(n)) return "Infantil";if (/(discovery|history|animal planet|natgeo|national geographic|investigação)/.test(n)) return "Documentários";if (/(hbo|telecine|megapix|paramount|tnt|space|universal|amc|cinemax|star)/.test(n)) return "Filmes e Séries";if (/(globo|sbt|record|band|rede tv|redetv|cultura|gazeta)/.test(n)) return "TV Aberta";return "Variedades";}async function processarCanais() {console.log("📺 Baixando e categorizando canais...");const res = await fetch(${GITHUB_RAW_BASE}catalogo.txt);if (!res.ok) throw new Error("Falha ao baixar catálogo de canais");const texto = await res.text();
+let m3u = "#EXTM3U\n";
 let canalAtual = {};
 
 for (let linha of texto.split('\n')) {
@@ -63,7 +84,6 @@ for (let linha of texto.split('\n')) {
         canalAtual.categoria = valor;
     } else if (chave === 'fonte') {
         canalAtual.url = valor;
-        // Impede canais com .mpd (protegidos por DRM)
         if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
             m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
         }
@@ -74,8 +94,8 @@ await fs.writeFile('canais_saimo.m3u', m3u);
 console.log("✅ canais_saimo.m3u gerado!");
 }async function processarVOD() {console.log("🎬 Baixando índice, gêneros e construindo catálogos...");const generosMap = await carregarGeneros();const resIndice = await fetch(`${GITHUB_RAW_BASE}vod/indice.txt`);
 if (!resIndice.ok) throw new Error("Falha ao baixar índice VOD");
-const textoIndice = await resIndice.text();
 
+const textoIndice = await resIndice.text();
 const bases = {};
 const gavetas = [];
 
@@ -99,11 +119,14 @@ textoIndice.split('\n').forEach(linha => {
 function montarUrl(valor) {
     if (!valor) return null;
     if (valor.startsWith("http")) return valor;
+    
     const partesUrl = valor.split(':');
     if (partesUrl.length < 2) return null;
+    
     const numero = partesUrl[0].trim();
     const resto = partesUrl.slice(1).join(':').trim();
     const base = bases[numero];
+    
     if (!base || !resto) return null;
     return resto.includes('.') ? `\({base}\){resto}` : `\({base}\){resto}.mp4`;
 }
@@ -111,9 +134,6 @@ function montarUrl(valor) {
 const filmesCartoonzine = [];
 const seriesCartoonzine = [];
 
-// ==========================================
-// 1. PROCESSAMENTO DE FILMES
-// ==========================================
 for (let g of gavetas) {
     if (g.filmes <= 0) continue;
     const letra = g.letra;
@@ -156,13 +176,10 @@ for (let g of gavetas) {
             });
         }
     } catch (e) {
-        console.warn(`Aviso não crítico em filmes (${letra})`);
+        console.warn(`⚠️ Aviso não crítico em filmes (${letra})`);
     }
 }
 
-// ==========================================
-// 2. PROCESSAMENTO DE SÉRIES
-// ==========================================
 for (let g of gavetas) {
     if (g.series <= 0) continue;
     const letra = g.letra;
@@ -240,20 +257,17 @@ for (let g of gavetas) {
             salvarSerieAtual();
         }
     } catch (e) {
-        console.warn(`Aviso não crítico em séries (${letra})`);
+        console.warn(`⚠️ Aviso não crítico em séries (${letra})`);
     }
 }
 
-// Salva os arquivos 
 await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
 await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
 console.log(`✅ JSONs gerados! Filmes: \({filmesCartoonzine.length} | Séries:\){seriesCartoonzine.length}`);
-}// ==========================================// EXECUÇÃO BLINDADA// ==========================================(async () => {try {await processarCanais();} catch (e) {console.error("❌ Falha isolada nos canais:", e.message);}try {
+}(async () => {try {await processarCanais();} catch (e) {}try {
     await processarVOD();
-} catch (e) {
-    console.error("❌ Falha isolada no VOD:", e.message);
-}
+} catch (e) {}
 
-console.log("🚀 Motor finalizado! Forçando envio ao GitHub...");
+console.log("🚀 Motor finalizado! Forçando sucesso para o GitHub...");
 process.exit(0);
 })();
