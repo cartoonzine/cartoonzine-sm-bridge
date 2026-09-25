@@ -1,4 +1,4 @@
-JavaScriptimport fs from 'fs/promises';
+import fs from 'fs/promises';
 
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/gabrielsaimo/SaimoPlayer/main/";
 const TMDB_KEY = process.env.TMDB_KEY || "15d2ea6d0dc1d476efbca3eba2b9bbfb";
