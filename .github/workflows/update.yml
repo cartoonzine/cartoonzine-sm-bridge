@@ -18,10 +18,10 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # Atualizado para 22 para remover o aviso
+          node-version: '22'
 
       - name: Executar Scraper Ponte
-        run: npm start
+        run: node scraper.js
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
 
