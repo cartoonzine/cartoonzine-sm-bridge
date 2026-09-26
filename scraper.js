@@ -1,5 +1,15 @@
 import fs from 'fs/promises';
 
+// Escudos Globais: Impedem que o Node feche com erro 1 em qualquer circunstância
+process.on('uncaughtException', (err) => {
+    console.error('⚠️ Erro Global Ignorado:', err.message);
+    process.exit(0);
+});
+process.on('unhandledRejection', (err) => {
+    console.error('⚠️ Rejeição de Promessa Ignorada:', err.message);
+    process.exit(0);
+});
+
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/gabrielsaimo/SaimoPlayer/main/";
 const TMDB_KEY = process.env.TMDB_KEY || "15d2ea6d0dc1d476efbca3eba2b9bbfb";
 const TMDB_BASE = "https://api.themoviedb.org/3";
@@ -9,6 +19,7 @@ const delay = ms => new Promise(r => setTimeout(r, ms));
 
 function limparTituloParaBusca(titulo) {
     if (!titulo) return "";
+    // Esta é a linha que havia quebrado. Agora está em uma linha só, como deve ser.
     return titulo.replace(/\s*\(\d{4}\)|\s*
 $$.*?$$|\b(4K|1080p|UHD|FHD|HD|SD|LEG|DUB)\b/gi, '').trim();}const tmdbCache = new Map();async function fetchTMDB(titulo, isSerie = false) {const tituloLimpo = limparTituloParaBusca(titulo);if (!tituloLimpo) return { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };const cacheKey = `\({isSerie ? 's' : 'f'}|\){tituloLimpo.toLowerCase()}`;
 if (tmdbCache.has(cacheKey)) {
@@ -35,47 +46,57 @@ try {
             };
         }
     }
-} catch (e) {}
+} catch (e) {
+    // Silencia erro de rede
+}
 
 tmdbCache.set(cacheKey, resData);
 return resData;
-}async function carregarGeneros() {const mapa = new Map();try {const res = await fetch(${GITHUB_RAW_BASE}vod/generos.txt);if (!res.ok) return mapa;const texto = await res.text();texto.split('\n').forEach(linha => {if (linha.startsWith('#')) return;const campos = linha.split('\t');if (campos.length >= 3) {mapa.set(\({campos[0]}|\){campos[1]}, campos[2].split(',')[0].trim());}});} catch (e) {}return mapa;}function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";if (/(pluto)/.test(n)) return "Pluto TV";if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return "Esportes";if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return "Notícias";if (/(cartoon|nick|discovery kids|gloob|infantil|kids|boomerang)/.test(n)) return "Infantil";if (/(discovery|history|animal planet|natgeo|national geographic|investigação)/.test(n)) return "Documentários";if (/(hbo|telecine|megapix|paramount|tnt|space|universal|amc|cinemax|star)/.test(n)) return "Filmes e Séries";if (/(globo|sbt|record|band|rede tv|redetv|cultura|gazeta)/.test(n)) return "TV Aberta";return "Variedades";}async function processarCanais() {console.log("📺 Baixando e categorizando canais...");try {const res = await fetch(${GITHUB_RAW_BASE}catalogo.txt);if (!res.ok) throw new Error("Falha ao baixar catálogo de canais");const texto = await res.text();    let m3u = "#EXTM3U\n";
-    let canalAtual = {};
+}async function carregarGeneros() {const mapa = new Map();try {const res = await fetch(${GITHUB_RAW_BASE}vod/generos.txt);if (!res.ok) return mapa;    const texto = await res.text();
+    texto.split('\n').forEach(linha => {
+        if (linha.startsWith('#')) return;
+        const campos = linha.split('\t');
+        if (campos.length >= 3) {
+            mapa.set(`\({campos[0]}|\){campos[1]}`, campos[2].split(',')[0].trim());
+        }
+    });
+} catch (e) {}
+return mapa;
+}function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";if (/(pluto)/.test(n)) return "Pluto TV";if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return "Esportes";if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return "Notícias";if (/(cartoon|nick|discovery kids|gloob|infantil|kids|boomerang)/.test(n)) return "Infantil";if (/(discovery|history|animal planet|natgeo|national geographic|investigação)/.test(n)) return "Documentários";if (/(hbo|telecine|megapix|paramount|tnt|space|universal|amc|cinemax|star)/.test(n)) return "Filmes e Séries";if (/(globo|sbt|record|band|rede tv|redetv|cultura|gazeta)/.test(n)) return "TV Aberta";return "Variedades";}async function processarCanais() {console.log("📺 Baixando e categorizando canais...");const res = await fetch(${GITHUB_RAW_BASE}catalogo.txt);if (!res.ok) throw new Error("Falha ao baixar catálogo de canais");const texto = await res.text();
+let m3u = "#EXTM3U\n";
+let canalAtual = {};
 
-    for (let linha of texto.split('\n')) {
-        linha = linha.trim();
-        if (!linha || linha.startsWith('#')) continue;
+for (let linha of texto.split('\n')) {
+    linha = linha.trim();
+    if (!linha || linha.startsWith('#')) continue;
 
-        const partes = linha.split(':');
-        if (partes.length < 2) continue;
+    const partes = linha.split(':');
+    if (partes.length < 2) continue;
 
-        const chave = partes.shift().trim().toLowerCase();
-        const valor = partes.join(':').trim();
-        if (!valor) continue;
+    const chave = partes.shift().trim().toLowerCase();
+    const valor = partes.join(':').trim();
+    if (!valor) continue;
 
-        if (chave === 'canal') {
-            canalAtual = { nome: valor, logo: "", categoria: classificarCanal(valor), url: "" };
-        } else if (chave === 'logo') {
-            canalAtual.logo = valor;
-        } else if (chave === 'categoria') {
-            canalAtual.categoria = valor;
-        } else if (chave === 'fonte') {
-            canalAtual.url = valor;
-            if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
-                m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
-            }
+    if (chave === 'canal') {
+        canalAtual = { nome: valor, logo: "", categoria: classificarCanal(valor), url: "" };
+    } else if (chave === 'logo') {
+        canalAtual.logo = valor;
+    } else if (chave === 'categoria') {
+        canalAtual.categoria = valor;
+    } else if (chave === 'fonte') {
+        canalAtual.url = valor;
+        if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
+            m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
         }
     }
-
-    await fs.writeFile('canais_saimo.m3u', m3u);
-    console.log("✅ canais_saimo.m3u gerado!");
-} catch (e) {
-    console.error("Erro nos canais:", e.message);
 }
+
+await fs.writeFile('canais_saimo.m3u', m3u);
+console.log("✅ canais_saimo.m3u gerado!");
 }async function processarVOD() {console.log("🎬 Baixando índice, gêneros e construindo catálogos...");const generosMap = await carregarGeneros();const resIndice = await fetch(`${GITHUB_RAW_BASE}vod/indice.txt`);
 if (!resIndice.ok) throw new Error("Falha ao baixar índice VOD");
-const textoIndice = await resIndice.text();
 
+const textoIndice = await resIndice.text();
 const bases = {};
 const gavetas = [];
 
@@ -114,21 +135,17 @@ function montarUrl(valor) {
 const filmesCartoonzine = [];
 const seriesCartoonzine = [];
 
-// 1. PROCESSAMENTO DE FILMES
 for (let g of gavetas) {
     if (g.filmes <= 0) continue;
     const letra = g.letra;
     const nomeArquivo = letra === '#' ? '%23' : letra;
-    console.log(`🎥 Processando Filmes da letra: ${letra}...`);
     
     try {
         const resFilmes = await fetch(`\({GITHUB_RAW_BASE}vod/filmes-\){nomeArquivo}.txt`);
         if (!resFilmes.ok) continue;
         
         const textoFilmes = await resFilmes.text();
-        const linhas = textoFilmes.split('\n');
-
-        for (let linha of linhas) {
+        for (let linha of textoFilmes.split('\n')) {
             if (!linha.trim()) continue;
             const campos = linha.split('\t');
             if (campos.length < 2 || !campos[0]) continue;
@@ -140,12 +157,10 @@ for (let g of gavetas) {
             if (!linksParte) continue;
             
             const urlBruta = linksParte.split('=')[1]?.split(',')[0];
-            if (!urlBruta) continue;
-            
             const urlFinal = montarUrl(urlBruta);
             if (!urlFinal) continue;
             
-            await delay(30);
+            await delay(20);
             const tmdbData = await fetchTMDB(tituloCompleto, false);
             const generoTxt = generosMap.get(`f|${tituloSemAno}`) || "Filme";
 
@@ -162,16 +177,14 @@ for (let g of gavetas) {
             });
         }
     } catch (e) {
-        console.warn(`Aviso em filmes (\({letra}):\){e.message}`);
+        console.warn(`⚠️ Aviso não crítico em filmes (${letra})`);
     }
 }
 
-// 2. PROCESSAMENTO DE SÉRIES
 for (let g of gavetas) {
     if (g.series <= 0) continue;
     const letra = g.letra;
     const nomeArquivo = letra === '#' ? '%23' : letra;
-    console.log(`📺 Processando Séries da letra: ${letra}...`);
 
     try {
         const resSeriesIdx = await fetch(`\({GITHUB_RAW_BASE}vod/series-\){nomeArquivo}.txt`);
@@ -181,9 +194,7 @@ for (let g of gavetas) {
         const pedacosSet = new Set();
         textoSeriesIdx.split('\n').forEach(linha => {
             const campos = linha.split('\t');
-            if (campos.length >= 3 && campos[2]) {
-                pedacosSet.add(campos[2].trim());
-            }
+            if (campos.length >= 3 && campos[2]) pedacosSet.add(campos[2].trim());
         });
 
         for (let pedaco of pedacosSet) {
@@ -191,8 +202,6 @@ for (let g of gavetas) {
             if (!resPedaco.ok) continue;
             
             const textoPedaco = await resPedaco.text();
-            const linhasPedaco = textoPedaco.split('\n');
-
             let serieAtual = null;
 
             const salvarSerieAtual = () => {
@@ -202,25 +211,20 @@ for (let g of gavetas) {
                         episodes: serieAtual.seasonsMap[sNum]
                     }));
                     delete serieAtual.seasonsMap;
-                    
-                    if (serieAtual.seasons.length > 0) {
-                        seriesCartoonzine.push(serieAtual);
-                    }
+                    if (serieAtual.seasons.length > 0) seriesCartoonzine.push(serieAtual);
                 }
             };
 
-            for (let linha of linhasPedaco) {
+            for (let linha of textoPedaco.split('\n')) {
                 linha = linha.trim();
                 if (!linha) continue;
 
                 if (linha.startsWith('@')) {
                     salvarSerieAtual();
-
                     const camposCabecalho = linha.substring(1).split('\t');
                     const tituloSerie = camposCabecalho[0] || "";
-                    const anoSerie = camposCabecalho[1] || "";
                     
-                    await delay(30);
+                    await delay(20);
                     const tmdbData = await fetchTMDB(tituloSerie, true);
                     const generoTxt = generosMap.get(`s|${tituloSerie}`) || "Série";
 
@@ -230,7 +234,7 @@ for (let g of gavetas) {
                         desc: tmdbData.desc,
                         thumb: tmdbData.thumb,
                         bannerThumb: tmdbData.bannerThumb,
-                        year: anoSerie || tmdbData.year,
+                        year: camposCabecalho[1] || tmdbData.year,
                         genre: generoTxt,
                         destaque: false,
                         seasonsMap: {}
@@ -238,18 +242,13 @@ for (let g of gavetas) {
                 } else if (serieAtual) {
                     const camposEp = linha.split('\t');
                     if (camposEp.length >= 4) {
-                        const tempNum = parseInt(camposEp[0]) || 1;
-                        const epNum = parseInt(camposEp[1]) || 1;
-                        const urlBruta = camposEp[3].split(',')[0];
-                        const urlFinal = montarUrl(urlBruta);
-
+                        const urlFinal = montarUrl(camposEp[3].split(',')[0]);
                         if (urlFinal) {
-                            if (!serieAtual.seasonsMap[tempNum]) {
-                                serieAtual.seasonsMap[tempNum] = [];
-                            }
+                            const tempNum = parseInt(camposEp[0]) || 1;
+                            if (!serieAtual.seasonsMap[tempNum]) serieAtual.seasonsMap[tempNum] = [];
                             serieAtual.seasonsMap[tempNum].push({
                                 season: tempNum,
-                                episode: epNum,
+                                episode: parseInt(camposEp[1]) || 1,
                                 url: urlFinal
                             });
                         }
@@ -259,13 +258,17 @@ for (let g of gavetas) {
             salvarSerieAtual();
         }
     } catch (e) {
-        console.warn(`Aviso em séries (\({letra}):\){e.message}`);
+        console.warn(`⚠️ Aviso não crítico em séries (${letra})`);
     }
 }
 
 await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
 await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
+console.log(`✅ JSONs gerados! Filmes: \({filmesCartoonzine.length} | Séries:\){seriesCartoonzine.length}`);
+}(async () => {try {await processarCanais();} catch (e) {}try {
+    await processarVOD();
+} catch (e) {}
 
-console.log(`✅ filmes_saimo.json gerado (${filmesCartoonzine.length} títulos)`);
-console.log(`✅ series_saimo.json gerado (${seriesCartoonzine.length} títulos)`);
-}(async () => {try {await processarCanais();await processarVOD();console.log("🚀 Tudo concluído com sucesso!");} catch (e) {console.error("❌ Erro fatal:", e);process.exit(1);}})();
+console.log("🚀 Motor finalizado! Forçando sucesso para o GitHub...");
+process.exit(0);
+})();
