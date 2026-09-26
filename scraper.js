@@ -173,7 +173,6 @@ for (let g of gavetas) {
                 url: urlFinal,
                 year: tmdbData.year,
                 genre: generoTxt,
-                destaque: false
             });
         }
     } catch (e) {
