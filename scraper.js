@@ -9,7 +9,6 @@ const delay = ms => new Promise(r => setTimeout(r, ms));
 
 function limparTituloParaBusca(titulo) {
     if (!titulo) return "";
-    // Usando \x5B e \x5D no lugar dos colchetes para contornar o bug visual do chat
     const regex = /\s*\(\d{4}\)|\s*\x5B.*?\x5D|\b(4K|1080p|UHD|FHD|HD|SD|LEG|DUB)\b/gi;
     return titulo.replace(regex, '').trim();
 }
@@ -20,14 +19,14 @@ async function fetchTMDB(titulo, isSerie = false) {
     const tituloLimpo = limparTituloParaBusca(titulo);
     if (!tituloLimpo) return { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
     
-    const cacheKey = `\({isSerie ? 's' : 'f'}|\){tituloLimpo.toLowerCase()}`;
+    const cacheKey = (isSerie ? 's' : 'f') + "|" + tituloLimpo.toLowerCase();
     if (tmdbCache.has(cacheKey)) {
         return tmdbCache.get(cacheKey);
     }
 
     const tipo = isSerie ? 'tv' : 'movie';
     const query = encodeURIComponent(tituloLimpo);
-    const url = `\({TMDB_BASE}/search/\){tipo}?query=\({query}&api_key=\){TMDB_KEY}&language=pt-BR`;
+    const url = TMDB_BASE + "/search/" + tipo + "?query=" + query + "&api_key=" + TMDB_KEY + "&language=pt-BR";
 
     let resData = { desc: "Sinopse em breve...", thumb: "", bannerThumb: "", year: "" };
 
@@ -39,8 +38,8 @@ async function fetchTMDB(titulo, isSerie = false) {
                 const item = data.results[0];
                 resData = {
                     desc: item.overview || "Sinopse não disponível.",
-                    thumb: item.poster_path ? `\({TMDB_IMG}\){item.poster_path}` : "",
-                    bannerThumb: item.backdrop_path ? `\({TMDB_IMG}\){item.backdrop_path}` : "",
+                    thumb: item.poster_path ? (TMDB_IMG + item.poster_path) : "",
+                    bannerThumb: item.backdrop_path ? (TMDB_IMG + item.backdrop_path) : "",
                     year: (item.release_date || item.first_air_date || "").substring(0, 4)
                 };
             }
@@ -54,14 +53,14 @@ async function fetchTMDB(titulo, isSerie = false) {
 async function carregarGeneros() {
     const mapa = new Map();
     try {
-        const res = await fetch(`${GITHUB_RAW_BASE}vod/generos.txt`);
+        const res = await fetch(GITHUB_RAW_BASE + "vod/generos.txt");
         if (!res.ok) return mapa;
         const texto = await res.text();
         texto.split('\n').forEach(linha => {
             if (linha.startsWith('#')) return;
             const campos = linha.split('\t');
             if (campos.length >= 3) {
-                mapa.set(`\({campos[0]}|\){campos[1]}`, campos[2].split(',')[0].trim());
+                mapa.set(campos[0] + "|" + campos[1], campos[2].split(',')[0].trim());
             }
         });
     } catch (e) {}
@@ -89,7 +88,7 @@ async function processarCanais() {
     const canaisProcessados = new Set(); 
 
     try {
-        const res = await fetch(`${GITHUB_RAW_BASE}catalogo.txt`);
+        const res = await fetch(GITHUB_RAW_BASE + "catalogo.txt");
         if (res.ok) {
             const texto = await res.text();
             let canalAtual = {};
@@ -114,7 +113,7 @@ async function processarCanais() {
                 } else if (chave === 'fonte' && !canalAtual.salvo) {
                     canalAtual.url = valor;
                     if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
-                        m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
+                        m3u += "#EXTINF:-1 tvg-logo=\"" + canalAtual.logo + "\" group-title=\"" + canalAtual.categoria + "\"," + canalAtual.nome + "\n" + canalAtual.url + "\n";
                         canalAtual.salvo = true; 
                         canaisProcessados.add(canalAtual.nome.toLowerCase());
                         contador++;
@@ -125,7 +124,7 @@ async function processarCanais() {
 
         const m3uExtras = ['1.m3u', '3.m3u'];
         for (const arquivo of m3uExtras) {
-            const resExtra = await fetch(`\({GITHUB_RAW_BASE}\){arquivo}`);
+            const resExtra = await fetch(GITHUB_RAW_BASE + arquivo);
             if (resExtra.ok) {
                 const textoExtra = await resExtra.text();
                 const blocos = textoExtra.split('#EXTINF:');
@@ -137,7 +136,7 @@ async function processarCanais() {
                     const nomeCanal = matchNome ? matchNome[1].trim() : null;
 
                     if (nomeCanal && !bloco.includes('.mpd') && !canaisProcessados.has(nomeCanal.toLowerCase())) {
-                        m3u += `#EXTINF:${bloco.trim()}\n`;
+                        m3u += "#EXTINF:" + bloco.trim() + "\n";
                         canaisProcessados.add(nomeCanal.toLowerCase());
                         contador++;
                     }
@@ -146,7 +145,7 @@ async function processarCanais() {
         }
 
         await fs.writeFile('canais_saimo.m3u', m3u);
-        console.log(`✅ canais_saimo.m3u gerado! Foram extraídos ${contador} canais únicos.`);
+        console.log("✅ canais_saimo.m3u gerado! Foram extraídos " + contador + " canais únicos.");
     } catch (e) {
         console.error("Erro nos canais:", e.message);
     }
@@ -161,9 +160,9 @@ async function processarRadios() {
             { id: "89fm", nome: "89 FM", url: "URL_STREAMING_AQUI" }
         ];
 
-        const conteudo = `window.CZ_VIDEOS_RADIO = ${JSON.stringify(radios, null, 2)};`;
+        const conteudo = "window.CZ_VIDEOS_RADIO = " + JSON.stringify(radios, null, 2) + ";";
         await fs.writeFile('radios_saimo.js', conteudo);
-        console.log(`✅ radios_saimo.js gerado (${radios.length} estações)`);
+        console.log("✅ radios_saimo.js gerado (" + radios.length + " estações)");
     } catch (e) {
         console.error("Erro nas rádios:", e.message);
     }
@@ -172,7 +171,7 @@ async function processarRadios() {
 async function processarVOD() {
     console.log("🎬 Baixando índice, gêneros e construindo catálogos...");
     const generosMap = await carregarGeneros();
-    const resIndice = await fetch(`${GITHUB_RAW_BASE}vod/indice.txt`);
+    const resIndice = await fetch(GITHUB_RAW_BASE + "vod/indice.txt");
     
     if (!resIndice.ok) throw new Error("Falha ao baixar índice VOD");
     const textoIndice = await resIndice.text();
@@ -209,7 +208,7 @@ async function processarVOD() {
         const base = bases[numero];
         
         if (!base || !resto) return null;
-        return resto.includes('.') ? `\({base}\){resto}` : `\({base}\){resto}.mp4`;
+        return resto.includes('.') ? (base + resto) : (base + resto + ".mp4");
     }
 
     const filmesCartoonzine = [];
@@ -219,10 +218,10 @@ async function processarVOD() {
         if (g.filmes <= 0) continue;
         const letra = g.letra;
         const nomeArquivo = letra === '#' ? '%23' : letra;
-        console.log(`🎥 Processando Filmes da letra: ${letra}...`);
+        console.log("🎥 Processando Filmes da letra: " + letra + "...");
         
         try {
-            const resFilmes = await fetch(`\({GITHUB_RAW_BASE}vod/filmes-\){nomeArquivo}.txt`);
+            const resFilmes = await fetch(GITHUB_RAW_BASE + "vod/filmes-" + nomeArquivo + ".txt");
             if (!resFilmes.ok) continue;
             
             const textoFilmes = await resFilmes.text();
@@ -248,7 +247,7 @@ async function processarVOD() {
                 
                 await delay(30);
                 const tmdbData = await fetchTMDB(tituloCompleto, false);
-                const generoTxt = generosMap.get(`f|${tituloSemAno}`) || "Filme";
+                const generoTxt = generosMap.get("f|" + tituloSemAno) || "Filme";
 
                 filmesCartoonzine.push({
                     cat: "Filmes",
@@ -268,10 +267,10 @@ async function processarVOD() {
         if (g.series <= 0) continue;
         const letra = g.letra;
         const nomeArquivo = letra === '#' ? '%23' : letra;
-        console.log(`📺 Processando Séries da letra: ${letra}...`);
+        console.log("📺 Processando Séries da letra: " + letra + "...");
 
         try {
-            const resSeriesIdx = await fetch(`\({GITHUB_RAW_BASE}vod/series-\){nomeArquivo}.txt`);
+            const resSeriesIdx = await fetch(GITHUB_RAW_BASE + "vod/series-" + nomeArquivo + ".txt");
             if (!resSeriesIdx.ok) continue;
             const textoSeriesIdx = await resSeriesIdx.text();
 
@@ -284,7 +283,7 @@ async function processarVOD() {
             });
 
             for (let pedaco of pedacosSet) {
-                const resPedaco = await fetch(`\({GITHUB_RAW_BASE}vod/series-\){nomeArquivo}-${pedaco}.txt`);
+                const resPedaco = await fetch(GITHUB_RAW_BASE + "vod/series-" + nomeArquivo + "-" + pedaco + ".txt");
                 if (!resPedaco.ok) continue;
                 
                 const textoPedaco = await resPedaco.text();
@@ -319,7 +318,7 @@ async function processarVOD() {
                         
                         await delay(30);
                         const tmdbData = await fetchTMDB(tituloSerie, true);
-                        const generoTxt = generosMap.get(`s|${tituloSerie}`) || "Série";
+                        const generoTxt = generosMap.get("s|" + tituloSerie) || "Série";
 
                         serieAtual = {
                             cat: "Séries",
@@ -360,8 +359,8 @@ async function processarVOD() {
     await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
     await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
 
-    console.log(`✅ filmes_saimo.json gerado (${filmesCartoonzine.length} títulos)`);
-    console.log(`✅ series_saimo.json gerado (${seriesCartoonzine.length} títulos)`);
+    console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
+    console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
 }
 
 (async () => {
