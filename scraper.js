@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/gabrielsaimo/SaimoPlayer/main/";
-const TMDB_KEY = process.env.TMDB_KEY || "15d2ea6d0dc1d476efbca3eba2b9bbfb";
+const TMDB_KEY = process.env.TMDB_KEY || "4a0e81a33a44fc2b682553ef05a5e49e";
 const TMDB_BASE = "https://api.themoviedb.org/3";
 const TMDB_IMG = "https://image.tmdb.org/t/p/w500";
 
