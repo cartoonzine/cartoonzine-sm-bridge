@@ -82,7 +82,7 @@ function classificarCanal(nome) {
 }
 
 async function processarCanais() {
-    console.log("📺 Baixando e categorizando canais...");
+    console.log("📺 Baixando e categorizando canais do catálogo curado...");
     let m3u = "#EXTM3U\n";
     let contador = 0;
     const canaisProcessados = new Set(); 
@@ -105,16 +105,23 @@ async function processarCanais() {
                 if (!valor) continue;
 
                 if (chave === 'canal') {
-                    canalAtual = { nome: valor, logo: "", categoria: classificarCanal(valor), url: "", salvo: false };
+                    const nomeMin = valor.toLowerCase();
+                    canalAtual = { 
+                        nome: valor, 
+                        logo: "", 
+                        categoria: classificarCanal(valor), 
+                        url: "", 
+                        ignorar: canaisProcessados.has(nomeMin) // Trava Global: Se já vimos esse canal antes, ignora o bloco inteiro
+                    };
                 } else if (chave === 'logo') {
                     canalAtual.logo = valor;
                 } else if (chave === 'categoria') {
                     canalAtual.categoria = valor;
-                } else if (chave === 'fonte' && !canalAtual.salvo) {
+                } else if (chave === 'fonte' && !canalAtual.ignorar) {
                     canalAtual.url = valor;
                     if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
                         m3u += "#EXTINF:-1 tvg-logo=\"" + canalAtual.logo + "\" group-title=\"" + canalAtual.categoria + "\"," + canalAtual.nome + "\n" + canalAtual.url + "\n";
-                        canalAtual.salvo = true; 
+                        canalAtual.ignorar = true; // Trava Local: Ignora os links de backup deste mesmo bloco
                         canaisProcessados.add(canalAtual.nome.toLowerCase());
                         contador++;
                     }
@@ -122,30 +129,8 @@ async function processarCanais() {
             }
         }
 
-        const m3uExtras = ['1.m3u', '3.m3u'];
-        for (const arquivo of m3uExtras) {
-            const resExtra = await fetch(GITHUB_RAW_BASE + arquivo);
-            if (resExtra.ok) {
-                const textoExtra = await resExtra.text();
-                const blocos = textoExtra.split('#EXTINF:');
-                
-                for (let i = 1; i < blocos.length; i++) {
-                    const bloco = blocos[i];
-                    const primeiraLinha = bloco.split('\n')[0];
-                    const matchNome = primeiraLinha.match(/,(.+)$/);
-                    const nomeCanal = matchNome ? matchNome[1].trim() : null;
-
-                    if (nomeCanal && !bloco.includes('.mpd') && !canaisProcessados.has(nomeCanal.toLowerCase())) {
-                        m3u += "#EXTINF:" + bloco.trim() + "\n";
-                        canaisProcessados.add(nomeCanal.toLowerCase());
-                        contador++;
-                    }
-                }
-            }
-        }
-
         await fs.writeFile('canais_saimo.m3u', m3u);
-        console.log("✅ canais_saimo.m3u gerado! Foram extraídos " + contador + " canais únicos.");
+        console.log("✅ canais_saimo.m3u gerado! Foram extraídos " + contador + " canais limpos.");
     } catch (e) {
         console.error("Erro nos canais:", e.message);
     }
