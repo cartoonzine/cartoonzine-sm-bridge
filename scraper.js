@@ -151,6 +151,74 @@ async function processarCanais() {
     }
 }
 
+async function processarAdultos() {
+    console.log("🔞 Baixando conteúdo reservado/restrito (Adulto)...");
+    let m3u = "#EXTM3U\n";
+    let contador = 0;
+    const canaisJSON = [];
+
+    try {
+        // Puxa o arquivo separado de conteúdo adulto do Saimo
+        const res = await fetch(GITHUB_RAW_BASE + "restritos.txt");
+        if (res.ok) {
+            const texto = await res.text();
+            let canalAtual = null;
+
+            for (let linha of texto.split('\n')) {
+                linha = linha.trim();
+                if (!linha || linha.startsWith('#')) continue;
+
+                const partes = linha.split(':');
+                if (partes.length < 2) continue;
+
+                const chave = partes.shift().trim().toLowerCase();
+                const valor = partes.join(':').trim();
+                if (!valor) continue;
+
+                if (chave === 'canal') {
+                    canalAtual = { 
+                        nome: valor, 
+                        logo: "", 
+                        categoria: "Adulto", // Força a categoria para não misturar
+                        url: "", 
+                        pegouFonte: false 
+                    };
+                } else if (canalAtual && chave === 'logo') {
+                    canalAtual.logo = valor;
+                } else if (canalAtual && chave === 'categoria') {
+                    // Se quiser manter a subcategoria original (ex: "Filmes +18"), descomente abaixo:
+                    // canalAtual.categoria = valor; 
+                } else if (canalAtual && chave === 'fonte' && !canalAtual.pegouFonte) {
+                    
+                    if (!valor.includes(".mpd")) {
+                        canalAtual.url = valor.replace(/\.ts(\?.*)?$/i, '.m3u8');
+                        
+                        m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
+                        
+                        canaisJSON.push({
+                            id: "A" + (contador + 1).toString(), // Prefixo 'A' para IDs adultos não darem conflito
+                            nome: canalAtual.nome,
+                            categoria: canalAtual.categoria,
+                            logo: canalAtual.logo,
+                            url: canalAtual.url
+                        });
+
+                        canalAtual.pegouFonte = true;
+                        contador++;
+                    }
+                }
+            }
+        }
+
+        await fs.writeFile('adultos_saimo.m3u', m3u);
+        await fs.writeFile('adultos_saimo.json', JSON.stringify(canaisJSON, null, 2));
+        
+        console.log(`✅ adultos_saimo.m3u e adultos_saimo.json gerados! Foram extraídos ${contador} conteúdos restritos.`);
+    } catch (e) {
+        console.error("Erro nos adultos:", e.message);
+    }
+}
+
 async function processarRadios() {
     console.log("📻 Construindo banco de Rádios...");
     try {
@@ -366,6 +434,7 @@ async function processarVOD() {
 (async () => {
     try {
         await processarCanais();
+        await processarAdultos();
         await processarRadios(); 
         await processarVOD();
         console.log("🚀 Tudo concluído com sucesso!");
