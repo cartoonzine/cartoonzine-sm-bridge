@@ -2,7 +2,9 @@ name: Gerador de BD Cartoonzine
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Roda todo dia às 09:00 UTC (06:00 da manhã no horário de Brasília), 
+    # garantindo que o Saimo já atualizou o catálogo dele.
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,6 +31,9 @@ jobs:
         run: |
           git config --global user.name "Cartoonzine Bot"
           git config --global user.email "bot@cartoonzine.com"
-          git add canais_saimo.m3u filmes_saimo.json series_saimo.json
+          
+          # Salva todos os arquivos gerados hoje (Canais, Adultos, Rádios, Filmes, Séries)
+          git add *_saimo.json *_saimo.m3u *_saimo.js
+          
           git commit -m "☁️ Atualização diária dos BDs Saimo separados" || echo "Sem mudanças para comitar"
           git push
