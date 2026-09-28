@@ -85,13 +85,13 @@ async function processarCanais() {
     console.log("📺 Baixando e categorizando canais do catálogo curado...");
     let m3u = "#EXTM3U\n";
     let contador = 0;
-    const canaisProcessados = new Set(); 
+    const canaisJSON = []; // Array para salvar no formato do window.DB do Cartoonzine
 
     try {
         const res = await fetch(GITHUB_RAW_BASE + "catalogo.txt");
         if (res.ok) {
             const texto = await res.text();
-            let canalAtual = {};
+            let canalAtual = null;
 
             for (let linha of texto.split('\n')) {
                 linha = linha.trim();
@@ -105,32 +105,47 @@ async function processarCanais() {
                 if (!valor) continue;
 
                 if (chave === 'canal') {
-                    const nomeMin = valor.toLowerCase();
                     canalAtual = { 
                         nome: valor, 
                         logo: "", 
                         categoria: classificarCanal(valor), 
                         url: "", 
-                        ignorar: canaisProcessados.has(nomeMin) // Trava Global: Se já vimos esse canal antes, ignora o bloco inteiro
+                        pegouFonte: false // Trava Local: garante que pega só a fonte principal do bloco
                     };
-                } else if (chave === 'logo') {
+                } else if (canalAtual && chave === 'logo') {
                     canalAtual.logo = valor;
-                } else if (chave === 'categoria') {
+                } else if (canalAtual && chave === 'categoria') {
                     canalAtual.categoria = valor;
-                } else if (chave === 'fonte' && !canalAtual.ignorar) {
-                    canalAtual.url = valor;
-                    if (canalAtual.nome && canalAtual.url && !canalAtual.url.includes(".mpd")) {
-                        m3u += "#EXTINF:-1 tvg-logo=\"" + canalAtual.logo + "\" group-title=\"" + canalAtual.categoria + "\"," + canalAtual.nome + "\n" + canalAtual.url + "\n";
-                        canalAtual.ignorar = true; // Trava Local: Ignora os links de backup deste mesmo bloco
-                        canaisProcessados.add(canalAtual.nome.toLowerCase());
+                } else if (canalAtual && chave === 'fonte' && !canalAtual.pegouFonte) {
+                    
+                    // Ignora formatos incompatíveis via web nativa (como .mpd)
+                    if (!valor.includes(".mpd")) {
+                        // Converte .ts para .m3u8 para forçar HLS nativo no player do Cartoonzine
+                        canalAtual.url = valor.replace(/\.ts(\?.*)?$/i, '.m3u8');
+                        
+                        m3u += `#EXTINF:-1 tvg-logo="\({canalAtual.logo}" group-title="\){canalAtual.categoria}",\({canalAtual.nome}\n\){canalAtual.url}\n`;
+                        
+                        // Adiciona ao JSON com a estrutura do seu projeto
+                        canaisJSON.push({
+                            id: (contador + 1).toString(),
+                            nome: canalAtual.nome,
+                            categoria: canalAtual.categoria,
+                            logo: canalAtual.logo,
+                            url: canalAtual.url
+                        });
+
+                        canalAtual.pegouFonte = true; // Trava ativada para este bloco de canal
                         contador++;
                     }
                 }
             }
         }
 
+        // Salva nos dois formatos
         await fs.writeFile('canais_saimo.m3u', m3u);
-        console.log("✅ canais_saimo.m3u gerado! Foram extraídos " + contador + " canais limpos.");
+        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2));
+        
+        console.log(`✅ canais_saimo.m3u e canais_saimo.json gerados! Foram extraídos ${contador} canais limpos.`);
     } catch (e) {
         console.error("Erro nos canais:", e.message);
     }
