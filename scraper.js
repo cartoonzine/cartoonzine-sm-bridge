@@ -21,10 +21,20 @@ const tmdbCache = new Map();
 
 function limparTituloParaBusca(titulo) {
     if (!titulo) return "";
-    // Regex em uma única linha e usando \x5B \x5D para evitar bugs de formatação de texto
     const regex = /\s*\(\d{4}\)|\s*\x5B.*?\x5D|\b(4K|1080p|UHD|FHD|HD|SD|LEG|DUB)\b/gi;
     return titulo.replace(regex, "").trim();
-}}function normalizarNomeCanal(nome) {return String(nome || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, " ").trim();}function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";
+}
+
+function normalizarNomeCanal(nome) {
+    return String(nome || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function classificarCanal(nome) {if (!nome) return "Variedades";const n = nome.toLowerCase();if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return "Adulto";
 if (/(pluto)/.test(n)) return "Pluto TV";
 if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return "Esportes";
 if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return "Notícias";
