@@ -2,9 +2,9 @@ name: Gerador de BD Cartoonzine
 
 on:
   schedule:
-    # Roda todo dia às 09:00 UTC (06:00 da manhã no horário de Brasília), 
-    # garantindo que o Saimo já atualizou o catálogo dele.
-    - cron: '0 9 * * *'
+    # 00:00 UTC = 21:00 do dia anterior no horário de Brasília.
+    - cron: '0 0 * * *'
+
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,7 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do Repositório
         uses: actions/checkout@v4
@@ -20,20 +21,65 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22' # Atualizado para 22 para remover o aviso
+          node-version: '22'
 
       - name: Executar Scraper Ponte
         run: npm start
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
 
+      - name: Validar arquivos gerados
+        shell: bash
+        run: |
+          set -e
+
+          echo "========================================"
+          echo "VALIDAÇÃO DO CARTOONZINE-SM-BRIDGE"
+          echo "========================================"
+
+          test -s canais_saimo.m3u
+          test -s filmes_saimo.json
+          test -s series_saimo.json
+
+          CANAIS=$(grep -c '^#EXTINF' canais_saimo.m3u || true)
+          FILMES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('filmes_saimo.json', 'utf8')).length)")
+          SERIES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo.json', 'utf8')).length)")
+
+          echo "Canais/fontes M3U: $CANAIS"
+          echo "Filmes: $FILMES"
+          echo "Séries: $SERIES"
+
+          if [ "$CANAIS" -lt 100 ]; then
+            echo "ERRO: menos de 100 entradas de canais/fontes."
+            echo "O commit foi cancelado para proteger a BD anterior."
+            exit 1
+          fi
+
+          if [ "$FILMES" -eq 0 ]; then
+            echo "ERRO: nenhum filme foi gerado."
+            exit 1
+          fi
+
+          if [ "$SERIES" -eq 0 ]; then
+            echo "ERRO: nenhuma série foi gerada."
+            exit 1
+          fi
+
+          echo "========================================"
+          echo "VALIDAÇÃO OK"
+          echo "========================================"
+
       - name: Comitar novos arquivos de BD
+        shell: bash
         run: |
           git config --global user.name "Cartoonzine Bot"
           git config --global user.email "bot@cartoonzine.com"
-          
-          # Salva todos os arquivos gerados hoje (Canais, Adultos, Rádios, Filmes, Séries)
-          git add *_saimo.json *_saimo.m3u *_saimo.js
-          
-          git commit -m "☁️ Atualização diária dos BDs Saimo separados" || echo "Sem mudanças para comitar"
-          git push
+
+          git add             canais_saimo.m3u             filmes_saimo.json             series_saimo.json
+
+          if git diff --cached --quiet; then
+            echo "Sem mudanças para comitar."
+          else
+            git commit -m "☁️ Atualização diária dos BDs Saimo separados"
+            git push
+          fi
