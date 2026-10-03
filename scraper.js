@@ -85,8 +85,7 @@ async function processarCanais() {
     let m3u = "#EXTM3U\n";
     let contador = 0;
     
-    // O Mapa vai agrupar todos os links reservas no mesmo canal (Evita 7.000 canais)
-    const canaisMap = new Map(); 
+    const todosOsCanais = []; 
 
     try {
         const res = await fetch(GITHUB_RAW_BASE + "catalogo.txt");
@@ -105,20 +104,15 @@ async function processarCanais() {
                 const valor = partes.join(':').trim();
                 if (!valor) continue;
 
+                // Sempre que achar a palavra "canal:", cria um bloco/card NOVO e independente
                 if (chave === 'canal') {
-                    const nomeMin = valor.toLowerCase();
-                    // Se o canal já existe no mapa, usamos ele para adicionar os links reservas
-                    if (canaisMap.has(nomeMin)) {
-                        canalAtual = canaisMap.get(nomeMin);
-                    } else {
-                        canalAtual = {
-                            nome: valor,
-                            logo: "",
-                            categoria: classificarCanal(valor),
-                            urls: [] // ARRAY para guardar todos os links reservas!
-                        };
-                        canaisMap.set(nomeMin, canalAtual);
-                    }
+                    canalAtual = {
+                        nome: valor,
+                        logo: "",
+                        categoria: classificarCanal(valor),
+                        urls: [] // Array local para guardar os links APENAS deste bloco
+                    };
+                    todosOsCanais.push(canalAtual);
                 } else if (canalAtual && chave === 'logo') {
                     if (!canalAtual.logo) canalAtual.logo = valor;
                 } else if (canalAtual && chave === 'categoria') {
@@ -126,7 +120,7 @@ async function processarCanais() {
                 } else if (canalAtual && chave === 'fonte') {
                     // Ignora apenas arquivos restritos ao formato .mpd
                     if (!valor.includes(".mpd")) {
-                        canalAtual.urls.push(valor); // Guarda a URL intacta!
+                        canalAtual.urls.push(valor);
                     }
                 }
             }
@@ -134,21 +128,22 @@ async function processarCanais() {
 
         const canaisJSON = [];
         
-        for (let [nomeKey, canal] of canaisMap.entries()) {
+        for (let canal of todosOsCanais) {
+            // Só adiciona se tiver pelo menos 1 link de vídeo válido no bloco
             if (canal.urls.length > 0) {
                 contador++;
                 
-                // M3U PARA TV BOX: Pega APENAS o 1º link para não poluir a lista (991 canais exatos)
+                // M3U: Pega APENAS o 1º link do array
                 const fontePrincipal = canal.urls[0];
                 m3u += `#EXTINF:-1 tvg-logo="\({canal.logo}" group-title="\){canal.categoria}",\({canal.nome}\n\){fontePrincipal}\n`;
 
-                // JSON PARA O CARTOONZINE: Envia TODOS os links (O player faz o fallback automático)
+                // JSON: Entrega todos os links embutidos para o fallback
                 canaisJSON.push({
                     id: contador.toString(),
                     nome: canal.nome,
                     categoria: canal.categoria,
                     logo: canal.logo,
-                    urls: canal.urls // Entrega os links reservas para o seu frontend!
+                    urls: canal.urls
                 });
             }
         }
