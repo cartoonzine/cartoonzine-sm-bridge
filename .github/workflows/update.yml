@@ -2,8 +2,8 @@ name: Gerador de BD Cartoonzine
 
 on:
   schedule:
-    # 00:00 UTC = 21:00 do dia anterior no horário de Brasília.
-    - cron: '0 0 * * *'
+    # 09:00 UTC = 06:00 da manhã no horário de Brasília (logo após a atualização da fonte)
+    - cron: '0 9 * * *'
 
   workflow_dispatch:
 
@@ -40,6 +40,7 @@ jobs:
           test -s canais_saimo.m3u
           test -s filmes_saimo.json
           test -s series_saimo.json
+          test -s adultos_vod_saimo.json
 
           CANAIS=$(grep -c '^#EXTINF' canais_saimo.m3u || true)
           FILMES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('filmes_saimo.json', 'utf8')).length)")
@@ -75,11 +76,16 @@ jobs:
           git config --global user.name "Cartoonzine Bot"
           git config --global user.email "bot@cartoonzine.com"
 
-          git add             canais_saimo.m3u             filmes_saimo.json             series_saimo.json
+          # Aqui listamos explicitamente TODOS os 6 arquivos gerados pelo scraper.js
+          git add canais_saimo.m3u canais_saimo.json filmes_saimo.json series_saimo.json adultos_vod_saimo.json radios_saimo.js
 
           if git diff --cached --quiet; then
             echo "Sem mudanças para comitar."
           else
             git commit -m "☁️ Atualização diária dos BDs Saimo separados"
+            
+            # Puxa atualizações manuais do repositório antes de enviar, evitando o erro de rejeição
+            git pull --rebase origin main
+            
             git push
           fi
