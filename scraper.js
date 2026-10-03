@@ -84,60 +84,78 @@ async function processarCanais() {
     console.log("📺 Baixando e categorizando canais do catálogo curado...");
     let m3u = "#EXTM3U\n";
     let contador = 0;
-    const canaisJSON = []; 
     
+    // O Mapa vai agrupar todos os links reservas no mesmo canal (Evita 7.000 canais)
+    const canaisMap = new Map(); 
+
     try {
         const res = await fetch(GITHUB_RAW_BASE + "catalogo.txt");
         if (res.ok) {
             const texto = await res.text();
             let canalAtual = null;
-            
+
             for (let linha of texto.split('\n')) {
                 linha = linha.trim();
                 if (!linha || linha.startsWith('#')) continue;
-                
+
                 const partes = linha.split(':');
                 if (partes.length < 2) continue;
-                
+
                 const chave = partes.shift().trim().toLowerCase();
                 const valor = partes.join(':').trim();
                 if (!valor) continue;
-                
+
                 if (chave === 'canal') {
-                    canalAtual = { 
-                        nome: valor, 
-                        logo: "", 
-                        categoria: classificarCanal(valor), 
-                        url: "", 
-                        pegouFonte: false 
-                    };
+                    const nomeMin = valor.toLowerCase();
+                    // Se o canal já existe no mapa, usamos ele para adicionar os links reservas
+                    if (canaisMap.has(nomeMin)) {
+                        canalAtual = canaisMap.get(nomeMin);
+                    } else {
+                        canalAtual = {
+                            nome: valor,
+                            logo: "",
+                            categoria: classificarCanal(valor),
+                            urls: [] // ARRAY para guardar todos os links reservas!
+                        };
+                        canaisMap.set(nomeMin, canalAtual);
+                    }
                 } else if (canalAtual && chave === 'logo') {
-                    canalAtual.logo = valor;
+                    if (!canalAtual.logo) canalAtual.logo = valor;
                 } else if (canalAtual && chave === 'categoria') {
                     canalAtual.categoria = valor;
-                } else if (canalAtual && chave === 'fonte' && !canalAtual.pegouFonte) {
+                } else if (canalAtual && chave === 'fonte') {
+                    // Ignora apenas arquivos restritos ao formato .mpd
                     if (!valor.includes(".mpd")) {
-                        canalAtual.url = valor.replace(/\.ts(\?.*)?$/i, '.m3u8');
-                        
-                        m3u += "#EXTINF:-1 tvg-logo=\"" + canalAtual.logo + "\" group-title=\"" + canalAtual.categoria + "\"," + canalAtual.nome + "\n" + canalAtual.url + "\n";
-                        
-                        canaisJSON.push({
-                            id: (contador + 1).toString(),
-                            nome: canalAtual.nome,
-                            categoria: canalAtual.categoria,
-                            logo: canalAtual.logo,
-                            url: canalAtual.url
-                        });
-                        
-                        canalAtual.pegouFonte = true;
-                        contador++;
+                        canalAtual.urls.push(valor); // Guarda a URL intacta!
                     }
                 }
             }
         }
-        await fs.writeFile('canais_saimo.m3u', m3u);
-        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2));
-        console.log("✅ canais_saimo.m3u e .json gerados! Foram extraídos " + contador + " canais únicos.");
+
+        const canaisJSON = [];
+        
+        for (let [nomeKey, canal] of canaisMap.entries()) {
+            if (canal.urls.length > 0) {
+                contador++;
+                
+                // M3U PARA TV BOX: Pega APENAS o 1º link para não poluir a lista (991 canais exatos)
+                const fontePrincipal = canal.urls[0];
+                m3u += `#EXTINF:-1 tvg-logo="\({canal.logo}" group-title="\){canal.categoria}",\({canal.nome}\n\){fontePrincipal}\n`;
+
+                // JSON PARA O CARTOONZINE: Envia TODOS os links (O player faz o fallback automático)
+                canaisJSON.push({
+                    id: contador.toString(),
+                    nome: canal.nome,
+                    categoria: canal.categoria,
+                    logo: canal.logo,
+                    urls: canal.urls // Entrega os links reservas para o seu frontend!
+                });
+            }
+        }
+
+        await fs.writeFile('canais_saimo.m3u', m3u, 'utf8');
+        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2), 'utf8');
+        console.log(`✅ canais_saimo.m3u e .json gerados! Foram extraídos ${contador} canais únicos.`);
     } catch (e) {
         console.error("Erro nos canais:", e.message);
     }
@@ -365,7 +383,7 @@ async function processarVOD() {
         } catch (e) {}
     }
     
-    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
+   await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
     await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
     await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2));
     
@@ -374,12 +392,88 @@ async function processarVOD() {
     console.log("✅ adultos_vod_saimo.json gerado (" + adultosVodCartoonzine.length + " títulos)");
 }
 
+async function processarDestaques() {
+    console.log("🌟 Baixando vitrines da Tela Inicial (Destaques)...");
+    
+    try {
+        const res = await fetch(GITHUB_RAW_BASE + "vod/destaques.txt");
+        if (!res.ok) throw new Error("Falha ao baixar destaques.txt");
+        
+        const texto = await res.text();
+        const linhas = texto.split(/\r?\n/);
+        
+        let capaBase = "https://image.tmdb.org/t/p/w342";
+        const destaques = [];
+        let filaAtual = null;
+        let contadorItens = 0;
+
+        for (let linha of linhas) {
+            linha = linha.trim();
+            if (!linha || linha.startsWith("#")) continue;
+
+            if (linha.startsWith("capa:")) {
+                capaBase = linha.replace("capa:", "").trim();
+                continue;
+            }
+
+            const campos = linha.split("\t");
+
+            if (campos[0] === "fila" && campos.length >= 2) {
+                filaAtual = {
+                    titulo: campos[1],
+                    itens: []
+                };
+                destaques.push(filaAtual);
+                continue;
+            }
+
+            if (filaAtual && (campos[0] === "f" || campos[0] === "s" || campos[0] === "a" || campos[0] === "d")) {
+                if (campos.length >= 5) {
+                    const tipo = campos[0] === "f" ? "Filme" : campos[0] === "s" ? "Série" : campos[0] === "a" ? "Anime" : "Dorama";
+                    const nome = campos[1];
+                    const ano = campos[3];
+                    const posterPath = campos[4];
+                    
+                    filaAtual.itens.push({
+                        tipo: tipo,
+                        titulo: nome,
+                        ano: ano,
+                        capa: posterPath ? (capaBase + posterPath) : ""
+                    });
+                    contadorItens++;
+                }
+            }
+        }
+
+        await fs.writeFile('destaques_saimo.json', JSON.stringify(destaques, null, 2), "utf8");
+        
+        console.log("==========================================");
+        console.log("🌟 RESULTADO DESTAQUES");
+        console.log("==========================================");
+        console.log("✅ destaques_saimo.json gerado!");
+        console.log("📺 Fileiras criadas: " + destaques.length);
+        console.log("🎬 Total de capas: " + contadorItens);
+        console.log("==========================================\n");
+
+    } catch (e) {
+        console.warn("⚠️ Erro ao processar destaques:", e.message);
+    }
+}
+
 (async () => {
     try {
+        console.log("\n==========================================");
+        console.log("🚀 CARTOONZINE SM BRIDGE");
+        console.log("==========================================\n");
+        
         await processarCanais();
         await processarRadios(); 
         await processarVOD();
-        console.log("🚀 Tudo concluído com sucesso!");
+        await processarDestaques();
+        
+        console.log("\n==========================================");
+        console.log("🚀 TUDO CONCLUÍDO COM SUCESSO!");
+        console.log("==========================================\n");
     } catch (e) {
         console.error("❌ Erro fatal:", e);
         process.exit(1);
