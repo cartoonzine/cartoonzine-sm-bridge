@@ -2,8 +2,8 @@ name: Gerador de BD Cartoonzine
 
 on:
   schedule:
-    # 09:00 UTC = 06:50 da manhã no horário de Brasília (logo após a atualização da fonte)
-    - cron: '0 9 * * *'
+    # 09:00 UTC = 06:00 da manhã no horário de Brasília (logo após a atualização da fonte)
+    - cron: '0 7 * * *'
 
   workflow_dispatch:
 
