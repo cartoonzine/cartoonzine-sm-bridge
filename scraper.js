@@ -82,7 +82,6 @@ function classificarCanal(nome) {
 
 async function processarCanais() {
     console.log("📺 Baixando e categorizando canais do catálogo curado...");
-    let m3u = "#EXTM3U\n";
     let contador = 0;
     
     const todosOsCanais = []; 
@@ -104,13 +103,12 @@ async function processarCanais() {
                 const valor = partes.join(':').trim();
                 if (!valor) continue;
 
-                // Sempre que achar a palavra "canal:", cria um bloco/card NOVO e independente
                 if (chave === 'canal') {
                     canalAtual = {
                         nome: valor,
                         logo: "",
                         categoria: classificarCanal(valor),
-                        urls: [] // Array local para guardar os links APENAS deste bloco
+                        urls: [] // Volta a ser um array limpo apenas com as strings dos links
                     };
                     todosOsCanais.push(canalAtual);
                 } else if (canalAtual && chave === 'logo') {
@@ -118,10 +116,8 @@ async function processarCanais() {
                 } else if (canalAtual && chave === 'categoria') {
                     canalAtual.categoria = valor;
                 } else if (canalAtual && chave === 'fonte') {
-                    // Ignora apenas arquivos restritos ao formato .mpd
-                    if (!valor.includes(".mpd")) {
-                        canalAtual.urls.push(valor);
-                    }
+                    // Guarda absolutamente todas as fontes (inclusive .mpd se houver)
+                    canalAtual.urls.push(valor);
                 }
             }
         }
@@ -129,28 +125,27 @@ async function processarCanais() {
         const canaisJSON = [];
         
         for (let canal of todosOsCanais) {
-            // Só adiciona se tiver pelo menos 1 link de vídeo válido no bloco
+            // Só adiciona se o bloco tiver pelo menos 1 URL
             if (canal.urls.length > 0) {
                 contador++;
                 
-                // M3U: Pega APENAS o 1º link do array
-                const fontePrincipal = canal.urls[0];
-                m3u += `#EXTINF:-1 tvg-logo="\({canal.logo}" group-title="\){canal.categoria}",\({canal.nome}\n\){fontePrincipal}\n`;
-
-                // JSON: Entrega todos os links embutidos para o fallback
                 canaisJSON.push({
                     id: contador.toString(),
                     nome: canal.nome,
                     categoria: canal.categoria,
                     logo: canal.logo,
-                    urls: canal.urls
+                    urls: canal.urls // Entrega a lista limpa com todos os links reservas
                 });
             }
         }
 
-        await fs.writeFile('canais_saimo.m3u', m3u, 'utf8');
+        // Salva apenas o JSON, abandonando o M3U
         await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2), 'utf8');
-        console.log(`✅ canais_saimo.m3u e .json gerados! Foram extraídos ${contador} canais únicos.`);
+        
+        console.log(`\n✅ canais_saimo.json gerado com SUCESSO!`);
+        console.log(`📺 Canais extraídos: ${contador}`);
+        console.log("------------------------------------------\n");
+
     } catch (e) {
         console.error("Erro nos canais:", e.message);
     }
@@ -210,9 +205,32 @@ async function processarVOD() {
         return resto.includes('.') ? (base + resto) : (base + resto + ".mp4");
     }
     
+    // Função auxiliar para extrair links dublados e legendados
+    function extrairFontes(campos) {
+        const fontes = [];
+        for (let campo of campos) {
+            if (campo.startsWith("dub=") || campo.startsWith("leg=") || campo.includes('=')) {
+                const partes = campo.split('=');
+                if (partes.length < 2) continue;
+                
+                const idioma = partes[0].toLowerCase();
+                const isDub = idioma === "dub" || idioma.includes("dublado");
+                const urlsBrutas = partes[1].split(',');
+                
+                for (let urlBruta of urlsBrutas) {
+                    const urlFinal = montarUrl(urlBruta);
+                    if (urlFinal) {
+                        fontes.push({ url: urlFinal, idioma: isDub ? "dublado" : "legendado" });
+                    }
+                }
+            }
+        }
+        return fontes;
+    }
+
     const filmesCartoonzine = [];
     const seriesCartoonzine = [];
-    const adultosVodCartoonzine = []; // Array exclusivo para VOD Adulto
+    const adultosVodCartoonzine = []; 
     
     // 1. Processar Filmes
     for (let g of gavetas) {
@@ -224,32 +242,33 @@ async function processarVOD() {
             const resFilmes = await fetch(GITHUB_RAW_BASE + "vod/filmes-" + nomeArquivo + ".txt");
             if (!resFilmes.ok) continue;
             const textoFilmes = await resFilmes.text();
-            const linhas = textoFilmes.split('\n');
-            for (let linha of linhas) {
+            
+            for (let linha of textoFilmes.split('\n')) {
                 if (!linha.trim()) continue;
                 const campos = linha.split('\t');
                 if (campos.length < 2 || !campos[0]) continue;
+                
                 const tituloCompleto = campos[0];
                 const regexAno = /\s*(\d{4})$/;
                 const tituloSemAno = tituloCompleto.replace(regexAno, '').trim();
-                const linksParte = campos.find(c => c.includes('='));
-                if (!linksParte) continue;
-                const urlBruta = linksParte.split('=')[1]?.split(',')[0];
-                if (!urlBruta) continue;
-                const urlFinal = montarUrl(urlBruta);
-                if (!urlFinal) continue;
+                
+                // Extração inteligente de fontes
+                const fontesFilme = extrairFontes(campos);
+                if (fontesFilme.length === 0) continue;
+                
                 await delay(30);
                 const tmdbData = await fetchTMDB(tituloCompleto, false);
                 const generoTxt = generosMap.get("f|" + tituloSemAno) || "Filme";
+                
                 filmesCartoonzine.push({
                     cat: "Filmes",
                     title: tituloCompleto,
                     desc: tmdbData.desc,
                     thumb: tmdbData.thumb,
                     bannerThumb: tmdbData.bannerThumb,
-                    url: urlFinal,
                     year: tmdbData.year,
                     genre: generoTxt,
+                    fontes: fontesFilme // O app recebe a lista com URLs e Idiomas!
                 });
             }
         } catch (e) {}
@@ -268,15 +287,13 @@ async function processarVOD() {
             const pedacosSet = new Set();
             textoSeriesIdx.split('\n').forEach(linha => {
                 const campos = linha.split('\t');
-                if (campos.length >= 3 && campos[2]) {
-                    pedacosSet.add(campos[2].trim());
-                }
+                if (campos.length >= 3 && campos[2]) pedacosSet.add(campos[2].trim());
             });
             for (let pedaco of pedacosSet) {
                 const resPedaco = await fetch(GITHUB_RAW_BASE + "vod/series-" + nomeArquivo + "-" + pedaco + ".txt");
                 if (!resPedaco.ok) continue;
                 const textoPedaco = await resPedaco.text();
-                const linhasPedaco = textoPedaco.split('\n');
+                
                 let serieAtual = null;
                 const salvarSerieAtual = () => {
                     if (serieAtual) {
@@ -285,12 +302,11 @@ async function processarVOD() {
                             episodes: serieAtual.seasonsMap[sNum]
                         }));
                         delete serieAtual.seasonsMap;
-                        if (serieAtual.seasons.length > 0) {
-                            seriesCartoonzine.push(serieAtual);
-                        }
+                        if (serieAtual.seasons.length > 0) seriesCartoonzine.push(serieAtual);
                     }
                 };
-                for (let linha of linhasPedaco) {
+                
+                for (let linha of textoPedaco.split('\n')) {
                     linha = linha.trim();
                     if (!linha) continue;
                     if (linha.startsWith('@')) {
@@ -301,6 +317,7 @@ async function processarVOD() {
                         await delay(30);
                         const tmdbData = await fetchTMDB(tituloSerie, true);
                         const generoTxt = generosMap.get("s|" + tituloSerie) || "Série";
+                        
                         serieAtual = {
                             cat: "Séries",
                             title: tituloSerie,
@@ -316,17 +333,26 @@ async function processarVOD() {
                         if (camposEp.length >= 4) {
                             const tempNum = parseInt(camposEp[0]) || 1;
                             const epNum = parseInt(camposEp[1]) || 1;
-                            const urlBruta = camposEp[3].split(',')[0];
-                            const urlFinal = montarUrl(urlBruta);
-                            if (urlFinal) {
-                                if (!serieAtual.seasonsMap[tempNum]) {
-                                    serieAtual.seasonsMap[tempNum] = [];
+                            
+                            // Na série, a coluna 2 é o idioma e a 3 são os links (ex: dub\t49:abc)
+                            const idioma = camposEp[2] === "leg" ? "legendado" : "dublado";
+                            const urlsBrutas = camposEp[3].split(',');
+                            
+                            if (!serieAtual.seasonsMap[tempNum]) {
+                                serieAtual.seasonsMap[tempNum] = [];
+                            }
+                            
+                            let episodioExistente = serieAtual.seasonsMap[tempNum].find(e => e.episode === epNum);
+                            if (!episodioExistente) {
+                                episodioExistente = { season: tempNum, episode: epNum, fontes: [] };
+                                serieAtual.seasonsMap[tempNum].push(episodioExistente);
+                            }
+                            
+                            for (let urlBruta of urlsBrutas) {
+                                const urlFinal = montarUrl(urlBruta);
+                                if (urlFinal) {
+                                    episodioExistente.fontes.push({ url: urlFinal, idioma: idioma });
                                 }
-                                serieAtual.seasonsMap[tempNum].push({
-                                    season: tempNum,
-                                    episode: epNum,
-                                    url: urlFinal
-                                });
                             }
                         }
                     }
@@ -335,6 +361,48 @@ async function processarVOD() {
             }
         } catch (e) {}
     }
+
+    // 3. Processar VOD Reservado (Conteúdo Adulto XXX)
+    for (let g of gavetas) {
+        const letra = g.letra;
+        const nomeArquivo = letra === '#' ? '%23' : letra;
+        console.log("🔞 Processando VOD Adulto da letra: " + letra + "...");
+        try {
+            const resAdulto = await fetch(GITHUB_RAW_BASE + "vod/reservado-" + nomeArquivo + ".txt");
+            if (!resAdulto.ok) continue; 
+            const textoAdulto = await resAdulto.text();
+            
+            for (let linha of textoAdulto.split('\n')) {
+                if (!linha.trim()) continue;
+                const campos = linha.split('\t');
+                if (campos.length < 2 || !campos[0]) continue;
+                
+                const tituloCompleto = campos[0];
+                const fontesFilme = extrairFontes(campos);
+                if (fontesFilme.length === 0) continue;
+                
+                adultosVodCartoonzine.push({
+                    cat: "Adulto VOD",
+                    title: tituloCompleto,
+                    desc: "Conteúdo restrito para maiores de 18 anos.",
+                    thumb: "", 
+                    bannerThumb: "",
+                    year: "",
+                    genre: "Adulto",
+                    fontes: fontesFilme // Múltiplos links suportados!
+                });
+            }
+        } catch (e) {}
+    }
+    
+    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2), "utf8");
+    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2), "utf8");
+    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2), "utf8");
+    
+    console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
+    console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
+    console.log("✅ adultos_vod_saimo.json gerado (" + adultosVodCartoonzine.length + " títulos)");
+}
 
     // 3. Processar VOD Reservado (Conteúdo Adulto XXX)
     // O Índice pode não ter contagem exata para o adulto, então varremos todas as letras que existem
