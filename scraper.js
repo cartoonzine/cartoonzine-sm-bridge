@@ -108,7 +108,7 @@ async function processarCanais() {
                         nome: valor,
                         logo: "",
                         categoria: classificarCanal(valor),
-                        urls: [] // Volta a ser um array limpo apenas com as strings dos links
+                        urls: [] 
                     };
                     todosOsCanais.push(canalAtual);
                 } else if (canalAtual && chave === 'logo') {
@@ -116,7 +116,6 @@ async function processarCanais() {
                 } else if (canalAtual && chave === 'categoria') {
                     canalAtual.categoria = valor;
                 } else if (canalAtual && chave === 'fonte') {
-                    // Guarda absolutamente todas as fontes (inclusive .mpd se houver)
                     canalAtual.urls.push(valor);
                 }
             }
@@ -125,7 +124,6 @@ async function processarCanais() {
         const canaisJSON = [];
         
         for (let canal of todosOsCanais) {
-            // Só adiciona se o bloco tiver pelo menos 1 URL
             if (canal.urls.length > 0) {
                 contador++;
                 
@@ -134,12 +132,11 @@ async function processarCanais() {
                     nome: canal.nome,
                     categoria: canal.categoria,
                     logo: canal.logo,
-                    urls: canal.urls // Entrega a lista limpa com todos os links reservas
+                    urls: canal.urls 
                 });
             }
         }
 
-        // Salva apenas o JSON, abandonando o M3U
         await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2), 'utf8');
         
         console.log(`\n✅ canais_saimo.json gerado com SUCESSO!`);
@@ -205,7 +202,6 @@ async function processarVOD() {
         return resto.includes('.') ? (base + resto) : (base + resto + ".mp4");
     }
     
-    // Função auxiliar para extrair links dublados e legendados
     function extrairFontes(campos) {
         const fontes = [];
         for (let campo of campos) {
@@ -232,7 +228,6 @@ async function processarVOD() {
     const seriesCartoonzine = [];
     const adultosVodCartoonzine = []; 
     
-    // 1. Processar Filmes
     for (let g of gavetas) {
         if (g.filmes <= 0) continue;
         const letra = g.letra;
@@ -252,7 +247,6 @@ async function processarVOD() {
                 const regexAno = /\s*(\d{4})$/;
                 const tituloSemAno = tituloCompleto.replace(regexAno, '').trim();
                 
-                // Extração inteligente de fontes
                 const fontesFilme = extrairFontes(campos);
                 if (fontesFilme.length === 0) continue;
                 
@@ -268,13 +262,12 @@ async function processarVOD() {
                     bannerThumb: tmdbData.bannerThumb,
                     year: tmdbData.year,
                     genre: generoTxt,
-                    fontes: fontesFilme // O app recebe a lista com URLs e Idiomas!
+                    fontes: fontesFilme 
                 });
             }
         } catch (e) {}
     }
     
-    // 2. Processar Séries
     for (let g of gavetas) {
         if (g.series <= 0) continue;
         const letra = g.letra;
@@ -334,7 +327,6 @@ async function processarVOD() {
                             const tempNum = parseInt(camposEp[0]) || 1;
                             const epNum = parseInt(camposEp[1]) || 1;
                             
-                            // Na série, a coluna 2 é o idioma e a 3 são os links (ex: dub\t49:abc)
                             const idioma = camposEp[2] === "leg" ? "legendado" : "dublado";
                             const urlsBrutas = camposEp[3].split(',');
                             
@@ -362,7 +354,6 @@ async function processarVOD() {
         } catch (e) {}
     }
 
-    // 3. Processar VOD Reservado (Conteúdo Adulto XXX)
     for (let g of gavetas) {
         const letra = g.letra;
         const nomeArquivo = letra === '#' ? '%23' : letra;
@@ -389,7 +380,7 @@ async function processarVOD() {
                     bannerThumb: "",
                     year: "",
                     genre: "Adulto",
-                    fontes: fontesFilme // Múltiplos links suportados!
+                    fontes: fontesFilme 
                 });
             }
         } catch (e) {}
@@ -398,57 +389,6 @@ async function processarVOD() {
     await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2), "utf8");
     await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2), "utf8");
     await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2), "utf8");
-    
-    console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
-    console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
-    console.log("✅ adultos_vod_saimo.json gerado (" + adultosVodCartoonzine.length + " títulos)");
-}
-
-    // 3. Processar VOD Reservado (Conteúdo Adulto XXX)
-    // O Índice pode não ter contagem exata para o adulto, então varremos todas as letras que existem
-    for (let g of gavetas) {
-        const letra = g.letra;
-        const nomeArquivo = letra === '#' ? '%23' : letra;
-        console.log("🔞 Processando VOD Adulto da letra: " + letra + "...");
-        try {
-            const resAdulto = await fetch(GITHUB_RAW_BASE + "vod/reservado-" + nomeArquivo + ".txt");
-            if (!resAdulto.ok) continue; // Se a letra não tiver arquivo adulto, pula silenciosamente
-            const textoAdulto = await resAdulto.text();
-            const linhas = textoAdulto.split('\n');
-            
-            for (let linha of linhas) {
-                if (!linha.trim()) continue;
-                const campos = linha.split('\t');
-                if (campos.length < 2 || !campos[0]) continue;
-                
-                const tituloCompleto = campos[0];
-                const linksParte = campos.find(c => c.includes('='));
-                if (!linksParte) continue;
-                
-                const urlBruta = linksParte.split('=')[1]?.split(',')[0];
-                if (!urlBruta) continue;
-                
-                const urlFinal = montarUrl(urlBruta);
-                if (!urlFinal) continue;
-                
-                // Ignoramos a API do TMDB para evitar travas e capas explícitas indesejadas
-                adultosVodCartoonzine.push({
-                    cat: "Adulto VOD",
-                    title: tituloCompleto,
-                    desc: "Conteúdo restrito para maiores de 18 anos.",
-                    thumb: "", // Sem miniatura para segurança do layout
-                    bannerThumb: "",
-                    url: urlFinal,
-                    year: "",
-                    genre: "Adulto",
-                });
-            }
-        } catch (e) {}
-    }
-    
-   await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2));
-    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2));
-    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2));
     
     console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
     console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
