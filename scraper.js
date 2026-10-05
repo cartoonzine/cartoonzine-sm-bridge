@@ -148,22 +148,6 @@ async function processarCanais() {
     }
 }
 
-async function processarRadios() {
-    console.log("📻 Construindo banco de Rádios...");
-    try {
-        const radios = [
-            { id: "saudade", nome: "Saudade FM", url: "URL_STREAMING_AQUI" },
-            { id: "antena1", nome: "Antena 1", url: "URL_STREAMING_AQUI" },
-            { id: "89fm", nome: "89 FM", url: "URL_STREAMING_AQUI" }
-        ];
-        const conteudo = "window.CZ_VIDEOS_RADIO = " + JSON.stringify(radios, null, 2) + ";";
-        await fs.writeFile('radios_saimo.js', conteudo);
-        console.log("✅ radios_saimo.js gerado (" + radios.length + " estações)");
-    } catch (e) {
-        console.error("Erro nas rádios:", e.message);
-    }
-}
-
 async function processarVOD() {
     console.log("🎬 Baixando índice, gêneros e construindo catálogos...");
     const generosMap = await carregarGeneros();
@@ -469,8 +453,7 @@ async function processarDestaques() {
         console.log("🚀 CARTOONZINE SM BRIDGE");
         console.log("==========================================\n");
         
-        await processarCanais();
-        await processarRadios(); 
+        await processarCanais(); 
         await processarVOD();
         await processarDestaques();
         
