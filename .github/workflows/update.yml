@@ -41,9 +41,11 @@ jobs:
           test -s series_saimo.json
           test -s adultos_vod_saimo.json
 
+          CANAIS=$(node -e "console.log(JSON.parse(require('fs').readFileSync('canais_saimo.json', 'utf8')).length)")
           FILMES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('filmes_saimo.json', 'utf8')).length)")
           SERIES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo.json', 'utf8')).length)")
 
+          echo "Canais: $CANAIS"
           echo "Filmes: $FILMES"
           echo "Séries: $SERIES"
 
