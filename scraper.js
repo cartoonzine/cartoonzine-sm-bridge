@@ -137,7 +137,7 @@ async function processarCanais() {
             }
         }
 
-        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2), 'utf8');
+        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON), 'utf8');
         
         console.log(`\n✅ canais_saimo.json gerado com SUCESSO!`);
         console.log(`📺 Canais extraídos: ${contador}`);
@@ -370,9 +370,9 @@ async function processarVOD() {
         } catch (e) {}
     }
     
-    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2), "utf8");
-    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine, null, 2), "utf8");
-    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2), "utf8");
+   await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine), "utf8");
+    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine), "utf8");
+    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine), "utf8");
     
     console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
     console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
@@ -432,7 +432,7 @@ async function processarDestaques() {
             }
         }
 
-        await fs.writeFile('destaques_saimo.json', JSON.stringify(destaques, null, 2), "utf8");
+        await fs.writeFile('destaques_saimo.json', JSON.stringify(destaques), "utf8");
         
         console.log("==========================================");
         console.log("🌟 RESULTADO DESTAQUES");
