@@ -38,20 +38,25 @@ jobs:
           echo "========================================"
 
           test -s filmes_saimo.json
-          test -s series_saimo.json
+          test -s series_saimo_pt1.json
+          test -s series_saimo_pt2.json
+          test -s series_saimo_pt3.json
           test -s adultos_vod_saimo.json
 
           CANAIS=$(node -e "console.log(JSON.parse(require('fs').readFileSync('canais_saimo.json', 'utf8')).length)")
           FILMES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('filmes_saimo.json', 'utf8')).length)")
-          SERIES=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo.json', 'utf8')).length)")
+          
+          SERIES1=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo_pt1.json', 'utf8')).length)")
+          SERIES2=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo_pt2.json', 'utf8')).length)")
+          SERIES3=$(node -e "console.log(JSON.parse(require('fs').readFileSync('series_saimo_pt3.json', 'utf8')).length)")
+          TOTAL_SERIES=$((SERIES1 + SERIES2 + SERIES3))
 
           echo "Canais: $CANAIS"
           echo "Filmes: $FILMES"
-          echo "Séries: $SERIES"
+          echo "Séries (Total): $TOTAL_SERIES"
 
           if [ "$CANAIS" -lt 100 ]; then
             echo "ERRO: menos de 100 entradas de canais/fontes."
-            echo "O commit foi cancelado para proteger a BD anterior."
             exit 1
           fi
 
@@ -60,7 +65,7 @@ jobs:
             exit 1
           fi
 
-          if [ "$SERIES" -eq 0 ]; then
+          if [ "$TOTAL_SERIES" -eq 0 ]; then
             echo "ERRO: nenhuma série foi gerada."
             exit 1
           fi
@@ -75,16 +80,16 @@ jobs:
           git config --global user.name "Cartoonzine Bot"
           git config --global user.email "bot@cartoonzine.com"
 
-          # Aqui listamos explicitamente TODOS os 6 arquivos gerados pelo scraper.js
-          git add canais_saimo.json filmes_saimo.json series_saimo.json adultos_vod_saimo.json
+          # Remove do repositório o arquivo antigo pesado, se ele existir lá
+          git rm -f series_saimo.json || true
+
+          # Adiciona todos os arquivos (incluí o destaques que estava faltando)
+          git add canais_saimo.json filmes_saimo.json series_saimo_pt1.json series_saimo_pt2.json series_saimo_pt3.json adultos_vod_saimo.json destaques_saimo.json
 
           if git diff --cached --quiet; then
             echo "Sem mudanças para comitar."
           else
-            git commit -m "☁️ Atualização diária dos BDs Saimo separados"
-            
-            # Puxa atualizações manuais do repositório antes de enviar, evitando o erro de rejeição
+            git commit -m "☁️ Atualização diária dos BDs Saimo em partes para evitar limite de 100MB"
             git pull --rebase origin main
-            
             git push
           fi
