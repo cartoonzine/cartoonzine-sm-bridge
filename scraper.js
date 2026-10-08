@@ -370,8 +370,16 @@ async function processarVOD() {
         } catch (e) {}
     }
     
-   await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine), "utf8");
-    await fs.writeFile('series_saimo.json', JSON.stringify(seriesCartoonzine), "utf8");
+   // === DIVIDINDO O ARQUIVO DE SÉRIES EM 3 PARTES ===
+    const tamanho = Math.ceil(seriesCartoonzine.length / 3);
+    const seriesPt1 = seriesCartoonzine.slice(0, tamanho);
+    const seriesPt2 = seriesCartoonzine.slice(tamanho, tamanho * 2);
+    const seriesPt3 = seriesCartoonzine.slice(tamanho * 2);
+
+    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine), "utf8");
+    await fs.writeFile('series_saimo_pt1.json', JSON.stringify(seriesPt1), "utf8");
+    await fs.writeFile('series_saimo_pt2.json', JSON.stringify(seriesPt2), "utf8");
+    await fs.writeFile('series_saimo_pt3.json', JSON.stringify(seriesPt3), "utf8");
     await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine), "utf8");
     
     console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
