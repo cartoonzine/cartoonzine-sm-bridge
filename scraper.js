@@ -137,7 +137,7 @@ async function processarCanais() {
             }
         }
 
-        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON), 'utf8');
+        await fs.writeFile('canais_saimo.json', JSON.stringify(canaisJSON, null, 2), 'utf8');
         
         console.log(`\n✅ canais_saimo.json gerado com SUCESSO!`);
         console.log(`📺 Canais extraídos: ${contador}`);
@@ -370,17 +370,17 @@ async function processarVOD() {
         } catch (e) {}
     }
     
-   // === DIVIDINDO O ARQUIVO DE SÉRIES EM 3 PARTES ===
+  // === DIVIDINDO O ARQUIVO DE SÉRIES EM 3 PARTES ===
     const tamanho = Math.ceil(seriesCartoonzine.length / 3);
     const seriesPt1 = seriesCartoonzine.slice(0, tamanho);
     const seriesPt2 = seriesCartoonzine.slice(tamanho, tamanho * 2);
     const seriesPt3 = seriesCartoonzine.slice(tamanho * 2);
 
-    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine), "utf8");
-    await fs.writeFile('series_saimo_pt1.json', JSON.stringify(seriesPt1), "utf8");
-    await fs.writeFile('series_saimo_pt2.json', JSON.stringify(seriesPt2), "utf8");
-    await fs.writeFile('series_saimo_pt3.json', JSON.stringify(seriesPt3), "utf8");
-    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine), "utf8");
+    await fs.writeFile('filmes_saimo.json', JSON.stringify(filmesCartoonzine, null, 2), "utf8");
+    await fs.writeFile('series_saimo_pt1.json', JSON.stringify(seriesPt1, null, 2), "utf8");
+    await fs.writeFile('series_saimo_pt2.json', JSON.stringify(seriesPt2, null, 2), "utf8");
+    await fs.writeFile('series_saimo_pt3.json', JSON.stringify(seriesPt3, null, 2), "utf8");
+    await fs.writeFile('adultos_vod_saimo.json', JSON.stringify(adultosVodCartoonzine, null, 2), "utf8");
     
     console.log("✅ filmes_saimo.json gerado (" + filmesCartoonzine.length + " títulos)");
     console.log("✅ series_saimo.json gerado (" + seriesCartoonzine.length + " títulos)");
@@ -440,7 +440,7 @@ async function processarDestaques() {
             }
         }
 
-        await fs.writeFile('destaques_saimo.json', JSON.stringify(destaques), "utf8");
+        await fs.writeFile('destaques_saimo.json', JSON.stringify(destaques, null, 2), "utf8");
         
         console.log("==========================================");
         console.log("🌟 RESULTADO DESTAQUES");
