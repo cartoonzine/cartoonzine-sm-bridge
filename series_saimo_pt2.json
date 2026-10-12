@@ -116927,9 +116927,9 @@
   {
     "cat": "Séries",
     "title": "Fim",
-    "desc": "Um grupo de amigos que não acredita que a vida se limita a encontrar o amor e ser feliz para sempre. Uma história sobre a vida, vista pelos olhos de quem acaba de deixá-la.",
-    "thumb": "https://image.tmdb.org/t/p/w500/pK3rX7JAcC5j1kvAqNtyvsMXQzf.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/gkSdxYDEymBAwIfgGM3T4jiHkI0.jpg",
+    "desc": "Kemal não acredita em milagres, especialmente nos que se referem ao amor. No entanto, seu ceticismo é testado quando Nihan aparece em sua monótona vida. O que pode acontecer quando dois jovens de mundos opostos se apaixonam?",
+    "thumb": "https://image.tmdb.org/t/p/w500/uDSk3PCQLWbrxyjiNrYzO6GqyR7.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/n0lQ50CfQhB8TfB9hzpeBrJBZ6L.jpg",
     "year": "2023",
     "genre": "Drama",
     "seasons": [
@@ -218305,8 +218305,8 @@
   {
     "cat": "Séries",
     "title": "Genio - Deha",
-    "desc": "Devran, um jovem matemático prodigioso, enfrenta os desafios e triunfos de cultivar seu talento excepcional desde a infância.",
-    "thumb": "https://image.tmdb.org/t/p/w500/icPHnFkJBBds6rw4IHf5qR93FJt.jpg",
+    "desc": "Abandonado pelo pai na infância, o brilhante Devran conquista reconhecimento mundial. Mas, quando o reencontro com o golpista İskender ameaça sua família, ele abre mão do futuro e dos sonhos para enfrentá-lo em uma guerra por justiça e vingança.",
+    "thumb": "https://image.tmdb.org/t/p/w500/dek2MZTwZriLzAGK0qasUFqhWfs.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w500/kt7JCtDy5bfCW0z8zxMF7lHeUG3.jpg",
     "year": "2024",
     "genre": "Novela",
@@ -315874,10 +315874,10 @@
   {
     "cat": "Séries",
     "title": "Hard",
-    "desc": "Acompanhe toda a trajetória de um dos times mais tradicionais da NFL durante o training camp.",
-    "thumb": "https://image.tmdb.org/t/p/w500/bune3FI076HTVD6Rs4nxROPTxf1.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/6ARUjIU60y4RVTQOJ2GYiJOy4gd.jpg",
-    "year": "2001",
+    "desc": "Sofia, uma recatada dona de casa, vê sua vida desmoronar quando o marido morre e ela herda uma produtora de filmes pornográficos. Correndo o risco de perder sua casa, Sofia terá que se reinventar e tocar um negócio que pode ser muito lucrativo.",
+    "thumb": "https://image.tmdb.org/t/p/w500/j1cGmHM12wAJcDLYclrOFWFmRPx.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/qK0xN1Q4oQSzIgaL8zmQ1BdR0rv.jpg",
+    "year": "2020",
     "genre": "Comédia",
     "seasons": [
       {
@@ -387020,6 +387020,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/121803.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://fenixbot.squareweb.app/stream/61263?hash=7d2e18cfec07c9042ee39281",
                 "idioma": "dublado"
               }
             ]
@@ -486389,10 +486393,10 @@
   {
     "cat": "Séries",
     "title": "Island",
-    "desc": "A Ilha da Fantasia) é uma série de televisão produzida por Aaron Spelling e Leonard Goldberg de 1978 a 1984. Ganhou em 1998 uma nova versão, com apenas meia temporada. No Brasil, foi exibida na Rede Globo e na Rede Manchete. Em dezembro de 2020, foi anunciado um reboot da série situado nos dias atuais, autorizado pela Fox. A série conta a história de uma ilha paradisíaca onde qualquer desejo pode ser realizado. O anfitrião dessa ilha é o senhor Roarke, juntamente com seu auxiliar, o pequeno Tattoo.",
-    "thumb": "https://image.tmdb.org/t/p/w500/kEjKSKuUtnFayCer9OM0iYxwy1W.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/yTJFf7N9ohXjssZQyZ1cSMNopix.jpg",
-    "year": "1978",
+    "desc": "O jovem Jim Hawkins e sua mãe, Bess, encontram um lendário mapa do tesouro pirata e são arrastados para uma perigosa viagem através do Atlântico. Jim precisa enfrentar motins, violência e traição, experiências que o transformarão para sempre.",
+    "thumb": "https://image.tmdb.org/t/p/w500/f8kNFg3QjReMX32geTbWfzMegAM.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+    "year": "2026",
     "genre": "Ficção e fantasia",
     "seasons": [
       {
@@ -681947,7 +681951,7 @@
     "cat": "Séries",
     "title": "Little Dorrit",
     "desc": "Sinopse não disponível.",
-    "thumb": "https://image.tmdb.org/t/p/w500/5CTWoruhvpCGiR9PavoARnnV8Y1.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/pox8YkiW2T3YHnBcH9UGqlvY5XV.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w500/m45Nb3j5Ln2gckv43zaflggi1Ta.jpg",
     "year": "2008",
     "genre": "Drama",
@@ -742022,6 +742026,22 @@
               {
                 "url": "https://embedplayer2.xyz/cdn/hls/67122b10d88e4cfbf405d444e60e64de/master.txt",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/dT7z10AF479vUkaPXFi0HiG3FD53WVIAQ3jeTk0xl9O1Mn6yCNh8Y5xbL2TQsmpAramLuJzVB9YiPFSnPj5CwOKuRwWIboq4xmCNwd_mmpiu/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/3MwWwfqk79e0glDMN2svej-1Urr0dUKBdTGQgF0fstjrimJUhWpJfwiS1i3ySm8LURMySl5YQ3lkqknnh5ndQ_B4U-IzyApD-FApQA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GXoTce9lLz6xyd1Qr4buSww2tB5RE4yJHfIymvA_ZKGulSVug9mfAi92VWAnvMeTKzxlkZqSxB92GAl__q4cP903mNppNxkboxh1AvpLN24/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/nOI_xIIjBvPYiiQ1WC_f0rUbXNbr4-DkWybhQQG88Tl1udgm9h4fAhugKY2Bi0Qs7Eb_eF5T_aRrvza8-dV-p0FOuC9bgayLHycc0YCfMT6TUv5suEixfuRY0EImuA/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -742567,6 +742587,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146734.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/D7aZNSGIvb2X6fM4dajtjOJ3PxDChqzb4GqNa9-SuBZMF0vorG2w74XBzw1Yfh3zFxYUD9CYs9ZWWlp7mSR-8RpMV34uZ_XUGLQ35K3XKoqr/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -742727,6 +742751,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/251451.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/y_vRr7jtjjWvbO0F-NxHvu4ckynsT3qvWz18vAL4v935Bfb7yHge_JtYbNlN2ZfcLFvPiDEOPobYxlu3XZ4eazsu1AXH2HAcDHIjaG0Rs3bs/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -742846,6 +742874,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146744.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/CFp-LJIxRuMTd5rwWllMc6NWgSkGze5Jrg1oljk14IL5v-rW5jigYhsrdHdxQPK99Ulz-ac_KYv4vumpqwO-3Ndvj37nUsZ9tcNYdNkxpvoE/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -743641,6 +743673,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146747.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/B70C_cKuat32dUxRQO2mzaU5lQpy4vDUWQ1uLK69g2HM6s7WU5kSzbcP57qTIeDrURpppqccTw3aoeHoX9SD_HSDQ75jRKdHEYOwoe-4gP8w/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KjISSZjf81VpPeznEeoP8qQvHinItaPPMVTLAAAu5pyJcTKDLMtJUuFmyw4Qrm7N1vbjkEjay7vtkoKKuXcc8tsurhna28zR-sCRnA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5zQ5vSXJq9_AXl7tBTx34dRWJgsjP1QHVegYw-xrYvnbwdnKnlD6WPt07bwT63S5iqgdA7tTI35r3ES9_f6G-mTKUN8pELccxI7-LpzVONc/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -743938,6 +743982,14 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/229449.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/AhdUa9oYORY4LOQKxFnOtxD3BLMbK0SNishaYZHDO1GqppEqEkb7ylfesULbszbXBLRgVb3a_RlI0NbgKLXeXUveoeCI_2Gs_fcWiw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5AodpmCMUwD7GH-2wxpUXW4TojvbIamrnKcSLSoWxlhmWQLbtgNZYCAnIea7FG5X-4ILF3DRN47trLTrJbtLVNPk_o-htTQjF_Zr9J7yEn8/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -744886,6 +744938,10 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2288197.mp4",
                 "idioma": "legendado"
+              },
+              {
+                "url": "http://shd12.oneplayer.site/token/SHD12/65187/1x1LEG.mp4",
+                "idioma": "legendado"
               }
             ]
           },
@@ -745066,6 +745122,22 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/84420.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/64gPKvBgavBLkdzVTV-7IOw4OpbUk1q8E7yjngn1hwXgREBee5O1TMqqPdGXmE9obSldgxu0XQ415vctyFbJklgadMlkglkrCzkRMtkdynUB/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UYIN3Uj8popKpo_pTE-Tj3X62t94Sf5io599VllPkwLls63Y0oQje8Pf55ZZv1gLW0V3TF2vG6EzmCwb4J4tJRjzAFYNhxkWksEqig/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/4Ror9ZqCKntKq7rlYWHJamJqZvEfPKodESvtj42mP1P2Qth2V1iujUDUyIAVXNw7mSA0agQnyMlJ-6owobQvBRGa9thsk0oqQpXuJQpbY9I/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://dj0vkl2i4vsbo.cloudfront.net/convert/A%20Queen%20for%20the%20Mafia%20Kings/en/2026-03-11%2016:56:49/1_.m3u8",
+                "idioma": "legendado"
               }
             ]
           },
@@ -745207,6 +745279,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146765.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/kObcNio7vNJwOiaJubRcbaC5uh4nFBuIjFEvsNPgFzl0cM3Yp1MsIpmyNAF4yDIQY7UcqlmRVg_0eYH-B4VKwQxzKd-Lh97LRdiLcl8gOVu0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/puAWt43vEbon9BUWmqT5vWvMb9FsnjyaVx3GMzsXte2ua58_6ZAstsvoK-9Xjo9oE3p96ySGch-xQyt7XwMnGTKSAx1mnUKKpIICKOI/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/RwW4_fzVOv6FbNkLnW7o7vOm4QiVMJWXZG-WAEFiWIr2PFhUF0z9x2cv1l1zOWPWdEzQtpOrfNw2o2ur2O4YfDkaApeh1DP0PQQ8LhPNjQk1/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -746187,6 +746271,14 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2470926.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/8-OdSthO6Ro5czsWPWErppTceH2Tod9PrRCbjWRh4-iDjVXywAc3bMjdAYL8lYv6r71KBQk63jOD-OIQoES0jNb_h6_vtz0C8_l_mOs/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/bUN1fRHDFmYCkFPK9uaG8_3Mnm602fEjbtA24JsuBMVjLMHssG1VHByE-g3PdyjMPl0yFamye8Us7sb2FSf5cZd-ogXE-rkgy380ti8sr5mo/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -746280,6 +746372,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/31059.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/iyQSSDZkBxELOR0nmoJ04HUQtUUEapVZcOjwLiPkTZ4u8c_PdKYC_WKNupjhrxgLq8O7-A67FJ3RFxLDqMa7Vv8Ss6EXFaVPElH-tCqnG-g3/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/EDBgKXjdF50jfoCN0_rNzKQjPpB33Bx_r-jiCkwBMA-zL0aUWfxOsqTUvH5FnCQwOdgmh0d9NgBsdVHwiFWm76CbBBpHQExX9FKziQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/nv3-Ndujb3SFH4TguAq1sSZLaHphGiHMvK18qbQ0COaGRQm_OvY8GPPCSyjDTegDIdESyORnKHriAICoiH7bzMavjegSWwEHNsXd6CFwtl0/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -746574,6 +746678,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/44747.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/pLI1_EseX32Sp43JKxDBWu8L-HY2er7GR8U60ITlOsqbw2nOz0hg9qf6-bv47-FOnxrTw_UquceMEdsCBq2QMfJaRkTEU57YO15PYzidADu8/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/b_PJUeJngEb0weytuzGsMiKdaQlQqpkCnD95JnYIRBOJ39-cV6lKReW61j5zcdGg2a4c3_ApBvbsWiB8544nCSfhUtoTr3ir5-sWrA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5X3HMR2fzyAxRVQ19FU4oI_qYb2OJ-xO_8iOlXH5n0GOAWUiR_q4x_8Kb2D4OoPqL9jj4BTzoxQIBpoCFIEWKLpAevsiBCSYJKEE1UU0Q4Q/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -746732,7 +746848,39 @@
                 "idioma": "dublado"
               },
               {
+                "url": "https://husky-denny-fenixflixaddon-ec8e842b.koyeb.app/stream/615?hash=c08795a0356d8b49e3bcc143",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/kVbtt2SSe7ek-mk23NH1kZVzX7stejNjA19EJ6aM8ZeGrQ8wmQ7q7kRfwz5p33i_rtepz5zrLEyelPwS2_Jg37UU2qGyp87VsXjQEEGKdZSy/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5mtV2yisTiV8g6YLfTT88G_6A2ORm0_94lJKJT9pr0n1rBavv7MV1ko1-MqilR7GbcDjBGTlEzJ21SdRs2ZOaO3fE_TeP1MZJObx6w/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ba_w9YOGMvT6b0ocwHoseTjLXZYMpWQXf35OXa6kcF0ms0at5aQNiXY49lL5xFAgEJnhAZ5BfBgjGaM7EwTCANdckAXa2x7kv67VO_g_-p8/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/2-azlRkG77lrssnYzltcRiqYfq96ItHPGBrshRfiI0q94i1gixFDoxRumzoKhgdP-sJY4tnxhTpXQ9-B-xj0kYz45I-0IF8QwN6k6MU0c4PpZ7Q/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ACn-Y0STigYQZBU9pC3hs8XyY_9qvDy48V0fSkLMly9CmBgnBsHo1IQLJ8Df0vJMDyAx76i3lvFLdwcACPEALUL2XFpljos81zEfvrtw1zgZMHAQXd3Hyea68FF6/video.mp4",
+                "idioma": "dublado"
+              },
+              {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2288220.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/smo3ZLGBMPJ-yvwjVoGim_i_fX4vjAXIuogiKYJNmSQcbD-s3Ep2EP6SGZD6EoyhvOPV1pmE8aURolEXMwzO0Kd9pvx4tuoDq7F6jmydDALeFOz6nXRlX_i9UjqP/video.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/cPAiRW85QsLD3BN6famDZTFYMnMA2EbiO-UKOyQrfeMp_ARSWeDSwSSSVPDEAf4WwQj16iMUkt6XQYg3fSd6n_NOehHRdfs9DXFKQ2LJxOH_HQw/video.mp4",
                 "idioma": "legendado"
               }
             ]
@@ -748850,6 +748998,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/251903.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Fwilbh2CUXnvn8rUiNnMEexVLZyKX9KY1GXn9CvVJWUBuPo0IJZX1gw-T1yImrcyf-V9zZSQgp8tnxX9Vy8PbUezav5MkoL0A0tRDwRJOIDu/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KjFRQhiwRFKCrGQYg0rpuTMrvKTMBuRXMqL5REUTAI5g28BWuLs6YWL3D7y3OBG9yDBXBSN_6ygmf8lhevwup9z23LOX8Ir2bte_zQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/U7hzji_kgHMRODATH1a8hh083Y6id_e5xUKS3L8IFiN02PfVlIswMZMAP6mdWnh0ONnLaFLkC9a5uN9-J6oskneLo0QUJqz9o3T1iOaMpdw/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -748933,6 +749093,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12774.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/aSeg-QBmA2b-sLuAE0JxLmum00GJN6LrcdGDGNY7kx9u2-fgcI4fuXK0-lLzq-Ju5SczBcocrd7VZoeeoYOKVU3lsimhsMMWCx0PoHxEAV49/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/JkdAVQCugsrMnLI32leJ4R1vh1RfLIDyQD7imXbDpEAosyQTm9Pn_15IfsHv-d5uoz3s1utjgV6J8g5Q8IQG6eCJK0zwmZUbsxkBPx0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/M8l9GQ0AZaeQ6vHKKD0DmYyaRSd7eu0TZevceBBIv2u_HtCB3koPQjyoDLfBJDNUXuryKiMa97bef67i5oFRKR3JDUxoz8en3u68Z6Ucs6h0/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -749045,6 +749217,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/52660.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QYsyze9EjToKNAsXAA3pPmBmI20ycRO0RXjBD3k-rVnU67q4Ud99lHmUsFchX-PXQ7uENG3mFnOiFHfzbROge94LoW1Dxw9zjuMdQOt3XaJK/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/l37IQHvP3MMfI31UHJZ10vmj8kNlZoiS6LORd5Cb4T-nZQvLjtBquDCudG7CkJnjuN6O5M6JLRvTmywOd5trsa7hf1mjdxkpVVQO9A/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/W3eqIrTcguUcyKh42HKvTtixE-MIrB7hbPNNvvz8zAb4c3YfraZWA1X727ZevntWkK9WUvBcEildzRQlhq_wgkYIQAt0PZoGOoWH5JimcQ8/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -749329,6 +749513,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123703.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UQSjaFiS3XG5FAnn4ekmWtYJGsyy7xhj9U-CoNxz28xJYk89c_r2MN977tgSr5GVI7s8dBajVOKf6guOOVp4MWQqM98SmZLfvNZfn7Awa9th/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -749687,6 +749875,14 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2288213.mp4",
                 "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/I_oBggnL9EZGOR1KokNikMQDDlBKl8bgvJ0ccgPhWiEyuf_S-6igk58RGZlbXQFNjU_p9QJCuoVlSsPy_QMC2kQmmgIeP10TBbqj7w/video.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/pVRgqux8i-g2kAPynzajG58LsgPg1Qg4xG3fwZ_WDCzFCp71um_b9dUf5TmdoxmoIrXoNao6Unte__Br-SsYs4EqqW5-HNqt0dsykb78Wko/video.mp4",
+                "idioma": "legendado"
               }
             ]
           },
@@ -749776,6 +749972,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146843.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/y7jwMkIL8asI8g__cKPfa_7fAwl6zsg8vIVORDG0fEK-3ElvRJ5nAiWg40Uk6U89cxCCdrngxaNxaEKnPD3aKMzTGEaE1GTPt46pZQsubXd_/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/HrOO2dKGNgp3FZ8d1nAHFKbCjHHemJ5CtvslkH3N5L1Zn5uI6JmJLEKy1tOaVgrnAwJO4RHbx8ZYRx8BTQmkL4Cuokp9DxAUieQt/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/2GM_0M8IyOQ0AYU-j_62o3LhX7Mef6ykuI03uguWjHm7pJrGcTPQ-6K5uArMau-choGYAOTAM2dDcfcb9iPAn-wMO2XwseaTmhBetLC67g/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -761490,6 +761698,26 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2322389.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5BeqTdzEFB31qvAyKOGJrAKA0BAaznbpTtz_KHqRHQJ5ir6cMJ84qlRbG-Un_h0UQkY5r0tWmC68lXiWe7VA-sk4C_QNlq-VlpQV5nlhX98S/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/3LRF39wFpDYGI3xH0s5jwR0nDCTmYZp0nwCYAh_Sol8cpA5Q2GIKCAWLLFFqVIb4TNinWpQ8JMQL7PkDxeRQLuTd3VEtNHLa7C6kmA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/twuVp-cIanskuBKT9hCPrHnyqUvJQp5JQgMG2fZE2oUG6TJpbmOvLbKh5dbTHb3eZrdmMK2IztEbXSSyqRtLkzOdGvQUG0BYcGBzoNCvRm8/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/pINlsFUrzw3kn431gedrphPYx4O5DKN4hJtJqNQSJ560xkHQXWDPCRBovuG3-SfrSvJc4BMAcpN7Uo7vVkZD7-4h_J7EqePA-ZB50XpK-wZ4L_M/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/rX4g2IWSu-GLPLg9yI5XBsIFjI1S5HW7ZPtb4SMYAJj-eKZUPRvGMVkUWVKBN2jJo9rHw18NaHj9pVqlFQaze8CNRqMH21j_7JAGRAVcyFXZ54o/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -763299,6 +763527,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/182231.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/uP6JSB2GDlCH8C8EF7kfwZuGkTuJHTOmj9u8aOJwMUILBXN2vysL9Ae6Nt2jESATF2JSdfUuhUFd5yMiE4vMZ1RobS5EbjjllN1D8X_94_SQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7xW6jbTnf3YnihCsDGt9dUZMkud0SiZsPQKPCtJ0v-dRSED5yxzGLQ_oXIIx6noziKrclFVG9uow2NkQvUx73HVhp0cPxkJmiMubAw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/iYyKVDapO4C_dEWH_zKelxyCHZckk8Z4_fx4uZ0dC3tBCW0TyAKMwIVIAgckUEPxHUFGd8rgKi6vOrkd7negYHR6CMxbgbq2EJmVQ3_ahLo/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/SzlAh7xsg7kz_jjQjS8qh3rd6oqSpfCAw-REvdCPxxqNW-KUbKrFLzHRQpSF4hFQ2vMln72upoKFxm6LIFRbT5sB8sQ9LiOQRNd-86yIugRZhCc/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/BRHsE1l5UAFxQbg3rCqW7mflNgh2yPlvfpgktM_iYhoCINoK3ZNuhMoLXnQObds0tNMcKkuGbE8xN_nTqFf_7XQv62pjH_o70CCOH7gHZRAkWcI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -765835,6 +766083,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/182411.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/BARnhjqlZnkM69JXk2uC7Xb-z-iOPyDNhcK21ch_bXJj0GMMS_DI6Ozbf8SMARxws-URF9jY4WhrMqJiNItRDcksAG0DjR7t2aFy-ALnx71a/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/dm3aSaU7t-O2Th6Bk-hzUlUEWa2wOiqY5qQUD-Dp5UZOFIjaVTnPObm_ZIQvCIuFcZ7r4KL5OMRyV1dhUNVuRp_1pLoMg0B757Na8Q/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/XgKY61lF0J_zulxEhHhesSYZXK2v5ffI8dP2fyu9AvVabCbPVhOQ4d1j8EGJH-39hYuDu2Boaz4l34nsnPzHzKyd827y33C9Q9ttSUeOE0Q/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/hmTSGpXRJZsYsdLKH0VR7hIAKxv5nWiAsUgaIKIDy0w6ozBz5WwraFIFbQasjK7LOUQoAJf1rFiINFcG-IMnb4i9a_MUThUil4BGGk4WZV8aAQ8/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/9fbZkqNhZDUDSyBMZwBujha_mGrzQ6vhmDG8ggnAQpm17JnXe_VVmbrjBsu-xyMInVq05M2DCtnO-wzGdEJCZdNNnIGhBpeAB9RZ_1d8Wt8kJzQ/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -780176,6 +780444,26 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2320487.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zhzyRTD0HqFsP8y5_TGLOIUrL-I_BAPQ5DX5JjG1zIbA4KvgPlF-KTpntSZufgFUb9JH-BlQUHzVIRKVaIQljYctI6qMQJw55x9p-UyyMy4p/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qhus0nfrBTvaJ5ASv0hduAl436eMmMQRgqxKgBcWRfpfxwKTEhJTyU7l5-uc2WAsqlXdCoqS0gKt7R1qnagYJXtlrK9f-q2szXZcvw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/q0CTEZEhsciBx5a5DitWTXKmMb3k7QkY_aUsqOX-pVwM5nidPWgEXtmSc-uNyVjg59jAMVcokf_Is1z6PLsNsK53iKyxX-x4xfdVje1EO_A/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/MbPJtiUhciMCGSuwicmDozDoOfV92KdyrpRPWYDSs9yFjiyQPia3aG08Pl4WHvPBKFehgPB7fmjs1O5Sr8suugacBd6LXeIrEDZ1V4O_oOxEwqw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qckVCcO-IauOQsc1CjwLcrPPEqTDgwpCSegoWPq_yu415HFUTv8VFnClLP3Euo_V4Lf561E7XifoqwVdkpwfCE3T18iiT4xW8ApUAwRhZRqr1N4/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -781435,6 +781723,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/182658.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/IpN9Ro7m0kC5fMdpYVZNuGTpq2SFWnIXubM6MjT3nu8vo_nKMbvItFBCOvseZ0D3SE2kg6LxNeKfrlABHz6zIIms9r7s9PAHJ8G61luoOe7W/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/y-W28zdD4dLatrLwmR6nWfrn4s9rGhmZ-0X8eSMYPwyiMBbFs-U2atpeps-QnnHre0UUAFHaCk27uOm-AoPmRTN2XKkk0h1OFY-_2g/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/BtxuNG_XVxMOySLffJb5pMmqtVxsDx4ZU5GTh_OWPhNgKh_T9sFpcuk5RiduaZBubIBr0cfKVwXuLbZWgIm3TaV9_ekS6DeaJbG2neBwRRc/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ADF0rkVI4yLnz59U_MHCZqz7GiYrt22JPBvJ37CdPLVO5lSvUyDjcYSo32kEFex9fquxZHynX_X0QRwHwshL-eu-tesLk2f7AdxPHPwLhkGye2Q/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/AxJWNnfO5v_VWnGLX_w9dWaOyQUeJowQL6lsKLI1ZJBhda1Ho0fSa3PXnMfSoGAS2elFzpDJ9VT2Rmt6gvVQyOgeg04CDY67JiluSNJISgMmbM4/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -784829,6 +785137,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/182900.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/C8MYd4GkRemBWRM7wEL3Ly-xLEfcopWvPEGc8D4DFJg-NXlCz81HzZY-QIO6EyCPzAFTaOJLaiYFUC02LX0Pe2knzD58ETStQBB44rnKThzD/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/EOIKYgB-485ooh8vzGZkevpCwwPfwhhpLW9YlI4Po1V14JHhRoNVBzcmMSXk5YMRGoycdoqklD3AXw1CAWNRznaKZuTTtoftdbalEA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ZxU5tBKFZR_R5_05NWux13Yi9x5eEq1niFDsIGIo7sNWuwjSalZjLMNutho9ZvOp5ilE1OC0YpxhTqcyDxk_xEvDjRHiZggolEfWD4B9oDQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/wYYadpaNv58FgwTavTEuTC9v8aeL2je-usr44ntvXEogpxORc4B5oAbOTDUw_FU3x5DZL5nXAEH8kxoifk9oT0jLmx0K7MEmPJXsLvtHIl6YvWM/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/PJw30QBsqJ7cGnjj6blmbFjkx7jllbvWv_9vqA8xppneQDBjdXezxrDdHgv_2xnSfV2Zr1c6RFlkIkEUklyLimsBz4yHxFE9KxwsdV9cWZu1CWg/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -788328,6 +788656,26 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2353722.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/1EUSL8wufLsOgLBqBE4wuwVbec9EebOtbAie4IsofXeNjt9IiRG9X8pY52qjbzWSUAOJ2OBqIIWVqdox0pcuCRLmE4GgsWvTNB3b7ugRYTpQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KNP8r023TpYIbV1cveaMw-yFjnHWJeL-eRTOBR09LXStBRxWnnTBCWW3qK2mwY8lIjB6G_7H0qRybIfJCMlBkkMdwebzzZ7_7-0qJQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/tGAXcrSo-85uIqmH7wnDHHx_-1qLVgSVKTwJRMS3yXQcAVW2j9u6A3UOzV4gi2SD0vTEn8RXmU2zlRdbFMZKUXiRM0PCkZiROt4bWh02_7c/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/1OW6RwrFcWTrqnSbWsgPHSHvb2VikysdUVZURgu48mVBPO5QqxjDzo2dyHTfffyiDSbMCVOSg7gGUkxpSR5EoVWGPijNTML51ERZaPoeYNNOF1g/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QDABe2f5uWpVsRiKw5UWRMibrCIiJ_HAU-k742TU-Krmsg4TJgMNbUEBfkywrSQdwehdOoSP6w4K3nGohjvHdQgHIWpACZqI2o_i6Fs9CChokEQ/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -790337,6 +790685,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/183174.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/WET9LHr2FQmX6OK3hlYb6uA7ubRKVZVhVmqznxdBRUHSHXFcEFW08-tA1vgnNIoZj-80kzh6z_DwO8eMnUR0CJMCVdx7MFl_gj0rw5gYg8el/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/BzG1ggz63F-dxzB0BxRlAztNR3o6nyPfsfi6UC6Amlc1HR5xvu0cjwpCfAthh4O3VotULa3cwhc8Wqo_jsZ-s64GEb1c-I0VcCOamA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/MkQzZ9WF1NOS3NFaOGLvW4u8RpaXa7jxVZritMxQ7MKpus0MJtMr-g9YrtG5L8fdRhUB4k95zJXKkwyuz3gdplXIXhw5vIimAJPP1H3Ghh8/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/XjGHbB8a6mcd2A0UuLJcmD9M3AciJAenDzIzEYPNsvR9gBkEtCbmAZ2UI3WHMmiGLDgzwTQ-Iex6YnazDvZ_PY-J4vokd80nH1PiYUMjEIldLZE/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/LLt2WskxbJg847Cpb7zpdRHjmiWCDu2lp8kcoFAs23i8Rd9O1Lk0QToYKIbKdn_tFpyoLdULuU3yj0jH85kBznSl09KE9cRXLiqX28yV6HjxuaI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -793545,6 +793913,26 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/183402.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GCtaNlwNd9GOZOtgWOeLBZ_o-LCHNMQEWRfTtSLnkuXZPydxrDUOxm2wv-dYzqAg7Gr51mGxHyt3Z7nBENQPd2k2V-6fhTAGh9t2REbQN26V/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ucUERas2igIiFvGTWAAxv2WqcNqHOIbuM5a5pFCeB8SNt7pkFFemMN9OrBTjq6E8taMP1Lz1OvnGZM-_G6Ss5rYyG7T4gjyxD9MOIA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/XqAu4PddPceQuDJ3S70UjnvKKoRti7dwZhq23s1TrGUKqnkbSpA4NgY0fHoTOvhIUbMDWfGawUFOeqDIdD3I7WzDA2MW7hSOgsT5hVNYt24/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GDSP29iav4KZiA_vpFX_b_MktWRF2TXZi1pogBlTCLginZcV1zPCXCIPhZ2aiNnBPO5nj0gSfYwT6xWw1JfUHaCqF8NLCyVFcwF_SCAaoRe_8tQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/cwpcpPZb2cXWr1jjYD24_PtnWyVWohUF7Tn5_xgmZiwUMCQhv_u1APW6rm5lb551-ju2POf3A725OfrjzlqQ5cgSvFycln1z3XDYc8D30dGnNcs/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -802956,6 +803344,26 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2350775.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/JlUsoVsuIOqiyljrt1TuXCH6UtzpPrU7dyG7WpH3Y5YARWML2408xBdwvwwZ45cXgtNja84fbWBvVGR-F0wB45Qxp8J3d4AQX38qbug4kkTw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/NdCB11sW5Zf5i4ULdAM8OxDGD54bKjN4Nn621Ov8WfjhQNaZankLQW9bmh6QIarCXa8zXQK8qUqW-WYz4aAC_-jEUdF9x8yR4PVn1Q/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/XPciZP1nO4cSykZb1swyGQexTa7qjOtSrNt9HG7jU0xkcfEj_EScGKVEjvVYdtLIQBvXcl3YfMvNYDd-bC8WgtO6LhXPtziR6y_DICuzr9M/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/s6r4awNhH_qgBGYwWVIbR20CmTVvZEiZpnw2H7S0kCRvOOWzJR3oIVrTMrw3jhR70kuCbY1HfAB9FprojlEaVJOgZ5qoVVA0k2lxwXwelNk-jxo/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/EdDvX_sQR_mpIF0kMytXsq8Wl7xEVBe0xMOPgUPFHVM8n4khz4VMKolDvJIfIp8AVWm3opBgWI4VS3-Yku2T-chwI0S6_bH9cOBaMGumzBkQ-yw/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -805096,6 +805504,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/183149.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Y-CpY76G2lrQwFpm1dweHqUZEzpx_8tj4_hrwRnz2NBZFLl3KeZjX1BSYgTmxL9vmoMC1mx3yeOdxR4gTimu4SdT1YzoXa2uj4VPHnYSXbDU/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/24N9a3SPgEIUW_t_lyu5cpO7D8g6O91PEfoqGqSUFm9sKbopysqC23tdES-lhAwcCwgREIIp8rAMQrtVAF9wt6OWD9Cb36SvlTzSxg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/HdhuevCEHwYsHWVn0wpulG7481P0VjP7cYbVKCFejTMVqrS_wa4G05duC60KQHDiukZu99gvgPIY9xVt4SvW9VdjjChdFHaecvc15EBnALA/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -805461,6 +805881,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/44760.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KgZhaLaAkF7YcbouPFTDj-9V9N3SvvKJyN9_GDIDOkqti_UXB8xD4C7eV4HPW6vNyWxEDJe3H-FSgcKkte7Im8HB31MdWVWOuYUTrRlr5wYc/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/vYcQKR3KPS9zOXaWPK7I4HZbn_3mWVhb75nocyotrS91anlNc69n_P3Y6AyaL2Sp44sf_PL5LGtjX6D61kwOCXIFVD59uiuxGHBvMcY/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Pp0D5rrU0fQluDujdC9JJ6BWPsmmmsKmTuxR92SDL0sFaPh64NdlsCFSUXBnSSJUhNVd1oMztzeKLlAvGkEgkrSA_7DTJOOsKG58_1kB8DxV/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -805847,6 +806279,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/248807.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/-jrR9RL9jlzbctP1zjs1YoC5q3sz9KMd2w9mBbCSPs7QhDFGTF24SbvaQ9aAPFqJ3OyBBNPVJCw5VjWSApCPbTrl_eOocCfe5asOQuR8rcKv/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/a534rnq-Sv-LabZ_pIUDy63M6nKxZtXTNPU1QqWfHoeeuU8S4rWSYEtPNFgPedAwLZdKUJgKW5hBn7Oqde6L6LJ6V92HZ4mh2_3lZzc/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/S-pDCh9GBrcrci3uiLc7KSMPWfCInv7Jo2vpvUQAnH5GVxJZQUl-ewi4pJNy1USNfTq9gmHg0PsInW1ni728Shqs7-Vldm-E7xIKzQZO15jx/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -806140,6 +806584,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/248181.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/MsqXMOfYMkEHlDq0J_S1caJ_Kvo4bsYZLXKaz-FXvZeM3U2G407zboYqbMNta8A1m4nsAWhWo5wBcmErDegrRJz1M88eK_bpOd1PwBKVhk1m/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -806575,6 +807023,18 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2110956.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/jkclU_i_ad2ypP-_CeIFxttmSsuBpVfsLSQ3d6K82y1TimPTWPn5eiiD4zylANYN1VQHyigsytbW9oRE-WXDmNMF9hCem71w_ClHlB8/video.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UMIKjmZM8C87XB7DHaGFGCrD59llqQTsWDNv-QlGwPvYaMOE6sxCqz274rEHVLPKZ5SbDqzJp5o1LqPuMsRxX8XfVRgjGseNG-BCFk2X_z73/video.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "https://dj0vkl2i4vsbo.cloudfront.net/convert/Mute%20Girl%20Loved%20the%20Man%20Sent%20to%20Betray%20Her/en/2025-07-16%2008:23:33/1_.m3u8",
+                "idioma": "legendado"
               }
             ]
           },
@@ -806754,6 +807214,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/183931.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GLSyWyTYeSL8l4F5PWhj8hKNnEutJDUQ3fJBoUpw-6TbUfCPVvZrRDYlUuJdMgGlqHvVK-2wCIETP1Bxt6J9T9ZVSDeE1PdxwAT1QZC5VqF-/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ICDEpz5cdiCGmnvLk2PpUOMx-QQ-KM7vpWd4I7AB_T1o1T6znpBOI_wdmxxZQqeSI9tBZuknLCNk2hyIn3rN79hgzZpdfKPfXvtLoQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/3jH_QfMnvnyqHQbwt-8sgy0EUXQzTWpa4JHJKofw6Mc5rQuzYkmmUMXmCaFsRM6w801vsbq6ZM_0lY1sqm1VUATfzDpKQJQOAdtiHPw43pQ/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -808101,6 +808573,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123719.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/tDcd9n7_cCuKauDMS0JTkLtZqvsYvfMBhgjSOOf-5fPo1pojA3OFZMc6o_MPk7YR7id9Qy4odn1v5cafyvU3hVFE3R8myYj6qK1GVkYRCXXv/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -808405,6 +808881,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123739.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zS15P5X1fpfDGUSfqk9uVo5XEooZAJQYh_LYFeOljwifGvQtcE6fjkBY9SZ9YQfTS15Q3kIZBQ35oxkA7zC32mVxD5PSDHfxLQTIyAg3lKcC/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/rZMsBY7sP0mw7nBYYJA5JiTgXmkd0hNiFoP4CqExgCsrk4Qofc4miZS5eKgiuFhSF2N8opCX0qkW7bu1VAIjm2qRBZi2nr0qq1vr/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/baWhnAF7ZOAtUlWh6_4z8ZCeT3aXxsqaiuQLMxq6QiM24TkM40hUACIiNqpQaAQQrA0mJmy15aHczsxAjNGCtDjFK7cKhp_4laM-UWe2Iw/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -808953,6 +809441,14 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2334274.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/vNEwB6LwaIxZa5kbrhzGfSaqD6aT9apmyqD5_wjO7E3oq-2wJX1o4nq-WRng4ZpURhCt4aNcWZ5qkIv-Tk0XETboOSGI5lcFP1y7Sg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/-fFKiqJYAKwh8d6zQ7sfA-9VDT_YSchUKp5YasLZ4DehBAYuXow0XWZ0fMhiFzLAQaWFun5A-z-tyATa3V7jeYwypNsEAApb-uj0Ux8IoLc/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -811144,6 +811640,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146833.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/q7k603d4EnbneaMNjV_dMeKDakXXfGvw1VK5k0fdpASEyKOycV4N9ZSvBR_WtSR_1T3yGPvYtqsMAFfvSRmPZvs2MpeewiPMlacVQLcAkgiw/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -811295,6 +811795,22 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2258393.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/emYbuTgLsSnTpiv4nOg5Zt787iMgagH7wQfIPrfayG4BbxPVMy0sVoQ6NTj6OGrfAV9zymcpeobwkvqpnDSFE3WUYG42cqx1GozWrggwCXWk/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KWfblI5pPPnVHsFYwVaavKZG_zRgbUaGIZw4QGz216eZ6-L2PC400kGMru2896i5BdEUnS9ovbFbhBNldsgIJQUP7pNxNCsLz_-x6g/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QnyaiyyzsE4wc7C9z_XrMpR7dLHqTPU0Wp0-cNq9zsRYjRy6F4G5WY_lS7Gxet5W9I6jRybD9MOHErJy_UmZ34mrlzqHUPqCR8s6DlTgskU/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/o5QUzM7Gp3TJa3AW5C3RB2yZrAM8a-IaVTlvHxvy4ZL6tx4XpP1niusmR7zDTQZq98k9VUmDSw4HSDp9xcVfExZKD5bVBar8gg3s4b3RKojjbls/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -811504,6 +812020,22 @@
             "fontes": [
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/105673.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/emYbuTgLsSnTpiv4nOg5Zt787iMgagH7wQfIPrfayG4BbxPVMy0sVoQ6NTj6OGrfAV9zymcpeobwkvqpnDSFE3WUYG42cqx1GozWrggwCXWk/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/KWfblI5pPPnVHsFYwVaavKZG_zRgbUaGIZw4QGz216eZ6-L2PC400kGMru2896i5BdEUnS9ovbFbhBNldsgIJQUP7pNxNCsLz_-x6g/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QnyaiyyzsE4wc7C9z_XrMpR7dLHqTPU0Wp0-cNq9zsRYjRy6F4G5WY_lS7Gxet5W9I6jRybD9MOHErJy_UmZ34mrlzqHUPqCR8s6DlTgskU/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/o5QUzM7Gp3TJa3AW5C3RB2yZrAM8a-IaVTlvHxvy4ZL6tx4XpP1niusmR7zDTQZq98k9VUmDSw4HSDp9xcVfExZKD5bVBar8gg3s4b3RKojjbls/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -811754,6 +812286,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12837.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/kGcskJEQl55ulw-dq6U4NpMDE385pEFyfktKba1B9G3X5OmzGAQhYwMl1Tzttp6Lt66LrOzInawwb680MbPABBO78fdHtpn1jVNFfxr1AdWg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/e64fHXk2II49znBABYtFfcFWT2Tqt-rWvRe0j22LmCha2XAaD28q3xDZK76JzJigWohEyEai6vaJCNjXsgnVbxv85nR2sxO5BWwqig/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GA0e-WkmvHjIYah9ZI6Qih_iEvwr5d9--W-AeQz8zHzMzptiITccrUTKBOSRWGif2QJFVStnN51z04AuGISPobqRamwDHUbB9SIV8Tg4ebA/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -811928,6 +812472,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/184026.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/yek-6QLGsqT6O4A515B0QoqXFIlXwA4wylnjI_Vdcc-sZhGCo-QeqbwxI2z2n2K6tCDwQLUmTKATKGkOIEjndPDz09YyEKb-CFZ6OPpFw4uj/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/iFqs9QXOWaUUe5Scu2oM2lOolua9hDS2ocPB1pQsynb502IaJRINzzKRz_nxC5CSXt2P_pJ7VX-V4v6a2KBB9FrJciKRjqZxr0MrQA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/N2TxyAcLUv-6Go-LvzMoM7hbhSwpKjGNpUKPHB9FvSphE5jHaMB74phYjgrOQVEEBfA53MUj38MEE-_YOYvYDaE-NPjHSBHo3ThNyImyD18/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -814599,6 +815155,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/213591.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/bNluij48ZeoWodJ8REZHNzFSrv9ny2X8fEcUFOEC9jv3EhOGrWcEe7phTON3rkGP-hpzwhyYskQH_zDonfnfq3JCoFnyIbA4-1R9/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/yxEITrJ8dsH0RKbqGc4qpR25NrFm-g5x0eXKUFn2LSVXHhRcX_zU2knfzu86XKSxbGY6idUTDjXi3mm7fo9ID9cp_NsEpBxWDlfPYG85dw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/cp5HSBwLfeARWeGncQzn1wJFi8UNmrHqzw7Oaez6INnsWjwoqftkNSj4hJ18EQRJn1j4yOnLLado1GQ0s--HIPjwd3scCTOVAl5Sa08PgNH69Po/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -815586,6 +816154,14 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/270332.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mB-RepkhOHlboTqQL63F1VTa34wBLgt5QGPe2p81kmxIN1UJMqA4IbVYdPYQ1dEGoEUYfNjFuEqIUond6dQLi26T0l_0BCtmXe2tHw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ALVn7ibi-ArnjlwUtwZK0yO0JR6q3RgtQxfVlMJpUSggJeGCmcv8V1pVnXo7-3y4LVEICjfo6-fjK_mZKAFYGt4Lu9wa00U5uXz5wp2vFkIX/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -816136,6 +816712,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12859.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/DC-Rb7D8Euf2_1zFc2FsJXn1mWcHP9KryZotO0ptHm-_2SqWb7w6t9KvtphK9W6SpAXFH8_rh9lAChNHdY2cUtqfqOECfx6vVgyPTCUm4X5p/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -816263,6 +816843,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146860.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/JYXt89hCuruqd8Vy299ujj5HHocn-Sdk1FIF5pfF3l7ijbNacjnmFb6_ciHub6UGRtgZmtukjS1htYI_STu32bkplGZtLAL2k5Zae9fkAfbp/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -816706,6 +817290,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12870.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/TUw3J3qjZBcbsFZk8VXdyQFp9Lf-84gUGb3wUm6NK_El1BmjfIJbzu3P_g3Anag_zsNuFOMWZql8wQf4H4_ZZNEevlCBImpN_WVbDIRTXkov/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/0rIvEor4n_kh_N5sJCoNsozhuMBlwJMPHRQBk_wjHTzt6Va6lVx0Hfs6w7g3mwZnBM5hFbh1Wh55dSmLKbLBOtXdOLfqRjLUYmJ6ew/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/6HMhKLKwrJme7nJW3DDArl0fZ4EKMHhTuBDW6b-lehm34FoM_j_qrMVSW4OSezAeUtwMQxnaUZf4Z-Lv07nFcUQTWJwnQsqHIwPA2zyY1_E/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -817929,6 +818525,22 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67330.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/bXFlynVZJ_7cGzYxQssKTnzthWJ6AA3RPctlnhNc1S3RL7V5Qe8W9kxK_aGPJV9_ZELvhTFIYWOq9CUcVdVaWIjyqrYyifMWh34e_9ohLkdw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qNoDZ7QPh0K2pk9Vtq8StRrzYdLzlpeyzWevCheOafxTL7Y2yPl6A47WIXEsM7yB5vDkv5aFtpJLBxbOIbxtWgDmPqLPlZ13Z53F1A/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/05MxCBHn1gc3JScN1Fgnjk9CpyN_WXMX8wty4FYNDqGEYOfrqdcPQSu22Rl7WozIu-7-F5A8DYW8TC63PClhgTKKeDmDL7tTzQg3Btxg0x0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Qfl1OAQJxI05_b9FqL_jud9-c_1Odk2bINR54aKHB7mOilWVyRXebtX9YqMrYRk1Ov_Lof56VtxZ1niTfL72QNXZeiorOkH9oRO7WHrpyKX_D_g/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -818154,6 +818766,26 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146868.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zD_lL0KIatdI-03BGDdnZR80a3GgJb2Z-cxYJnBIzgO-OskP3UpUrdiTOfYXoLwE-OqlzE7_Fyca4V6aDkHj1dzVEO9rUM7NVxfOl50WungW/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/MxV3DS3BEo9r4bGWkkT6kY-iQbRK_be42nfLthAuF-iSLASRNwtYqVPKWUlel4HeuDxTBgEtXFENeU0Pa7Ebd1VGM2QOS-eVDVCH3w/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/0dXGBgiKGMcDUgDIhdynv5SAgYrW81z5fn0TJFUyjArGL-VAZxwt5A8h3LahKgu5ebxJzz2QDg-R4umuM77itHDexTsIS2Lgocb52CRMAfk/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7XX0jf-zQ-MafqKDeb3v-YzsUvGtPcQiA1tw0qp0YZ4vG4w9eaWKWfUaZsvyONZfqAkI-5SNq9r8TMN6N1aiV2WSzvyFIq3ivm70QC9bBrLUeDo/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/bc5n-lPrivsOhX9GYQykM67kdRY2fP4JUvJOiCM7OrSUnwUK4JsmojR2PLK-NZxlAtV03J6E7hjFzIDVPyVwUMtq8vCPpuw75AYCtqRDFJMay-3KKvVooXrgV0ux/video.mp4",
+                "idioma": "legendado"
               }
             ]
           },
@@ -819087,6 +819719,14 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146874.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/RuihYPDqo2eScEl9tXDVRN7fM4kjhMEzzagxD1kgTIroXFrFJ9kZ0lJboKO6w6chwV0X1C8rCceEXyJTx-mn8SLbrk3yvqQlsBf_SlLJ7_g2/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/j7cnEhjkOOr0g5wevb0cmtH57KFo5va0n_2_XzS3Yds4n9vKZ-BsfPWAJqpfhQVtmj9JJwo0ZCnzCKo4NYWPKPBv-ih0f1lcqPD9tX7-oCOOC_E/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -819222,6 +819862,14 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/44794.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/MlcvFbjYwKeDLzygfGinauknCY6BN1G7YiPGPRKyLEvdtmOt9fdfTWaLxfcA7EVliROUnuMfhUpx89UzKAKXh-DiMCXeS16v5gIGC84/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mbESC0gxXa_FDU2RElIC_rKcr01QjgaRkOYwybfHMy2CR5WsVgCjAvgkXcU2zJBRBYVULg8hmBwpIrdupyFHB8b35Vbpdm9v7GMAoNnhbPIK/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -822639,6 +823287,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/184199.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Uq_qvrtQJ8ocCNPjJWu10reoEt9A5IuLS_yZDzFDCVrPq3xr4doA16X-5t3IaS2vehZ6AZYtkzgXCskiQ8LYDHXTAmjHkHQCY-AC3uOKIXfp/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/4rc5pHp3fQ9nBncfUZvSTA-GSsdFboILNIAvwvmFLxKIQ8658o0p82J7I1xdGQO4aNiSINqTpClotlOg6MYXhtBmHf-n0QdtZ1PK/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/pst00mSP49039LdxZPBeC2ClCChb6x-VjGSvyp1ud4mEKfCHEus5675SXtRwm7hUmhlpQh_aWSnWSheY5A7-0IH70gp21gaKEfaeUBIsuA/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -824831,6 +825491,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12981.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/OsOfHHjRfCrV2AwW6aQjY3dlHF8YYflZzYkK52j1e4Es2TSn4f1Q5sgQU-YxpECDyj8d34lbDcmZci9lUV43tch9r4Tt9G_mX681sS7b6yMa/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UIpckvxRwH3b_U3aji4xpHhE3d1oUhIJsdHzbtHmEzpMtMXrrvV4L4fv1ctSX8hjFkjp3zjBnxfKQojqvr_zOBON-qN6Happ8puZDA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/-wMUPhe9CcYKwJJc9-C3SPlpaPmRM-F3onk2vyRNuU3wbozKnRPg4Au8ltg0IXvDtr1qr13jPwrmVuVvnm1fuOB45QTsq5zFAoG4T4W2fWE/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -824986,6 +825658,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/241431.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/psFQlRFTtqJxr_pAY6yfCQ0wZYlvqDfSjzqTYec_fR8OA8nSiVJDTSwWbsE1qVObG4FaQ2JrNmO3aO4qN9ZCzWmJySPYzmV2lWP6YiaRq5Vb/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/_07Abe_uPcgkJif2FodKXRo1llPBBiIe8jOI7aYONQcQs26gvHkUeuyPNM8lL_LObvpf1SPhE_7_6WdautWc-FUXCtc6BIPkjL3UPQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qsLqrT7ZpPfcNE1qsbBgb8mDLlOz8ksrV2ZngEPxpenSGPV0mlCh2TglhU8dsTyNMPs2MtC4E3Cqb_0hUDp57i1EuDUv_DOePL_K9WwvmiM/video.mp4",
                 "idioma": "dublado"
               },
               {
@@ -826395,6 +827079,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67356.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/LD3-v1GjGwClcUGFJ17FMEXVVLSzQC1xpf_dhBiDSRZUOw8s9SwFNB_ZlAmyFgxV3GsG8aOCdj7Q3Ohh0oXiOf80J12Y10IC7Wdphcph79DB/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -826452,6 +827140,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/52696.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ByXtxB0S5VntLsQS1N3RB65m9ieQXnDnkNpXyVv-uulMyfn158lbxxmP9IOozWwgORweEoFrIxioD0fkCkYVK0Nppa6s4hiQm24tJD-HnT6j/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7OyKQY6nB1u9Mg_2LH0pRQip_1lHejhBoTrkjVNeBJguSt0ivVk-PkcrgljITLTSBa7-2bWXhYqAaH8wvJrPpcCBJgoPZLkO-QpSDQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/i39phCw6EYsPqHUrrAaQscc3d9lFeMG8qBuDkHkv8JLCVzGeCjEbH6r-Xd2HEC7QG43vQZ0rU_KqJ6LsIqdTZHXUmIzupN_QuLOw8ZjUmKc/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -826581,6 +827281,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/52707.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/tR3mHxuUdrdik7c0Muz0VHmGWqK9faPkJvN_rIn13Q2GAXx3GQE7MB-LjY27wG37g3P1EhLiu-4ZK76tfgK0v_BS5vRg-4lvKJC1bYPMczeL/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/BCpYWjWHnPJ4uAiFxj8SlPMghIVYHCySdjqD_vrh5CXS7LntjV8OQwb2VzziYWi97X-Uj5HQebfv-xmYDRcCS3x1qWbzdNQQIKQyJw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Xw4qlbaZlcnBc6ltWOFgtzbt2NZn7IqcH45hyBhzA9ThJH6Evvjx3FVAP4lKEfTqkkrJ4E-JorAt-jB2oXy3UJdfjF2FSpZo1F56P0-PWys/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -826708,6 +827420,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/213653.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/IJynHPahJjyvChROa9SQATdtFmzGp48VHU5nzk6moc0tf-bx1oe0nlGwMnW8VoWjMOTxlaUlJR2QKKeyI4RVvaS6bj8rlh8D_6jWeE4q0SjE/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/oWcI3OnKS8J4WP6js8a48y0UOCvWAXmz8pvrxaoQhCu_8r8h-BpgSLUFxrt2QXONPrGh39kv4PxyOQK6D3fhyy8uruFam3mdELKb/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/PiYe_5Y-y_NRwH1Tsvu64GfrOux33wZy41mn690YXKGhFy5lNEyLcAuLL8HcgyUXLyBhQ0y8addPYD75wzF26eJ_GRo16StXZMkrvjlu7w/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -827347,6 +828071,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/310560.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Lyk2DgeT3C2BqKsaaqG9wSz8WWnkUV6sj2fLxVJtvjDoealbk9sLUTC14yfD2iAmzayY-z257ry7Y2tT6bfYyiSYZZ9W5LWES83X_E2dWJk9/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/I9gb4nQ9XtCoJgNkWM4GNcoExfayMc3dpusCGMCaBQaFSIjXKd4o_LXbkE9VBy-MhmftkuQuheETmaDr34DGfWjUkz6mu4g4-9p6Mg0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UVaDkTPeiAAu3uluDbFERyXeQwaVLxnN2n8LiGaCGL3H2JZ7FYEKhuhZbXg_GV-wYrHTa1WwIUedlTxUe_dTZMZQkyEk1id0dX53gvUck7xN/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -827535,6 +828271,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146895.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/R7zsRtTMiZPoTVn6i-uA6Kpuo6gFuqVT8QzowQG76grPC18sBB8otETFm37zSxmAEDLwZtzJToR1JLdTnzaUdheasFDncytfHqadyitTzFAr/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/CTMxoM7EHXDkAZo7qPnBkAom6SX-Jnm6n_OKbcJvSenW9yeQUK6eX3uJmV0RIw869Ua9bGq6J44NKoAj6Gn_gDUFqg3rgrxe601txQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/B5wcJIkksbh_7I1eDUVBbSfkWZlmj-cXUbuQyhbsEoJLJ5KpFnlk2T5sV7Xu-en8apLItwqc7BX-HuCWni25KepnXQzRNrPfVCPKGGozfmI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -831256,6 +832004,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146901.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Hp83Jl-DE1yCu4gntnqRNRDhOm_RDMczSqA7FnefypHMhTypa0c2gt0aASy_OHh9WULQvn9AxNcTJiI_aNqcRqA102AIppxja-v6sptXMvDF/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/pLwAUnzrxQ-OsQIOUUgXZc97qpXIyOkCxNJ8rVa3zfE12ekU-Ijv1Y2omIZBdbLGTKM3E8nZvIZyk-EP8ytXXxYxzbNm2Igtj8UGig/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QqUqV5r2cNdhKfPtE_ubbMxTYJRk19BOBLIbWcHoNPE2PbbdDN6dzimklDr0dhpQnTkIXaiq-tIEFsjaBh3AWeJIzifFdjxdRQmK5wsUSWY/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -831614,6 +832374,14 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2208393.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7vdgi7sA5a0tmmlTLZx_4tFasO_YSZllnlir1sx5SnTeAj_7xJHyIkNwAemGy2sbd6IwszTtNjGknB1tG_pg1uEw5iy-s9QThdFMPoDAy0R41O0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/DTiXGise4wXITn-L7B2jUMSA-qBcXlJQPaLkRrg-T_DIEYx-G_m5doOJW1lxXBoA7-QcwqMrAYK6gkOiyclWjXWVrgL-Vop8k6LN-ih1Dy-4XeI/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -831809,6 +832577,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146925.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ZZLTWhWi1t7_S205pm5FL26UuGZONko4pzxaQ93Y355Nc_U4IqhUS1zBA3zclRy6bk0W274jlsAH56Xo7EuRkJGS-pZuqEWO5-0K69JzmXkG/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/xHlzJk83jI4tZ7LqujgvzmfhiHFi22FiPEyXGaZKMcqcuA596TZdT0ynmF7hiNlNNNWG5hYlMPqcnZDuFkFAqMfQRwKMrvIiAemx/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/rQbvdplnkgCIXWMGTiipOs4SFp4tT9plA4c9-bXAqEAggoTatqFcDmSn-uRXp28LmhTUGdKkeR6gfNjeKbvezC8JT2jh-C8M1eqmmUK_QA/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -832437,6 +833217,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123849.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Amp0t5wqUKcwQt7IbS0SapM01vA5fqTf-ejH0bsB3gI4tuEFCsOBMAr3BAu6DRPmaf92z33rKrddswBH20q_qLtLydWVxCOMAMzMw_8GZuzT/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/PrRAuD0doRMxKWeblC3cT0tgVCL8N6noVLa-Jks_qadOAojj7xBBRZhLgvcnyto1OCPfXHI1yeb5u9NO6nDIRP9GpflcQT7TqFbk/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/3WjvvQb90UBkXixHhVQCXLCJq0JQaaecqsFyfEf82s9jGZtmEIG6ibndosI9sr8NP-faP6mSRT6nF8ACyfnI5cdILMrw64MGheN0w5go4w/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -832550,6 +833342,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123856.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/AUYu8vIlrmVgWBoHTyokY0IPW8j3GcLOxMv0NH6GZtx_gwAakfRgvPAu1iW_OmHdEorfPjIHKYu1hcfT00SfM9QtoWJ_ZIJKDBRRzl36YvUx/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -833566,6 +834362,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/252863.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/dqjIpnII6ow_s7oe_eV0tvmxudDZ87szptNIn1sSjhKurj6EssHSG2OMI2FK0bv9AUawy9pjKaTDaeI5szd4rTp-YmGKJGBhRLsq4yrnOY44/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/95QsIeckzySzCTNOCe34SyghTGAifOR5xdak29UXaPz_hMqjNs8oeX50Q44c6Le9t3jvjTAm971yjT-H8_ihrUVEXYN36S4n7zo44nI/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/AVg7V03bm8WM8x57EbBYH7ygHYrrwIL1eY3WswtoiiLRc6h82XGe2I5OkgUSGGGd2YohLxCZoVhVGwmcP1aEkFK1oyWefJxDw_72ECf1oY1L/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -834910,6 +835718,14 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/294441.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Brx0qCxId2NJxK9kaOBovJuFgvXZFtOVAtNa1YskFG70XI0WrGynVB6gbLq7FbiiCOF2C1xGcYuoRkmgG-lHttLB1-6seww-49ig/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/aW-HvDisuSB0rsX4r_eD9jSKHh3IFKdaLcjnB6EA8teR6woj0sr_nMZ0uGIJ2lqPI37-3HDA7-Oi5LFHuI9iseLs06unzMTR7vPkf1o3YQ/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -836312,6 +837128,14 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/294256.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/-GK6wIopwoQXqj-CYcNNp2DvRWRHTvzLFMR6F7HFrTzyCyrLECP2eRL0KbY-mXmqjkCEUV6TZlQtwblblCNX_reRxYjaNY1lW-mtcw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zDiOMC8XA6cEFc8JB4rkr-z3qnEtBhLxDppK9vsaqQ8bO_qP_nXp6HlbLMWQqExVpPfHbsieYZlshQDf9QCwCUBF6x9pAdCw2prHy1_ljY0/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -839665,6 +840489,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67361.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/1MQHNvn90Fh8-Mo3mI-O2UIeQh4FJvrsDqT8q6IPY8viDrVt6sba_n8YOtCfBDqSFHJb2JRR0kM35NdHEFthSBSRmWv9FkO6OQKCGxhSIQtF/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/TqwI1IdG32A2Eqmg6iRA4EWDF--4WmXlaPayTpN7tNm_FA0dPm6s2o2E468b2ctDm66s1S6MoFYcmg4d3DPT-7fvJh5ib2D5xixdqA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qF7GGZcBGj_OnUdjIwKgszXiDv91YvqszBLZ1zDnlNzydb29VOW42T6GkYcTIlQ72PTPWVq7K9CsPazCHTm4F6eGIBdeeBvVlKuTuApuCkk/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -839780,6 +840616,18 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2300067.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/1MN04btxY1UrNwpG0-P4a_BclmAQbElJ9-0qXvC_C5la4xcumSBABr0SS1KM01hCD4EwDHpYN1T23xOZHkhx26rPGa-3HxLy-Sys4LyNyF9Y/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GzwfRnn8_bpdwtpC41Ra8_NQChnb_Ro2fxC5NZI8EzsuILZn0nwEJsO9z0INWV9gmsSdxZdSg3FtXQUOO3hMkFWbF-6Yp-arorh5gA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/9eOfrTtXvB7pSrbc181GyEDOvntJHaRd3__NFJtCns4ezDGE5H7XGqn2o5L0PZWEAG6NXKocNmyLX0dyiR5Q4DhbZF29MSzYf8OGLKDlYQY/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -840440,6 +841288,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123896.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/4zti3BHnONtsm09nYg1cTCzInlyHPqw43sByH4lDbRKnFFREmSnjg4pDFdkafzrZeHJ0bkr2PgA7VCrA5BuqwrwmwueBcM0pW0d6aZGejJsm/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -841925,6 +842777,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146949.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ek-soxZm0sPxPbXpE0iDVFFwHqFyt0-UAPuGeflfkJ2LZ0e9hd0JWvqVBV9h_jlzHLLXGs6UByoCXE5T5_d8OKtPGe0VVUY2jIbP-wyG8mRm/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/iJfKRiIBz95dMMfq58GawS24wkNjG9GOKpDvWjQlk9c5ej4WP9cHa8iuVo_IFZDXIX-aYFg2g3bWPPGN1vQcqP5dxH2k1qG2BCJBUg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/9-l-f_36G0aQWNW_Dywtwt223ssuL-7B64P28IMg7C7sci5i54vGcb_pu62Q2c-2dEOdAeWz-0XNIfAuj1sgXatTE6D2PyHF9bEiuNnfeFU/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -842074,6 +842938,18 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2330075.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/u8BDkdjCor4zjGWuuzlDsC7p9laCNZwokZfGWRDlDleU03nse-1TEyqHKoBoVpJR91wix3mWatnSH3r6se8JgRLS4WDogoV9eJlZkuBUou5p/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/3dXS7t4h-jiU7oU_A2frtMCKOg6NrLz7MpxCNeAyfDD2mk-TcgXsv_lVIJS9_G9tEUPvO1TolcLXnz8y_kU_kjAboYoiON_1ZRPlMQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/il2j0CnNR5ic6fVxlzm_xWeiTmQFzrHYcHOIbzhZDvr795Lxme5xHv7CEbHutL0EJY6xowBpqdFMvWuJgxROlDBoMratAt_yc5bevA6m-9o/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -844471,6 +845347,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/213696.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mOsju-Bc3TGfvRhPE700TMACD4MV7VZ4xnPhaU1u-z_ZToMaHpyZm3d7nKb76_znuJEuZWfSVLItVESCzgB95eSGHUsAwnI2V0CsyNjdic4k/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/U1b2ngLOHS7IF_HO3mYk1_LYxSmZ18CsV49cJncNJ4y-9h7_8rARkaHq4Us55ubz4nbj0iWdJWfkVrp0_6uRigQJjz4-JjWcjUVz/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/9vGOeHbHTy5NIfFkRZbJccOXcky_JjawAbxdOQ8C4ufP5Q8QdQb-cIaxKm8HESh2hTX1nvLPUNyrdakkHPe1XIqE_lYoQXlP5gt-9Frt1g/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -844574,6 +845462,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/294539.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/iB0cyMIRtzFMX2qfjHy1ERgB88GV4Z51plou_6T-UzsFEB2tjOdjoU6px1_6fA3zf_z_jMRsOms6dfcK5Tp4sA2HFJVnw0he_Ad8RA/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -847253,6 +848145,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146957.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5VTprepROV6gAtDxuGevH5c_JPrAGMC8D2qu_6fJGhXTLeFQ7XnaFAy31z2LMPSrNFC1SbdV8vtCYcky44AeqgxWF7cb_NUykz1gm-XmVOL9/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -847492,6 +848388,14 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2305325.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ii1R7AfQ9T_sz5JbXRJ5VRVS54r81Kfrx4D00zYkWiPUd8CUTNYspa8NLdiglhpyQ_7nCaeIvzCYgnW5OJ6AroU6C0i-obNZ5uidOA/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/S0oFHHFDEubOX7Kk7LGMg6ia6PVrVId4Hhsg1IO6NLUcSBgJ2J8f9zqEoZ3rRpf-Y0r0AQYYe6nEYEWhg3ZYfusvjDGMGq1z9mZnORNeTJA/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -848513,6 +849417,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146960.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/I-cPhu0nChsfBsge9N1pW2zrlzCXfWxoFqEJq7vKBe2FgLQ18bwxBQ6cqggDXplAvM2YCZRZyR8vRn43yEXGGmzMe3WBsZypaRAgNxyIzs0T/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -849240,6 +850148,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/146980.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mBuZwZlL9h5CbrcNNAtXZfy6t06etZqBUgtJ9KLKUquWHz5PYa0lZQZU7OcAjCIBv-igimpjmXRWszw5Ns-y1QIPAcn-OJ4lvIO3KxFtvsh-/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/lg1OP0Q2N2__4Fd4Pu1GCYMkPVwMWI7X1cXnDCAty2HN3cWqlBr02CZHXKtVFrs0RSseemsQk7HvEebYGSq4trX1H3Fx-dcmBTQTeg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/aeMKNY-nO1dsgdziCeCS2iTDJVtSHrkQ25j0gAGkbvZTlY0Qy6jrJtPdjn7hSYT_4mCkU3Q44PLKS4lkm-X_Czj4wM5iXkbeKipdqfIVQbo/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -849343,6 +850263,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/248825.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/w1dsJC3OHvgZHpqt-_4W1feYYbFhyLeHnzi9E72SeeGQgFROUjbNW2Pjl-2u9o7amMWbnRcK5Ol38O2cdUKfgVrWfpa7p10JkBoyXw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/nkT8SFuRR86Kc2KAIaPG8TV8pPocUt0f0bTjM6Zbbz2loOnUyyw6W9zJf0NfhY2Sddc_nS4jXrNv4K7b0bbwwa1XqufAigZGXnjQyOVNBzU/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5R8bzZkuKb34gy3abjDLZZTvWZMAiAQhIO1kXbGcNuJ0IBorQQPG1N3H8IkdDO03xTQUpqVbBdlS8CSSc4G8FwxJhomtPhVyyaOrQSEtGP8r5u7kdyJEY5to2BIdaQ/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -849564,7 +850496,27 @@
                 "idioma": "dublado"
               },
               {
+                "url": "http://fenixflix.fenixhub.online/r/zpca_z47ljjBR3byjAA4F6fNtil9tC8eBDxzAGloAmoWwQHIn6ZaWbaBe2ReLjlOl2JLPy6UL4LZpIqhUZzPDoExMEhx47Hx1sF2MABIM7LJ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/OagCvJzfAYOpoYeAhDjk59qKxc7SS7aDZ0bWNUUZbJl9xsQHbYIR0nqxmSA9jWlpHycjFF9Zf-ZD4Z638DXGTeL9WIONSzNfVKCvlQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/o2r7Ykk182T-kRixtEonw6tqJ27We8etH9YBEk57d8mtvEHasJP85qfPdwjhQuxoVfxuiFowTtJhus0WAL0UWrAD_tMLms9WWeU-KDl3qu4/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/CXcnx4NRwV5KWxlZl6fHSqNgRoqrwcUp3lHVJ35gFuLcfokT0ZlOtl4wqR_nYnK_IKztXitdtEN8MjgpJ0gAfhyctjPBxm_HSteHjc6pBx7OSv0q8_wy66u9sy8hkQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/84462.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/r7nQwBGylE2VqTgw8pBgjwnlYTBwCmQeLmyHqHS48gdWxGfKuSxQIG2K0sq00RLMaVboI5rFy0XsEHex4Gw1EtQyc4NiZh2WllAbi5VxevIg/video.mp4",
                 "idioma": "legendado"
               }
             ]
@@ -849762,6 +850714,14 @@
             "fontes": [
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/12996.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7vdgi7sA5a0tmmlTLZx_4tFasO_YSZllnlir1sx5SnTeAj_7xJHyIkNwAemGy2sbd6IwszTtNjGknB1tG_pg1uEw5iy-s9QThdFMPoDAy0R41O0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/DTiXGise4wXITn-L7B2jUMSA-qBcXlJQPaLkRrg-T_DIEYx-G_m5doOJW1lxXBoA7-QcwqMrAYK6gkOiyclWjXWVrgL-Vop8k6LN-ih1Dy-4XeI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -850657,6 +851617,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67443.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/su1Z3bPAsZ7TLEr7M4TWcbvpjazFEEVbA5KYyGaRX4LtqlsevkdSFwXoOKfTergihfvDEX13ZObhoY2252nE88YlgozF-neqg0qHnotahWFC/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/ZNHnPgJHQZAGxac9bBzYJVFODZH3PyKrYYIcHBE6JeDLHFaoTjLObCPl6t8hwPb83ZaiHA8aGujUPkZu--43xTNURODicVSipcYy/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/XPE2zPSrbgAp0LVQZlqpQiUBCra5vTOoUz1mcUmrD2T8Oz4UIcTuF0Ht_pPtwmc5d8nnZ8pmhsO1JBDx77M0Z1uyjUGYyFgpF_eoWX6xLg/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -851619,6 +852591,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67492.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/yQhYJKPZobuYExGATc-s8bS_s0_PRBczYMWl4yRn2lYC0nFpSCq7-aI7BnrhYkjASMsg73S8fL-FEORH-3EDUcRqs08pRCzZdxQHONDZzC7I/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -852048,6 +853024,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67526.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/oZKg9BmUg0GKRwMxspUiUkG_q8xyWKkzVXyoJh_qhdOLS8yXuvipWz5nnNM-UTickvTdM-fc5SIlOceSAA5vGERgMVGnOkmuc3A2rAwW8Wrd/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zrWKMS1S7sev--BnXuzsbYy_ysxSyuxryfdALeP0FG76sKUWT4sAh7yxq1ptxRICjXgc83h700DarqvoqaQnKlMMbfo_LeCtpmj-gw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/jp57oTDXgVg2unfS5_K_ZyXp8-nVSfQxmWS_0P2NsTjOUBLImFst9J5Lg_JiN6C9SaMskopk1ZS8B0ara4R-tMOl6f2YFjs_bIPEJk1EGwE/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -852187,6 +853175,18 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67537.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/YO7FzKoVTiGkUCBkhJEQ1AtWvlSRzXXX1sgNQuE8M5OIyfadJDYh1SCP4xwxY6t9rbDLQsZEmz37Wlawr_es5Vt8CoZFwj0qP_hWjUQ8-z_z/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/5TdfTp2G_vkRXB69TyMt3fkepSjWNQUGdOSj9hhcLFzylqVPHbY-jBsC2R4rNIkEd1ayXlKKMZQWJNg5Il7acjEg9sT2_TL9OvuR/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/asew1DN3q0AeWb18TeA39Ask9sYrmTfWpgXvtfbW9mtF18HY1Lf8x6RBYkkB7FVODZdDlERENrmXqq48eOg15RADUkZyfIL0tfGwjtSdhA/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -852559,6 +853559,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67566.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/_L9rZg8-K-dHkwPoi5dTTLeo4Wpx5Zx92cK0OEEdXhc3gZ99cxjc2JOECLH-EWIeWyGsjLt5neBFh3QHDYLd-CX1UObnEynDp2pQkvOIlw97/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -852823,6 +853827,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67577.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/q7tKX6H4RrVMswQdX5KkngdH5Uoip00nA0ksiQlAqfbmlWDuSF01F4cnmsiUZ8tGhxyHfdsCWUc39rdTf8PHUFtGKJuXnziFjKbAnirtsJf7/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -853043,6 +854051,14 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67596.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/R-lxENGPqcZzWUSx_asVmEh3yDqpnWXV6_JBekSsuLN5bWn-7_sbSVK6p0nH_Q__AjdchDmIpkBh7tn8UuSjpTFW2Hy5RjDuLlV7fw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/08RQ1LXbQpl3ZIzvM2n5QKRdrtgG3UPC3G4JF0SESVjBijpnyx85Xutd-tlun_rOXZwGoN3Jq56xh9HgM4NsogO17rdcZGGXMy8o68XUoyI/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -853102,6 +854118,14 @@
               },
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2108657.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/R-lxENGPqcZzWUSx_asVmEh3yDqpnWXV6_JBekSsuLN5bWn-7_sbSVK6p0nH_Q__AjdchDmIpkBh7tn8UuSjpTFW2Hy5RjDuLlV7fw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/08RQ1LXbQpl3ZIzvM2n5QKRdrtgG3UPC3G4JF0SESVjBijpnyx85Xutd-tlun_rOXZwGoN3Jq56xh9HgM4NsogO17rdcZGGXMy8o68XUoyI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -853174,6 +854198,22 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/31084.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/bXFlynVZJ_7cGzYxQssKTnzthWJ6AA3RPctlnhNc1S3RL7V5Qe8W9kxK_aGPJV9_ZELvhTFIYWOq9CUcVdVaWIjyqrYyifMWh34e_9ohLkdw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/qNoDZ7QPh0K2pk9Vtq8StRrzYdLzlpeyzWevCheOafxTL7Y2yPl6A47WIXEsM7yB5vDkv5aFtpJLBxbOIbxtWgDmPqLPlZ13Z53F1A/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/05MxCBHn1gc3JScN1Fgnjk9CpyN_WXMX8wty4FYNDqGEYOfrqdcPQSu22Rl7WozIu-7-F5A8DYW8TC63PClhgTKKeDmDL7tTzQg3Btxg0x0/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Qfl1OAQJxI05_b9FqL_jud9-c_1Odk2bINR54aKHB7mOilWVyRXebtX9YqMrYRk1Ov_Lof56VtxZ1niTfL72QNXZeiorOkH9oRO7WHrpyKX_D_g/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -853476,6 +854516,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/31122.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/QeoJC0Obw_OYvSgz1aUjAYdlU6UR3Ew-ZuVEKkEc32eqiIOeTcGFFuhQGGLQRX9fdbwgYwEOvrV5lNlj35IqZYcwiJ8V-VYNuE0tst44T0iE/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -853627,6 +854671,18 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2182342.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/2Hd7BXJr6J2G8mnFI4mA8qeq_Dl7ycX0Xh9bNIH6mpnWqlcodOriLSJxlBHSFpIYx4oDLl1gigc9eV1RpXKy7YDTUo8DA3Xk_XvDEnr2kvY5/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mdNwcaLPS2Qfp0z6mUUhIE6na7iwFNdE2GsMcvqxfAZYs-u2yIgxu10pfdCVElGBHDu2rUbNdI7qH0T6eU5k4ZDRVcAkbga_t5pjYQ/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/krNkS09UKLAUB_gAzH1v_ObJQYpNBxBS4URV3vhBklTF5oW1oqeEshyTW9UQzPs9qA0Pyuv_WHk42LzIPyBMsQC-2XgC0iG_R2HxgBI8V_k/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -854294,6 +855350,18 @@
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2258429.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/dZBKIZbT5yfd2EaMwlMUQe9LzudaWMxu2g4d_S2ltijc8qmMItiHWRW-nKYhYE00m1hnlMXj7anhS0Ya3J9Ke3_YdLAV2byaU9AHAZolOS_G/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/UA0fuNa5b63QnS0JdFy406goURB2jZUZhS-djemOOSN05TeSNiTNOBrFDCs1SMg40OLNmU7cmBn-YCz8dfuEqrJmJA0ML6P3MxRgGw/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/zFVqD0TB7KrOtdZFQ4x119dNSQQ2y0_uHLD_SuEfIzqJCSROQ0iiXHbdSTWDK8WVeVr1uO1TAH8xGCRyUli4ZQsDOFxb_GAmnxTVJb3a9XE/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -854507,6 +855575,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/105691.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/GNmN287m10zVJjtRqPMOtgFGFcAdoi9LBloRL72kN5oeL235YbjuqiCfH_kHyil09YbuYm2S0gOMKrNhek4qP6C2nugz8IY0vVX8rmjTJi_g/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -856282,6 +857354,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/213719.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/U37R5T-d_g2w-wNKxmCbdCphlTaOCCc_o1yi9S40lsM2BCvlDQ-q3k603PldHKzB_TYfT9ZvKg5YmT7An55OvqSL5qXvQuEoB9a0Jw6411MM/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -856425,6 +857501,14 @@
             "fontes": [
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38870.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/F6QHEd29Gq0aNsF8GaKKXl_qm_exSj6ZFzEvnS1XGzZbxIeDUJK-yE66GgnpqlTCJkHPxXHDJ3ruzN3vIHCFM85y_aK4V5-jFwjAeg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/0pQy8CrVbHmHI0ukOLo7PNiioGhdjDfTIUI5r3vdGxu1mfsMFpZZOv4UOp1NUEBJOkXZhK50fZjvmB4XynGns-u_fZPc5_mCHwyAABSqUUk/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -856686,6 +857770,14 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396532.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/F6QHEd29Gq0aNsF8GaKKXl_qm_exSj6ZFzEvnS1XGzZbxIeDUJK-yE66GgnpqlTCJkHPxXHDJ3ruzN3vIHCFM85y_aK4V5-jFwjAeg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/0pQy8CrVbHmHI0ukOLo7PNiioGhdjDfTIUI5r3vdGxu1mfsMFpZZOv4UOp1NUEBJOkXZhK50fZjvmB4XynGns-u_fZPc5_mCHwyAABSqUUk/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -856951,6 +858043,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67602.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/FKFdPVkh3Yh_hHmnvJbN2UcqkoGbeM8f0GUOs_5vcgsPQwv7hlWL9yPoq5-2gsoptJReZn77I6TxGJU4HZTbc2bdEvtaqHlJcetY_YURH4jJ/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -857496,6 +858592,10 @@
                 "idioma": "dublado"
               },
               {
+                "url": "http://fenixflix.fenixhub.online/r/FsEsAcTqhkSH3NjyPIwJUrwndCbtrNsA_Zbw5PZscfc0RIvQc_8SvgEJSko1KFzbWhf9cvq9YRXsdPKlF1H86pfvZVn3CfVHSwASQ6asHyI1/video.mp4",
+                "idioma": "dublado"
+              },
+              {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2288576.mp4",
                 "idioma": "legendado"
               }
@@ -857987,6 +859087,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/147015.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/156888/1x1.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -858319,6 +859423,18 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123932.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Y_TStk8EFPOMJas3gXuxst7wNT-2L9ZrvqwqOb6zFJQNqSSJMEJggwdsVPYrccwWtw_qdECMgfUpUi_m96Rz80Jfl90tQ6sUEnDDpSmffowm/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/i8U1gKJLTZ32Jjugn5CS9v-F9DARcF-au7vjRlO2Nhlw3oZFWY-ysmiaO1ucWlrVULREci47jBOXCEravR6LSlO-4dvdy2kKJF4FGg/video.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/YugbHFundMBln2MR743Y06AlbYCnGJZ3dabpUi0m0BFKaKOsxGMgMBTk3PSk5QZ3vAkFGJbnwUPAWNqIz9uEDlVGUZ7knfn7R5txx8ai7u0/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -858398,6 +859514,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/123936.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/66dGbvmDfzWmNNhxPd4qiSQyBJg4efDKadB24vkCfRtgAFTKuFxhJZVE5dI5CchoHgecYqkivUyWstjjw0GdmewC-OoYEYofyxQuENOoLXrI/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -863203,7 +864323,7 @@
     "cat": "Séries",
     "title": "MasterChef: Profissionais",
     "desc": "Cozinheiros profissionais se desdobram para agradar o paladar exigente de três dos maiores chefs do Brasil numa disputa deliciosa pelo grande prêmio.",
-    "thumb": "https://image.tmdb.org/t/p/w500/c8tPizKFpJJn2A3BaqTuyoWLGex.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/nWxNohdZy1xteqTbFkXIVUoDj1g.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w500/eZFbfsRbHjB9IWTzfCHR7Z5MqrH.jpg",
     "year": "2016",
     "genre": "Reality",
@@ -864621,6 +865741,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/308935.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/mnLBDQ1GsyAeRMhLxcTM_uMrEJNs8_y6BAA0hvUAOE4kCSFQNULjMW4-vaLQS1dAHdjtGFcsiKH6nHMbr1i2GXp7oojqjESXOHC6M50dFOJE/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -865003,6 +866127,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/84479.mp4",
                 "idioma": "legendado"
+              },
+              {
+                "url": "https://dj0vkl2i4vsbo.cloudfront.net/convert/Maid%20to%20Love%20Him/en/2026-01-09%2014:48:45/1_.m3u8",
+                "idioma": "legendado"
               }
             ]
           },
@@ -865074,6 +866202,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/147022.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/7U6jGBeYh4ghM0wzpfhwDyo2N5BnymtRevuWyf0gjQkPRi-oPG8CVKld_uA6bT0DRW8f58-zwLJXGTO4TmheWeaZkJ-E6f4HXllBg0k8mp70/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -865840,6 +866972,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/13121.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/8-ugajlvFXNFG6fAkndHOJUKPJYCqwiyOO0MH52n3rd-VVwS0ap0_Snh5vgxxDjPEW1Jkco2bofSsH-lnLkfpYgmuP2pT2-lojgHMB6BqpLx/video.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -866215,6 +867351,10 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2150737.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/Vutn7GYcye-tIPWqJ2GunnfakXrGK0T4wIzvDe1qGF-G1GrtIV0ANM_ftYLSqZSmXfLu41cfHWsGXDLemjRnHTV9GLvWkdmyJk61FZDOFtM3/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -868238,6 +869378,10 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2101135.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "https://dj0vkl2i4vsbo.cloudfront.net/convert/A%20Savage%20Bet%20for%20a%20Dangerous%20Heart/en/2025-06-11%2009:37:27/1_.m3u8",
                 "idioma": "legendado"
               }
             ]
@@ -873812,6 +874956,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/84564.mp4",
+                "idioma": "legendado"
+              },
+              {
+                "url": "https://dj0vkl2i4vsbo.cloudfront.net/convert/Teach%20Me%20After%20Dark/en/2026-04-09%2012:41:23/1_.m3u8",
                 "idioma": "legendado"
               }
             ]
@@ -879753,6 +880901,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/214210.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/222233/1x1.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -882267,6 +883419,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/147098.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://fenixflix.fenixhub.online/r/tGx97TOks_tTeAclEkXlEms1pJHZyrgGe9mOw0kRTlDUJIPH1nrYTiPafHicZWlZonvSpe8XIIrfb55uSR5SwcNJbY3Aik8VSHypiC8MKLUj/video.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -981023,7 +982179,7 @@
     "cat": "Séries",
     "title": "Mistletoe Murders",
     "desc": "A dona de uma loja de Natal, Emily Lane, usa habilidades secretas para investigar assassinatos enquanto esconde seu passado, principalmente do detetive local Sam Wilner.",
-    "thumb": "https://image.tmdb.org/t/p/w500/rXepN1cocU461OTnOZlyfODxAkU.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/8W9zyufl0IkIbOQchORIPqOPi69.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w500/dr3KFqY3P1Md3OJBd4pjs5w27UC.jpg",
     "year": "2024",
     "genre": "Drama",
@@ -1113005,10 +1114161,10 @@
   {
     "cat": "Séries",
     "title": "NeXt",
-    "desc": "Sinopse não disponível.",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "1994",
+    "desc": "Um século após a missão de cinco anos do capitão Kirk, a nova geração de oficiais da Frota Estelar começa sua jornada a bordo da nova nave capitânia da Federação. Comandado pelo Capitão Jean-Luc Picard, a nave estelar classe Galaxy Enterprise NCC-1701-D, vai procurar novas vidas e novas civilizações - audaciosamente indo onde ninguém jamais esteve",
+    "thumb": "https://image.tmdb.org/t/p/w500/72sME47Jn3cjttpbPn3DU0ci3O1.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/qmliLoo6GVheM2FihatlAXxCKyF.jpg",
+    "year": "1987",
     "genre": "Talk show",
     "seasons": [
       {
@@ -1236435,8 +1237591,8 @@
   {
     "cat": "Séries",
     "title": "O Genio - Deha",
-    "desc": "Devran, um jovem matemático prodigioso, enfrenta os desafios e triunfos de cultivar seu talento excepcional desde a infância.",
-    "thumb": "https://image.tmdb.org/t/p/w500/icPHnFkJBBds6rw4IHf5qR93FJt.jpg",
+    "desc": "Abandonado pelo pai na infância, o brilhante Devran conquista reconhecimento mundial. Mas, quando o reencontro com o golpista İskender ameaça sua família, ele abre mão do futuro e dos sonhos para enfrentá-lo em uma guerra por justiça e vingança.",
+    "thumb": "https://image.tmdb.org/t/p/w500/dek2MZTwZriLzAGK0qasUFqhWfs.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w500/kt7JCtDy5bfCW0z8zxMF7lHeUG3.jpg",
     "year": "2024",
     "genre": "Novela",

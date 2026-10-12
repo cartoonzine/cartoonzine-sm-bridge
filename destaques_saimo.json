@@ -22,9 +22,15 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Cartas de Redenção (2026)",
+        "titulo": "Resident Evil (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/kDFNGzkXZPJPXXy1hdO4Do4X3Wh.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/gQ76UL64RQe3oHwiwHwODTC23g4.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Street Fighter",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg"
       },
       {
         "tipo": "Filme",
@@ -40,33 +46,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Street Fighter",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg"
-      },
-      {
-        "tipo": "Filme",
         "titulo": "Moana",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/wjAdEJoqcmyjBj8jxb3lrUN0PLJ.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Soulm8te (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/l7zdh8qUKDNCGApX3KBOBUOoIdd.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Backrooms: Um Não-Lugar",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/a1pgQeEge47xrS4jGlDwIHiieVK.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Coyote vs ACME (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fqnp3doSeUFLGUFIolHVPA41O4E.jpg"
       },
       {
         "tipo": "Filme",
@@ -76,33 +58,21 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Convite (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "O Fim da Rua (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/aqEPRht1pZR653rmU7eHyk8wSNP.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Unabomber (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/xVRIUBkQvapWRjYwCbPvb0NfH37.jpg"
-      },
-      {
-        "tipo": "Filme",
         "titulo": "गांधारी (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/5tQ8kDNk00HPuVb43pZH1BmcNWQ.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/5skHR1T8URubqb30fk14njyPcy4.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "A Morte do Demônio: Em Chamas (2026)",
+        "titulo": "Backrooms: Um Não-Lugar",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/a1pgQeEge47xrS4jGlDwIHiieVK.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Cartas de Redenção (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fteLdvfRnltfLjAEnsl5E3vImnW.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/kDFNGzkXZPJPXXy1hdO4Do4X3Wh.jpg"
       },
       {
         "tipo": "Filme",
@@ -112,15 +82,27 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Minions & Monstros (2026)",
+        "titulo": "Soulm8te (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/hTowtXrkCY7FJyoj4p91JckrJSE.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/l7zdh8qUKDNCGApX3KBOBUOoIdd.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "A Hipótese do Amor",
+        "titulo": "O Intruso",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/9TQyjZ9PHCiPR8eylF8dulUFreu.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/ymRR1YD9qJ8E6iwAJZlM6o1QP9I.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "O Fim da Rua (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/aqEPRht1pZR653rmU7eHyk8wSNP.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "O Convite (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg"
       }
     ]
   },
@@ -129,27 +111,27 @@
     "itens": [
       {
         "tipo": "Série",
-        "titulo": "Lanternas",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/oQkXyLAYO5YWyU6gA99TynguYwL.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Link Click",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/8uBae3fsFRhYNrNBxuWJCXlBFKE.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "A Leste do Éden",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/3j5f8RkkbHIoBR1W4NwAQo61giR.jpg"
+        "titulo": "Lanternas",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/oQkXyLAYO5YWyU6gA99TynguYwL.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Diários de uma Apotecária",
-        "ano": "2023",
-        "capa": "https://image.tmdb.org/t/p/w342/t8fC3K3XnwE6Iso6b1bi5Fdo93n.jpg"
+        "titulo": "Terra da Mafia",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/jM7bH9b9QT22PtkTyHzxbXx4lDI.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "One Piece",
+        "ano": "1999",
+        "capa": "https://image.tmdb.org/t/p/w342/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg"
       },
       {
         "tipo": "Série",
@@ -165,15 +147,15 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Terra da Mafia",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/jM7bH9b9QT22PtkTyHzxbXx4lDI.jpg"
+        "titulo": "Diários de uma Apotecária",
+        "ano": "2023",
+        "capa": "https://image.tmdb.org/t/p/w342/t8fC3K3XnwE6Iso6b1bi5Fdo93n.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Coven Academy",
+        "titulo": "A Leste do Éden",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wnyszkmpoJbwdJMSPYPtidB2Cgh.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/3j5f8RkkbHIoBR1W4NwAQo61giR.jpg"
       },
       {
         "tipo": "Série",
@@ -183,15 +165,51 @@
       },
       {
         "tipo": "Série",
-        "titulo": "One Piece",
-        "ano": "1999",
-        "capa": "https://image.tmdb.org/t/p/w342/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg"
+        "titulo": "Desaparecida",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/hWLzO9fUFOaePehHYnCm4y0YnQA.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Bleach",
+        "ano": "2004",
+        "capa": "https://image.tmdb.org/t/p/w342/dx28DE7EgLy0FatOvnaUg0k9j92.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Coven Academy",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/wnyszkmpoJbwdJMSPYPtidB2Cgh.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Brothers",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/wlIrFcLK3B4RA84ajR3yCRldEnF.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Futurama",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Materia Escura",
+        "ano": "2024",
+        "capa": "https://image.tmdb.org/t/p/w342/mAbuZuS4CqlTI6lvWIxPRHppbVs.jpg"
       },
       {
         "tipo": "Série",
         "titulo": "Slow Horses",
         "ano": "2022",
         "capa": "https://image.tmdb.org/t/p/w342/rdNvIaPXpkUZl5tQLsTP15osfu2.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Tokyo Revengers",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/XbjlgUJknGCv7cNuinxdaFUFNt.jpg"
       },
       {
         "tipo": "Série",
@@ -203,49 +221,13 @@
         "tipo": "Série",
         "titulo": "Guerra",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/47jQlcNUoFhHy3XDviyjmVU7y1A.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Desaparecida",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/hWLzO9fUFOaePehHYnCm4y0YnQA.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/wPyKNt0Lf4n42cXOBOJFsgkZ16X.jpg"
       },
       {
         "tipo": "Série",
         "titulo": "American Horror Story",
         "ano": "2011",
         "capa": "https://image.tmdb.org/t/p/w342/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Bob Esponja",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/yXrtQINkVRyNmfUQFyVG2LuoTqm.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Reacher",
-        "ano": "2022",
-        "capa": "https://image.tmdb.org/t/p/w342/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Materia Escura",
-        "ano": "2024",
-        "capa": "https://image.tmdb.org/t/p/w342/mAbuZuS4CqlTI6lvWIxPRHppbVs.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Tokyo Revengers",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/XbjlgUJknGCv7cNuinxdaFUFNt.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Prefiro a Morte",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/hVS28DHtdssBr7FO4AKOEW2Aqpc.jpg"
       }
     ]
   },
@@ -260,9 +242,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Odisseia",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/muMwJAiMtReEHLKpKMWt2rMkYF7.jpg"
+        "titulo": "Resident Evil (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/gQ76UL64RQe3oHwiwHwODTC23g4.jpg"
       },
       {
         "tipo": "Filme",
@@ -272,21 +254,21 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Coyote vs ACME (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fqnp3doSeUFLGUFIolHVPA41O4E.jpg"
+        "titulo": "A Odisseia",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/muMwJAiMtReEHLKpKMWt2rMkYF7.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Animals.",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/62vtHEyzKhFRuEOLLiQfPi60mSs.jpg"
       },
       {
         "tipo": "Filme",
         "titulo": "O Fim da Rua (2026)",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aqEPRht1pZR653rmU7eHyk8wSNP.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "गांधारी (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/cpgLuRAT8SW7YiZaBYUGZ43GiLL.jpg"
       },
       {
         "tipo": "Filme",
@@ -314,27 +296,15 @@
       },
       {
         "tipo": "Filme",
+        "titulo": "गांधारी (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/5tQ8kDNk00HPuVb43pZH1BmcNWQ.jpg"
+      },
+      {
+        "tipo": "Filme",
         "titulo": "Moana",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/wjAdEJoqcmyjBj8jxb3lrUN0PLJ.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Devoradores de Estrelas (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "O Último Tiro Certo (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/owdiTFWuWq4UxPth6nXNsO6x74Q.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Backrooms: Um Não-Lugar",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/a1pgQeEge47xrS4jGlDwIHiieVK.jpg"
       },
       {
         "tipo": "Filme",
@@ -350,15 +320,21 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Cartas de Redenção (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/kDFNGzkXZPJPXXy1hdO4Do4X3Wh.jpg"
+        "titulo": "Backrooms: Um Não-Lugar",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/a1pgQeEge47xrS4jGlDwIHiieVK.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "Unabomber (2026)",
+        "titulo": "Devoradores de Estrelas (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/xVRIUBkQvapWRjYwCbPvb0NfH37.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "O Último Tiro Certo (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/owdiTFWuWq4UxPth6nXNsO6x74Q.jpg"
       },
       {
         "tipo": "Filme",
@@ -368,9 +344,15 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "It Ends",
+        "titulo": "Todo Mundo em Pânico",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/6dfAGvZWbJnzWfSZ8gxFj63BNAH.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Rosebush Pruning",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/uor0DM9RAc0ZwJXT4wrT8XAvsKL.jpg"
       }
     ]
   },
@@ -391,15 +373,15 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Coven Academy",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wnyszkmpoJbwdJMSPYPtidB2Cgh.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Marshals: Uma História de Yellowstone",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/kqzWUZKQYomcJhXA5mDcaZFTWiG.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "A Coroa Perfeita",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/vS70MWKvCb6bT9kYj8OTmumcsWq.jpg"
       },
       {
         "tipo": "Série",
@@ -409,9 +391,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "A Coroa Perfeita",
+        "titulo": "Coven Academy",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/vS70MWKvCb6bT9kYj8OTmumcsWq.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/wnyszkmpoJbwdJMSPYPtidB2Cgh.jpg"
       },
       {
         "tipo": "Série",
@@ -429,19 +411,13 @@
         "tipo": "Série",
         "titulo": "Guerra",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/47jQlcNUoFhHy3XDviyjmVU7y1A.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/wPyKNt0Lf4n42cXOBOJFsgkZ16X.jpg"
       },
       {
         "tipo": "Série",
         "titulo": "Neagley: Detetive Particular",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/kdERESUYePDvSrJ1kTNV8PiLOqJ.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Desaparecida",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/hWLzO9fUFOaePehHYnCm4y0YnQA.jpg"
       },
       {
         "tipo": "Série",
@@ -457,21 +433,21 @@
       },
       {
         "tipo": "Série",
+        "titulo": "Um Amor Diferente do Seu",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/vvywxGVcFihxOWxXoAxECOQ20pi.jpg"
+      },
+      {
+        "tipo": "Série",
         "titulo": "Rancho Dutton",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aJVroxZZKReiSlASpODQ23qrdGa.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Scrubs",
+        "titulo": "Desaparecida",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/vYmEEiuYU3O1BmlHhJwnNEOOTxn.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Prefiro a Morte",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/hVS28DHtdssBr7FO4AKOEW2Aqpc.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/hWLzO9fUFOaePehHYnCm4y0YnQA.jpg"
       },
       {
         "tipo": "Série",
@@ -481,33 +457,33 @@
       },
       {
         "tipo": "Série",
+        "titulo": "Fúria",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/g9s9wOAQMfYNJoDf38fQRHCvlXr.jpg"
+      },
+      {
+        "tipo": "Série",
         "titulo": "Parede de Gelo",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/d03KBIFklbUjz3aHP77dqo9iagN.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Conheço Você",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/3ssw79FQoUIkB8YVYVlkO3zs47a.jpg"
+        "titulo": "Scrubs",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/vYmEEiuYU3O1BmlHhJwnNEOOTxn.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "You and I Are Polar Opposites",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/lLjcMT7fwuO5fgswb2drlbFwoTJ.jpg"
+        "titulo": "CIA",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg"
       }
     ]
   },
   {
     "titulo": "Animes",
     "itens": [
-      {
-        "tipo": "Anime",
-        "titulo": "Kevin",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/ryvkioE754XooFO16s9SZyHZulu.jpg"
-      },
       {
         "tipo": "Anime",
         "titulo": "Star Wars: Visions Apresenta — A Nona Jedi",
@@ -531,6 +507,18 @@
         "titulo": "Among Us",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2xKFj7D79gZm6rYroNmyKzm6Q6q.jpg"
+      },
+      {
+        "tipo": "Anime",
+        "titulo": "Mating Season",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/5Pn7R2TtLka8OjsgtxAq4H2apjJ.jpg"
+      },
+      {
+        "tipo": "Anime",
+        "titulo": "Apenas um Show: As Fitas Perdidas",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/pSkAZX9qqg9Wn2WaBIlQYZczymH.jpg"
       },
       {
         "tipo": "Anime",
@@ -582,45 +570,39 @@
       },
       {
         "tipo": "Anime",
-        "titulo": "Takopi's Original Sin",
+        "titulo": "Onmyo Kaiten Re:Birth Verse",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/aIZldplw1isQQSjaLS0o3SEob9H.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/gjXTpi4ENSkf69jtNlShoM3TdUe.jpg"
       },
       {
         "tipo": "Anime",
-        "titulo": "Marvel Zumbis",
+        "titulo": "人妻の唇は缶チューハイの味がして",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/aTgFMz0CSVCDCgq0e93X0oNT2Dp.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/zdW66E4S2JKTrkh4K2BU5b2kwQX.jpg"
       },
       {
         "tipo": "Anime",
-        "titulo": "BULLET/BULLET",
+        "titulo": "With You and the Rain",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/iHhC0D1B9IhD8beyMedHPUiakVK.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/5k2X8QAmqHULiZPGoqCIFOI9gwz.jpg"
       },
       {
         "tipo": "Anime",
-        "titulo": "Can a Boy-Girl Friendship Survive?",
+        "titulo": "Turkey! Time to Strike",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/74Oi8x6kwqgeDgfIgNVQwl9b0FT.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/a7UXd4jRd2VCEKQLAnvXrB8wSj0.jpg"
       },
       {
         "tipo": "Anime",
-        "titulo": "Hell Teacher: Jigoku Sensei Nube",
+        "titulo": "Scooped Up by an S-Rank Adventurer!",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/pRrTEFXGYYBdQAXxDkb5IapjPCV.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/nE1roPkXMjTpGNSuN1mjWsm9DNN.jpg"
       },
       {
         "tipo": "Anime",
-        "titulo": "Os Caras Malvados No Pedaço",
+        "titulo": "Necronomico and the Cosmic Horror Show",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/2MwexoT6ErCY8CBe80dBEV866oF.jpg"
-      },
-      {
-        "tipo": "Anime",
-        "titulo": "The Fragrant Flower Blooms With Dignity",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/iR3kusHHeoAbjAjWrg53nSAVDx7.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/443pa7TaKbBM5VadgnAy4WHNZd7.jpg"
       }
     ]
   },
@@ -629,9 +611,9 @@
     "itens": [
       {
         "tipo": "Dorama",
-        "titulo": "The Early Spring",
+        "titulo": "Os Pecados de Kujo",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/nhQS3j9GDWJj7u8BR7WaR4bTspo.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/t9MMKbTZClTbVL2w7yJ1ikV6g0U.jpg"
       },
       {
         "tipo": "Dorama",
@@ -647,15 +629,27 @@
       },
       {
         "tipo": "Dorama",
-        "titulo": "O Amor Não Está Esgotado",
+        "titulo": "Terra do Ouro",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/g0mqLIAvsi88Z2RsfKEWuJC9xrd.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/stWNLnCpp6IrzApfvEvn2IDSuCp.jpg"
       },
       {
         "tipo": "Dorama",
         "titulo": "Se Desejos Matassem...",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/l7Yqgal5v7qa7DTfPpsLTYlehXc.jpg"
+      },
+      {
+        "tipo": "Dorama",
+        "titulo": "A Gente Tenta",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/16SSyjUjhqQLfntsq5qbrDq3kF3.jpg"
+      },
+      {
+        "tipo": "Dorama",
+        "titulo": "O Valor Absoluto do Amor",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/d7A9vkmNB5vIriglF0HjOs5Vtbq.jpg"
       },
       {
         "tipo": "Dorama",
@@ -683,12 +677,6 @@
       },
       {
         "tipo": "Dorama",
-        "titulo": "Todos os Crimes da Louva-a-Deus",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/kX0vZSMsdSibAMFkwn9EJZjXrTD.jpg"
-      },
-      {
-        "tipo": "Dorama",
         "titulo": "Vida Imoral",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/3zKlf1E49sgX49VuhgtN7hCcg4y.jpg"
@@ -698,6 +686,24 @@
         "titulo": "Nossa Geração",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/9DLacDAfI7v7OKCl4UmVZdmihwa.jpg"
+      },
+      {
+        "tipo": "Dorama",
+        "titulo": "Conversas que Curam",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/zIWm6a0hkbC7ih1ra04qeF1KsNS.jpg"
+      },
+      {
+        "tipo": "Dorama",
+        "titulo": "Amor Vingado",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/uurb4BHiVia8AnnLfH96ei0SbWk.jpg"
+      },
+      {
+        "tipo": "Dorama",
+        "titulo": "Desejo Ardente",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/yo7LpxTaptErKsm1DR6ur3daFmq.jpg"
       },
       {
         "tipo": "Dorama",
@@ -719,33 +725,9 @@
       },
       {
         "tipo": "Dorama",
-        "titulo": "A Estrada de Lichia",
+        "titulo": "Nosso Filme",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg"
-      },
-      {
-        "tipo": "Dorama",
-        "titulo": "Fitness na Academia e no Amor",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/d6SubGZP1j0m5gNurPEizxzuzFR.jpg"
-      },
-      {
-        "tipo": "Dorama",
-        "titulo": "Serendipidade",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/ixr0KxcgljVNLtK3wbEEWn1DGf6.jpg"
-      },
-      {
-        "tipo": "Dorama",
-        "titulo": "Não Me Esquecerei de Você",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/qW8yBchqZEIPTqs9Y72GntzHuRf.jpg"
-      },
-      {
-        "tipo": "Dorama",
-        "titulo": "Professora Sem Querer",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/xDva26tsnJiSArvyGBszy6Ze6k2.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/admzXwEKzaRYNMbPrH9R6Upet9l.jpg"
       }
     ]
   }
