@@ -37,6 +37,8 @@ jobs:
           echo "VALIDAÇÃO DO CARTOONZINE-SM-BRIDGE"
           echo "========================================"
 
+          # Adicionei o teste para o canais_saimo.json aqui:
+          test -s canais_saimo.json
           test -s filmes_saimo.json
           test -s series_saimo_pt1.json
           test -s series_saimo_pt2.json
@@ -73,23 +75,3 @@ jobs:
           echo "========================================"
           echo "VALIDAÇÃO OK"
           echo "========================================"
-
-      - name: Comitar novos arquivos de BD
-        shell: bash
-        run: |
-          git config --global user.name "Cartoonzine Bot"
-          git config --global user.email "bot@cartoonzine.com"
-
-          # Remove do repositório o arquivo antigo pesado, se ele existir lá
-          git rm -f series_saimo.json || true
-
-          # Adiciona todos os arquivos (incluí o destaques que estava faltando)
-          git add canais_saimo.json filmes_saimo.json series_saimo_pt1.json series_saimo_pt2.json series_saimo_pt3.json adultos_vod_saimo.json destaques_saimo.json
-
-          if git diff --cached --quiet; then
-            echo "Sem mudanças para comitar."
-          else
-            git commit -m "☁️ Atualização diária dos BDs Saimo em partes para evitar limite de 100MB"
-            git pull --rebase origin main
-            git push
-          fi
