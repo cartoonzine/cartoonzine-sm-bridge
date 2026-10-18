@@ -5,9 +5,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/ae.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/ae.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/a095c859174e6ebf81ec4ad7be45b083/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/ae/ae.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDg2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/ae.txt",
       "http://64.31.23.207:80/59471019/60849037/518547.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518548.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518549.m3u8",
@@ -33,8 +34,12 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/adultswim.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/adultswim/adultswim.m3u8",
+      "https://aws.s13-s1001604.lat/stream/1167fe66d918c2b48a68300d5dd8d4ca/adultswim.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/fa86d0bc31695eeeb8c20d8f003cca1c/error.txt",
+      "https://dadinhodetapioca.fun/play/adultswim.html",
+      "https://aws.s13-s1001604.lat/stream/155c57d887e879fa1e273477160c90cc/adultswim.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/adultswim.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/adultswim/adultswim.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518592.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518594.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/251957.m3u8",
@@ -57,9 +62,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/amc.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/fbdd28d168262afd95a3e674aa6700e1/error.txt",
+      "https://dadinhodetapioca.fun/play/amc.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/amc.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/amc/amc.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1Mjk0Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/amc.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90646.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71768.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71769.m3u8",
@@ -85,9 +92,13 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/animalplanet.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/b334d79db281e34cdadd49b0feff5c9d/animalplanet.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/1eb9c1d0343af5dfd9bbed74c67f798c/error.txt",
+      "https://dadinhodetapioca.fun/play/animalplanet.html",
+      "https://aws.s13-s1001604.lat/stream/f8aeec6dfc86c2ab66efa1ee0dcf88cf/animalplanet.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/animalplanet.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/animalplanet/animalplanet.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDA2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/animalplanet.txt",
       "http://64.31.23.207:80/59471019/60849037/296619.m3u8",
       "http://64.31.23.207:80/59471019/60849037/296620.m3u8",
       "http://64.31.23.207:80/59471019/60849037/296621.m3u8",
@@ -117,6 +128,10 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/band.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/730ac1333b65dfb93db561cc2a4f2a53/bandsp.m3u8",
+      "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/index.m3u8",
+      "https://dadinhodetapioca.fun/play/band.html",
+      "https://aws.s13-s1001604.lat/stream/07796236cd172aa71cce222d1f7e3864/bandsp.m3u8",
       "http://138.204.86.4:8080/BAND_HD/index.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324357.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324358.m3u8",
@@ -130,8 +145,12 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonnetwork.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cartoonnetwork/cartoonnetwork.m3u8",
+      "https://aws.s13-s1001604.lat/stream/f20eee8ca370156a3e6ee41459384861/cartoonnetwork.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/a982649ba059eafe2337cf8b65625f06/error.txt",
+      "https://dadinhodetapioca.fun/play/cartoonnetwork.html",
+      "https://aws.s13-s1001604.lat/stream/2a5902a94396cefa6fe0ce92ba674726/cartoonnetwork.m3u8",
       "http://45.162.64.114/CARTOON_NETWORK/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cartoonnetwork/cartoonnetwork.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1Mzk5Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cartoonnetwork.txt",
       "http://64.31.23.207:80/59471019/60849037/1882622.m3u8",
@@ -161,8 +180,11 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/cnnbrasil.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cnnbrasil/cnnbrasil.m3u8",
+      "https://aws.s13-s1001604.lat/stream/4b31648104a3eabb9f1982ff6513147d/cnnbrasil.m3u8",
+      "https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8",
       "http://45.162.64.114/CNN_BRASIL/index.m3u8",
+      "https://aws.s13-s1001604.lat/stream/84fb36b0e1e31ed913812068f8b0e7e0/cnnbrasil.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cnnbrasil/cnnbrasil.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDY0Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cnnbrasil.txt",
       "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
@@ -246,6 +268,8 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
     "urls": [
+      "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist1080p.m3u8",
+      "https://proxylinkurl.wored85282.workers.dev/https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvMjExODE2MC5tM3U4.m3u8",
       "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
@@ -264,10 +288,12 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/globonews.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/f40b5972e5f78e715aaf2034cdaac946/globonews.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globonews.txt",
+      "https://aws.s13-s1001604.lat/stream/6ca0fa6a24a397e4b47dc8d32fb23e44/globonews.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globonews/globonews.m3u8",
       "https://16-5-0-235.sslip.io/globonews/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDY5Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globonews.txt",
       "http://79.127.238.228:14093",
       "http://64.31.23.207:80/59471019/60849037/324385.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90248.m3u8",
@@ -297,9 +323,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/globonovelas.prev.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globonovelas.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/195bf3eeb12a903e7bc24cb4adf0c706/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globonovelas/globonovelas.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTQ5Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globonovelas.txt",
       "http://79.127.238.228:14455",
       "http://64.31.23.207:80/59471019/60849037/324400.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518595.m3u8",
@@ -332,10 +359,10 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/gnt.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/gnt.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/gnt/gnt.m3u8",
       "https://16-5-0-235.sslip.io/gnt/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTEwLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/gnt.txt",
       "http://79.127.238.228:14402",
       "http://64.31.23.207:80/59471019/60849037/324387.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518568.m3u8",
@@ -368,8 +395,12 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/history.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/history/history.m3u8",
+      "https://aws.s13-s1001604.lat/stream/575a47cf188e44f46687363629749b7f/history.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/f4ee0aad8b8f3a674a20a3e652500ff5/error.txt",
+      "https://dadinhodetapioca.fun/play/history.html",
+      "https://aws.s13-s1001604.lat/stream/b7f760cafffad9e253824034a05a8138/history.m3u8",
       "http://138.204.86.4:8080/HISTORY_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/history/history.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDUwLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/history.txt",
       "http://46.151.196.223:14410",
@@ -403,8 +434,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/history2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/history2/history2.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/e8896a70e4ebf34a094717dd81017502/error.txt",
+      "https://dadinhodetapioca.fun/play/history2.html",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/history2.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/history2/history2.m3u8",
       "http://64.31.23.207:80/59471019/60849037/296617.m3u8",
       "http://64.31.23.207:80/59471019/60849037/296618.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90245.m3u8",
@@ -455,10 +488,13 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/megapix.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/4449454c379f5034e01629ff759af317/megapix.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/4070a22eb057b33dc3a623a0bdd71bdc/error.txt",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/megapix.txt",
+      "https://aws.s13-s1001604.lat/stream/cc13f77891f8b4080db512be42439d82/megapix.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/megapix/megapix.m3u8",
       "https://16-5-0-235.sslip.io/megapix/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzE3Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/megapix.txt",
       "http://79.127.238.228:14592",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72166.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72167.m3u8",
@@ -489,10 +525,13 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/multishow.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/ca2e3cb72df24612d562f7a4d54176f0/error.txt",
+      "https://aws.s13-s1001604.lat/stream/20aa200451a750a1367af30f8268595a/multishow.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/multishow.txt",
+      "https://aws.s13-s1001604.lat/stream/f0c2adfea3778abad92dc655d5b961a9/multishow.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/multishow/multishow.m3u8",
       "https://16-5-0-235.sslip.io/multishow/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTMwLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/multishow.txt",
       "http://64.31.23.207:80/59471019/60849037/518580.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518581.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518582.m3u8",
@@ -518,11 +557,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere2.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/096dc2387a1e6b20968bd0da79f188c7/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere2/premiere2.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere/premiere.m3u8",
       "https://16-5-0-235.sslip.io/premiere2/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzQwLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere2.txt",
       "http://64.31.23.207:80/59471019/60849037/3460212.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460213.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72237.m3u8",
@@ -551,10 +591,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere3.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/7d11dedb74892cbc351ec5e1ce59fbf6/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere3/premiere3.m3u8",
       "https://16-5-0-235.sslip.io/premiere3/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzQzLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere3.txt",
       "http://64.31.23.207:80/59471019/60849037/3460215.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460217.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103481.m3u8",
@@ -585,10 +626,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere4.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/6abf170e4581f1052f966c65e11c7799/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere4/premiere4.m3u8",
       "https://16-5-0-235.sslip.io/premiere4/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzQ2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere4.txt",
       "http://64.31.23.207:80/59471019/60849037/3460218.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103480.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72246.m3u8",
@@ -617,10 +659,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/d35136cc3ccb4d78f167178a28499fb5/error.txt",
+      "https://dadinhodetapioca.fun/play/premiere5.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere5.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere5/premiere5.m3u8",
       "https://16-5-0-235.sslip.io/premiere5/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzQ5Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere5.txt",
       "http://64.31.23.207:80/59471019/60849037/3460221.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103479.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72249.m3u8",
@@ -651,10 +695,10 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
+      "http://64.31.23.207:80/59471019/60849037/3460224.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere6/premiere6.m3u8",
       "https://16-5-0-235.sslip.io/premiere6/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzUyLm0zdTg.m3u8",
-      "http://64.31.23.207:80/59471019/60849037/3460224.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460225.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460226.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103478.m3u8",
@@ -684,10 +728,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere7.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/d958dc400ed04960600042184962f036/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere7/premiere7.m3u8",
       "https://16-5-0-235.sslip.io/premiere7/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzU1Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere7.txt",
       "http://64.31.23.207:80/59471019/60849037/3460227.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460228.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460229.m3u8",
@@ -716,10 +761,10 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
+      "http://64.31.23.207:80/59471019/60849037/3460230.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/premiere8/premiere8.m3u8",
       "https://16-5-0-235.sslip.io/premiere8/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xODAxNTgubTN1OA.m3u8",
-      "http://64.31.23.207:80/59471019/60849037/3460230.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460231.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460232.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xODAxNjIubTN1OA.m3u8",
@@ -746,6 +791,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/20963c6e5d27cc11975d36a05dcb1484/premiere.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/f5457a071382280ebf3f89fdf3db6a41/error.txt",
+      "https://dadinhodetapioca.fun/play/premiereclubes.html",
+      "https://aws.s13-s1001604.lat/stream/5e65f671ec576e6450321263a220056f/premiere.m3u8",
       "https://16-5-0-235.sslip.io/premiereclubes/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/premiere.txt",
       "http://64.31.23.207:80/59471019/60849037/324401.m3u8",
@@ -774,6 +823,7 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/sbt.png",
     "urls": [
       "http://138.204.86.4:8080/SBT_HD/index.m3u8",
+      "https://aovivo.maissbt.com/indexMobile.m3u8",
       "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324290.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324292.m3u8",
@@ -807,9 +857,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/sonychannel.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sonychannel.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/44430133517394566d92e8a9073f60a4/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sonychannel/sonychannel.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzI1Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sonychannel.txt",
       "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103517.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71824.m3u8",
@@ -835,10 +886,14 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/f809a47c8a40c3642b96a3df2c2e563c/sportv.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/ea2ac24132b36ec33c466ddf1e6ebe65/error.txt",
+      "https://dadinhodetapioca.fun/play/sportv.html",
+      "https://aws.s13-s1001604.lat/stream/df68c287a5e76abe2df09d30cb0e9b37/sportv.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportv/sportv.m3u8",
       "https://16-5-0-235.sslip.io/sportv/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjMyOS5tM3U4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv.txt",
       "http://64.31.23.207:80/59471019/60849037/324391.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460200.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460202.m3u8",
@@ -870,10 +925,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv2.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/207a5a39bc92262c878f00c9544e28bb/error.txt",
+      "https://dadinhodetapioca.fun/play/sportv2.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv2.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportv2/sportv2.m3u8",
       "https://16-5-0-235.sslip.io/sportv2/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI0NzM4Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv2.txt",
       "http://64.31.23.207:80/59471019/60849037/3460203.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460204.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103472.m3u8",
@@ -899,10 +956,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv3.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/9dd6d458d61b692b36cdf6a11e8bd1b1/error.txt",
+      "https://dadinhodetapioca.fun/play/sportv3.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv3.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportv3/sportv3.m3u8",
       "https://16-5-0-235.sslip.io/sportv3/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI0NzQyLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv3.txt",
       "http://64.31.23.207:80/59471019/60849037/3460206.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460207.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72325.m3u8",
@@ -931,8 +990,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/off.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/off/off.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/off.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/off/off.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518583.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518584.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518585.m3u8",
@@ -956,9 +1015,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecineaction.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/843a09c4e54c060aa61cb944a3b25879/error.txt",
+      "https://dadinhodetapioca.fun/play/telecineaction.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecineaction.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecineaction/telecineaction.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4Mzc3Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecineaction.txt",
       "http://64.31.23.207:80/59471019/60849037/324393.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90239.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72346.m3u8",
@@ -993,8 +1054,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinepipoca.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/telecinepipoca.html",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecinepipoca/telecinepipoca.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinepipoca.txt",
       "http://64.31.23.207:80/59471019/60849037/324396.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72358.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72359.m3u8",
@@ -1025,9 +1086,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinepremium.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/d15913708cbb1a1b4c793fdae700e207/error.txt",
+      "https://dadinhodetapioca.fun/play/telecinepremium.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinepremium.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecinepremium/telecinepremium.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4Mzc0Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinepremium.txt",
       "http://64.31.23.207:80/59471019/60849037/324397.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90237.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72362.m3u8",
@@ -1061,8 +1124,8 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-brasil.png",
     "urls": [
-      "http://45.162.64.114/TV_BRASIL/index.m3u8",
       "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+      "http://45.162.64.114/TV_BRASIL/index.m3u8",
       "http://45.177.114.115/TV_BRASIL/index.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103463.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72399.m3u8",
@@ -1105,8 +1168,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/warnerchannel.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/warnerchannel/warnerchannel.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/c165fa7422aea312451ef202eabfc277/error.txt",
+      "https://dadinhodetapioca.fun/play/warnertv.html",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/warnerchannel.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/warnerchannel/warnerchannel.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72431.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72432.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90650.m3u8",
@@ -1144,10 +1209,11 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/25c389d4965f4166247f2280886f5cba/globosp.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globosp.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globosp/globosp.m3u8",
       "https://16-5-0-235.sslip.io/globosp/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjA0MC5tM3U4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globosp.txt",
       "http://64.31.23.207:80/59471019/60849037/324386.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMzEyMTIubTN1OA.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjA0Mi5tM3U4.m3u8",
@@ -1169,9 +1235,11 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonito.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/06fb008bc2fe2c3944c72e0c3ca551d4/cartoonito.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cartoonito.txt",
+      "https://aws.s13-s1001604.lat/stream/25787f329c85c3fee8876507d3b3778a/cartoonito.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cartoonito/cartoonito.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDAzLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cartoonito.txt",
       "http://64.31.23.207:80/59471019/60849037/1882631.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882632.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882633.m3u8",
@@ -1198,8 +1266,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/cinemax.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cinemax/cinemax.m3u8",
       "http://138.204.86.4:8080/CINEMAX/index.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/f707521cd7789b18fa9e79677d8e5644/error.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cinemax/cinemax.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzA5Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cinemax.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90643.m3u8",
@@ -1227,8 +1296,12 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverychannel.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverychannel/discoverychannel.m3u8",
+      "https://aws.s13-s1001604.lat/stream/abda9d242318532ccceeb60faa73e3cf/discoverychannel.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/127778e85cd08ab05fec04db68ed20d6/error.txt",
+      "https://dadinhodetapioca.fun/play/discoverychannel.html",
+      "https://aws.s13-s1001604.lat/stream/a1d16892ebba8e03b94f103b89c154c0/discoverychannel.m3u8",
       "http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverychannel/discoverychannel.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDE4Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoverychannel.txt",
       "http://64.31.23.207:80/59471019/60849037/297936.m3u8",
@@ -1261,8 +1334,11 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/discoverykids.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverykids/discoverykids.m3u8",
+      "https://aws.s13-s1001604.lat/stream/86c15a533bf883acfde634c9b2077da0/discoverykids.m3u8",
+      "https://dadinhodetapioca.fun/play/discoverykids.html",
+      "https://aws.s13-s1001604.lat/stream/5a43285f2c9b46548851d73ff8ae7190/discoverykids.m3u8",
       "http://138.204.86.4:8080/DISCOVERY_KIDS_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverykids/discoverykids.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDA3Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoverykids.txt",
       "http://64.31.23.207:80/59471019/60849037/297946.m3u8",
@@ -1292,8 +1368,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverytheater.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverytheather/discoverytheather.m3u8",
+      "https://dadinhodetapioca.fun/play/discoverytheater.html",
       "http://138.204.86.4:8080/DISCOVERY_THEATER_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoverytheather/discoverytheather.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDMwLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoverytheather.txt",
       "http://64.31.23.207:80/59471019/60849037/297954.m3u8",
@@ -1325,9 +1402,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/48cae3919e89e385e3789102c01f9a97/espn.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/3716172ea4bd4d93acdddce3e55bc33f/error.txt",
+      "http://45.162.64.114/ESPN_BRASIL/index.m3u8",
+      "https://aws.s13-s1001604.lat/stream/dbf76b5a3f66249763951288cbd98053/espn.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn/espn.m3u8",
       "https://16-5-0-235.sslip.io/espn/index.m3u8",
-      "http://45.162.64.114/ESPN_BRASIL/index.m3u8",
       "http://138.204.86.4:8080/ESPN_HD/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MTkxMS5tM3U4.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn.txt",
@@ -1362,9 +1442,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn2.png",
     "urls": [
+      "http://138.204.86.4:8080/ESPN2_HD/index.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/71add1104818cc89831db7dfee78b77e/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn2/espn2.m3u8",
       "https://16-5-0-235.sslip.io/espn2/index.m3u8",
-      "http://138.204.86.4:8080/ESPN2_HD/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn2.txt",
       "http://64.31.23.207:80/59471019/60849037/3460185.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460186.m3u8",
@@ -1393,9 +1474,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn4.png",
     "urls": [
+      "http://45.162.64.114/ESPN_4/index.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/8838e9b1b31407d53cbc13383beb86f5/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn4/espn4.m3u8",
       "https://16-5-0-235.sslip.io/espn4/index.m3u8",
-      "http://45.162.64.114/ESPN_4/index.m3u8",
       "http://138.204.86.4:8080/ESPN4_HD/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn4.txt",
       "http://181.78.197.59:8000/play/a07n/index.m3u8",
@@ -1430,10 +1512,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn5.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn5.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/0f6bd8d086d3656c8fe543aed77fd509/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn5/espn5.m3u8",
       "https://16-5-0-235.sslip.io/espn5/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTM0Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn5.txt",
       "http://64.31.23.207:80/59471019/60849037/3460194.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460195.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71952.m3u8",
@@ -1460,9 +1543,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn6.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/ac334a60225752fe9eb3c354aeb3cbe5/error.txt",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn6.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn6/espn6.m3u8",
       "https://16-5-0-235.sslip.io/espn6/index.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn6.txt",
       "http://64.31.23.207:80/59471019/60849037/3460197.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460198.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71915.m3u8",
@@ -1489,8 +1573,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbo/hbo.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/b745e794fb790ffb524d36d324af64d9/error.txt",
+      "https://dadinhodetapioca.fun/play/hbo.html",
       "http://138.204.86.4:8080/HBO/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbo/hbo.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTQyLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hbo.txt",
       "http://64.31.23.207:80/59471019/60849037/514107.m3u8",
@@ -1527,8 +1613,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbo2/hbo2.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/97fb2d060dd972f81241b86b2e60cc94/error.txt",
+      "https://dadinhodetapioca.fun/play/hbo2.html",
       "http://138.204.86.4:8080/HBO2/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbo2/hbo2.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTQ2Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hbo2.txt",
       "http://64.31.23.207:80/59471019/60849037/514110.m3u8",
@@ -1560,8 +1648,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbofamily.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbofamily/hbofamily.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/f0682431a0bbc39f83ecabc69ec55cb4/error.txt",
+      "https://dadinhodetapioca.fun/play/hbofamily.html",
       "http://138.204.86.4:8080/HBO_FAMILY/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbofamily/hbofamily.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTUwLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hbofamily.txt",
       "http://64.31.23.207:80/59471019/60849037/514113.m3u8",
@@ -1591,8 +1681,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbomundi.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbomundi/hbomundi.m3u8",
       "http://138.204.86.4:8080/HBO_MUNDI_HD/index.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/ee1ce9bdb36688f00f0d1efa116ca81e/error.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbomundi/hbomundi.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTU0Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hbomundi.txt",
       "http://64.31.23.207:80/59471019/60849037/514116.m3u8",
@@ -1628,8 +1719,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hboplus.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hboplus/hboplus.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/67a04a692491d658166c746b3a91d147/error.txt",
+      "https://dadinhodetapioca.fun/play/hboplus.html",
       "http://138.204.86.4:8080/HBO_PLUS/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hboplus/hboplus.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTU4Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hboplus.txt",
       "http://64.31.23.207:80/59471019/60849037/514119.m3u8",
@@ -1665,8 +1758,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbopop.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbopop/hbopop.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/2c8e3870d708ccea73d100c302d03b30/error.txt",
+      "https://dadinhodetapioca.fun/play/hbopop.html",
       "http://138.204.86.4:8080/HBO_POP_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hbopop/hbopop.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTYyLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hbopop.txt",
       "http://64.31.23.207:80/59471019/60849037/514122.m3u8",
@@ -1704,6 +1799,7 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/hbosignature.html",
       "http://138.204.86.4:8080/HBO_SIGNATURE/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTY2Lm0zdTg.m3u8",
       "http://64.31.23.207:80/59471019/60849037/514125.m3u8",
@@ -1739,9 +1835,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/hboxtreme.html",
+      "http://64.31.23.207:80/59471019/60849037/514128.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hboxtreme/hboxtreme.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTcwLm0zdTg.m3u8",
-      "http://64.31.23.207:80/59471019/60849037/514128.m3u8",
       "http://64.31.23.207:80/59471019/60849037/514129.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90636.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72138.m3u8",
@@ -1774,6 +1871,8 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/record.html",
+      "https://video07.logicahost.com.br/portaltropicalrn/portaltropicalrn/chunklist_w1168987890.m3u8",
       "http://138.204.86.4:8080/RECORD/index.m3u8",
       "http://79.127.238.228:14057",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/35842.m3u8"
@@ -1785,8 +1884,12 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/space.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/space/space.m3u8",
+      "https://aws.s13-s1001604.lat/stream/167cfc64b5af287be1f19fb996d5c7ac/space.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/763db18447d4eebd768a23d723a53314/error.txt",
+      "https://dadinhodetapioca.fun/play/space.html",
+      "https://aws.s13-s1001604.lat/stream/3fb10b8d8fb288ba13970fe302430da2/space.m3u8",
       "http://45.162.64.114/SPACE/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/space/space.m3u8",
       "http://138.204.86.4:8080/SPACE_HD/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzI5Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/space.txt",
@@ -1810,9 +1913,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tnt.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/20851ea4a2c137b11559f8bf05922558/error.txt",
+      "https://dadinhodetapioca.fun/play/tnt.html",
+      "http://45.162.64.114/TNT/index.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tnt/tnt.m3u8",
       "https://16-5-0-235.sslip.io/tnt/index.m3u8",
-      "http://45.162.64.114/TNT/index.m3u8",
       "http://138.204.86.4:8080/TNT_HD/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzQ4Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tnt.txt",
@@ -1847,9 +1952,12 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tntseries.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/53cae8d46c86aceec5a3928339017e1b/tntseries.m3u8",
+      "https://dadinhodetapioca.fun/play/tntseries.html",
+      "https://aws.s13-s1001604.lat/stream/a80e0d116d93c753db030e98deedf0a2/tntseries.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tntseries.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tntseries/tntseries.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzU2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tntseries.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72382.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72380.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90671.m3u8",
@@ -1878,9 +1986,12 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/universaltv.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/fae476dac633db9f5e93b2da127a04a8/error.txt",
+      "https://aws.s13-s1001604.lat/stream/ed870f00aff7cf8192af3737e301669f/universaltv.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/universaltv.txt",
+      "https://aws.s13-s1001604.lat/stream/64f3c19b505f7bebab5fd8177ced2c1e/universaltv.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/universaltv/universaltv.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzYwLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/universaltv.txt",
       "https://getcdn.clarocdn.com.br/Content/Channel/SPOUNVHD/dsc3/manifest.mpd",
       "http://64.31.23.207:80/59471019/60849037/324399.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90632.m3u8",
@@ -1907,8 +2018,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryturbo.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryturbo/discoveryturbo.m3u8",
+      "https://aws.s13-s1001604.lat/stream/2e2f7fcdd9620e2618134f77cfb70e16/discoveryturbo.m3u8",
       "http://45.162.64.114/DISCOVERY_TURBO/index.m3u8",
+      "https://aws.s13-s1001604.lat/stream/509a51408c36ab03ff0b43e6f4d571bc/discoveryturbo.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryturbo/discoveryturbo.m3u8",
       "http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDM0Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoveryturbo.txt",
@@ -1963,9 +2076,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinefun.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinefun.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/64a006fc952e123a0ff1bb5ed86bbfea/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecinefun/telecinefun.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzgzLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinefun.txt",
       "http://64.31.23.207:80/59471019/60849037/324395.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72354.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72355.m3u8",
@@ -1998,9 +2112,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinecult.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/09257fb4bf50ae2c2309abbb8ab3784a/error.txt",
+      "https://dadinhodetapioca.fun/play/telecinecult.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinecult.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecinecult/telecinecult.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4MzgwLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinecult.txt",
       "http://64.31.23.207:80/59471019/60849037/324394.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103456.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/90665.m3u8",
@@ -2031,9 +2147,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinetouch.png",
     "urls": [
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/698572cdd1d2d86ef342754c4b0563a9/error.txt",
+      "https://dadinhodetapioca.fun/play/telecinetouch.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinetouch.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/telecinetouch/telecinetouch.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzQ4Mzg5Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/telecinetouch.txt",
       "http://64.31.23.207:80/59471019/60849037/324398.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103454.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72366.m3u8",
@@ -2088,6 +2206,8 @@
     "categoria": "Infantil",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
     "urls": [
+      "http://170.83.16.50:80/TOONCAST/index.m3u8",
+      "https://dadinhodetapioca.fun/play/tooncast.html",
       "http://64.31.23.207:80/59471019/60849037/1882638.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882639.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882640.m3u8",
@@ -2103,9 +2223,10 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/tlc.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/tlc.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tlc.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tlc/tlc.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTM4Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tlc.txt",
       "http://79.127.238.228:14433",
       "http://64.31.23.207:80/59471019/60849037/518586.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518587.m3u8",
@@ -2158,9 +2279,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tntnovelas.png",
     "urls": [
+      "https://dadinhodetapioca.fun/play/tntnovelas.html",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tntnovelas.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tntnovelas/tntnovelas.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzUyLm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tntnovelas.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103466.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72342.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72343.m3u8",
@@ -2186,8 +2308,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryscience.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryscience/discoveryscience.m3u8",
+      "https://dadinhodetapioca.fun/play/discoveryscience.html",
       "http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryscience/discoveryscience.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDI2Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoveryscience.txt",
       "http://64.31.23.207:80/59471019/60849037/297951.m3u8",
@@ -2218,8 +2341,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/axn.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/axn/axn.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/afed9182d8e5792e73bbafd7e104ca96/error.txt",
+      "https://dadinhodetapioca.fun/play/axn.html",
       "http://138.204.86.4:8080/AXN_HD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/axn/axn.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1Mjk4Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/axn.txt",
       "http://170.83.16.50/AXN/index.m3u8",
@@ -2249,9 +2374,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tcm.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tcm.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tcm/tcm.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzQ1Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tcm.txt",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/9124.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzQ2Lm0zdTg.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzQ3Lm0zdTg.m3u8"
@@ -2263,8 +2388,9 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/bandnews.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandnews/bandnews.m3u8",
+      "https://dadinhodetapioca.fun/play/bandnews.html",
       "http://45.162.64.114/BAND_NEWS/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandnews/bandnews.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDYwLm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/bandnews.txt",
       "http://45.177.114.115/BAND_NEWS/index.m3u8",
@@ -2292,8 +2418,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/bandsports.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandsports/bandsports.m3u8",
+      "https://aws.s13-s1001604.lat/stream/01465ed93fe93c584f3cce07f12b3f5e/bandsports.m3u8",
+      "https://dadinhodetapioca.fun/play/bandsports.html",
+      "https://aws.s13-s1001604.lat/stream/63959f42a8a5be2c41cdcb84fe993800/bandsports.m3u8",
       "http://45.162.64.114/BAND_SPORTS/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandsports/bandsports.m3u8",
       "https://16-5-0-235.sslip.io/bandsports/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/bandsports.txt",
       "http://170.83.16.50/BAND_SPORTS/index.m3u8",
@@ -2337,8 +2466,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cultura.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cultura/cultura.m3u8",
+      "https://aws.s13-s1001604.lat/stream/c866aa18d1af50ecd63c81e37aa0eb67/cultura.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cultura.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cultura/cultura.m3u8",
       "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
       "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103513.m3u8",
@@ -2394,9 +2524,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn3.png",
     "urls": [
+      "http://138.204.86.4:8080/ESPN3_HD/index.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/b6718d0e3c489414763d31a2f5a52c01/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/espn3/espn3.m3u8",
       "https://16-5-0-235.sslip.io/espn3/index.m3u8",
-      "http://138.204.86.4:8080/ESPN3_HD/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/espn3.txt",
       "http://181.78.197.59:8000/play/a081/index.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460189.m3u8",
@@ -2443,6 +2574,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
     "urls": [
       "http://45.162.64.114/RECORD_NEWS/index.m3u8",
+      "https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8",
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDc2Lm0zdTg.m3u8",
       "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "http://45.177.114.115/RECORD_NEWS/index.m3u8",
@@ -2471,8 +2604,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cancaonova.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cancaonova/cancaonova.m3u8",
+      "https://aws.s13-s1001604.lat/stream/1cb75bb4be68b0dc0dd73008d7a35faa/cancaonova.m3u8",
       "http://45.162.64.114/CANCAO_NOVA/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/cancaonova/cancaonova.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/cancaonova.txt",
       "http://46.151.196.223:14225",
       "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8",
@@ -2490,8 +2624,9 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/aparecida/aparecida.m3u8",
+      "https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
       "http://45.162.64.114/TV_APARECIDA/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/aparecida/aparecida.m3u8",
       "http://45.177.114.115/TV_APARECIDA_HD/index.m3u8",
       "http://168.197.104.22/TV_APARECIDA/index.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103464.m3u8",
@@ -2515,8 +2650,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/redevida.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/redevida/redevida.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/redevida.txt",
+      "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/redevida/redevida.m3u8",
       "http://46.151.196.223:14244",
       "http://168.197.104.22/REDE_VIDA/index.m3u8",
       "http://186.219.52.187/rede_vida/index.m3u8",
@@ -2538,10 +2674,12 @@
     "id": "92",
     "nome": "Discovery ID",
     "categoria": "Documentários",
-    "logo": "https://img.faz-o-eli.online/discoverychannel.png",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryid/discoveryid.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/d3ab4fe684be2ba18a8680ade6b4b25c/error.txt",
+      "https://dadinhodetapioca.fun/play/discoveryid.html",
       "http://45.162.64.114/DISCOVERY_ID/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryid/discoveryid.m3u8",
       "http://138.204.86.4:8080/ID_HD/index.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoveryid.txt",
       "http://64.31.23.207:80/59471019/60849037/297949.m3u8",
@@ -2599,8 +2737,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/xsports.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/xsports/xsports.m3u8",
+      "https://aws.s13-s1001604.lat/stream/ab55903cd13c40853a7fead247e75e80/xsports.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/c4343a8197258edd5f0828bcc9779973/error.txt",
+      "https://dadinhodetapioca.fun/play/xsports.html",
+      "https://aws.s13-s1001604.lat/stream/142daec49214213d83df632a3ae41d10/xsports.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/xsports.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/xsports/xsports.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460262.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460263.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/340450.m3u8",
@@ -2631,7 +2773,7 @@
     "id": "97",
     "nome": "Music Box Brazil",
     "categoria": "Variedades",
-    "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MusicBoxBrazil.png",
+    "logo": "https://img.faz-o-eli.online/musicboxbrazil.png",
     "urls": [
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjE4NC5tM3U4.m3u8",
       "http://168.197.104.22/MUSIC/index.m3u8",
@@ -2658,9 +2800,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/bandsp.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandsp/bandsp.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvMjIwNjc5MC5tM3U4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/bandsp.txt",
       "http://64.31.23.207:80/59471019/60849037/324371.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324372.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104943.m3u8",
@@ -2696,9 +2838,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sbtsp.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sbtsp/sbtsp.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83Nzk2My5tM3U4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sbtsp.txt",
       "http://64.31.23.207:80/59471019/60849037/324307.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324308.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjU5OC5tM3U4.m3u8",
@@ -2720,8 +2862,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordsp/recordsp.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/recordsp.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordsp/recordsp.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324389.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/77654.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72973.m3u8",
@@ -2800,10 +2942,10 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/tvpaieterno.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tvpaieterno/tvpaieterno.m3u8",
-      "http://45.162.64.114/TV_PAI_ETERNO/index.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tvpaieterno.txt",
       "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
+      "http://45.162.64.114/TV_PAI_ETERNO/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/tvpaieterno/tvpaieterno.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/tvpaieterno.txt",
       "http://168.197.104.22/TV_PAI_ETERNO/index.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72214.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/72213.m3u8",
@@ -2865,6 +3007,7 @@
     "categoria": "Variedades",
     "logo": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
     "urls": [
+      "https://amg01131-tracetv-tracebrazuca-xiaomi-vvr19.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjM4Ni5tM3U4.m3u8",
       "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMDM0NTMubTN1OA.m3u8",
@@ -2929,6 +3072,7 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
     "urls": [
       "http://45.162.64.114/NOVO_TEMPO/index.m3u8",
+      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8",
       "http://168.197.104.22/NOVO_TEMPO/index.m3u8",
       "http://186.219.52.187/novo_tempo/index.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103459.m3u8",
@@ -2976,8 +3120,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryhh.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryhh/discoveryhh.m3u8",
+      "https://dadinhodetapioca.fun/play/discoveryhh.html",
       "http://45.162.64.114/DISCOVERY_H_H/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryhh/discoveryhh.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoveryhh.txt",
       "http://64.31.23.207:80/59471019/60849037/297939.m3u8",
       "http://64.31.23.207:80/59471019/60849037/297940.m3u8",
@@ -3265,8 +3410,8 @@
     "categoria": "24 Horas",
     "logo": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/masterchef/masterchef.m3u8",
-      "https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/cb543d167c6c618784cb3760cef342a0f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7352db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a1af1c56953145f59647c0dd4ebdd4d20883448e7fa7099c93a68ace42d381c77efc02b036510f7a2fc98528cbfbb5d7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d1c52c03f0204bcef7f8a228e0d5a19ff73a71c90e6a7e5bbc011eaac66e1174c86298122a2d9cf28173eea645c7e673d5e62e7559b158362bb90a43b810f4f8fc9ba8aec6bf9d083f4209079454a19b22e828d24798cf062d5377e3ccf048e989c3573c6e4ec9d5108453538ed28587d019288a4e2f1ab930970b5e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe36342612c930bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df957953468f03683006657dfc33df67db0f5e136e984ea1cb2740c5577163b6dd703733419fcba38e94d9cc50c716fec6fe2b20285665a9496b036ad4b3cd14bd0f42707e52971c262499024949fe9ad9effad13a9b7c05109ca8a6054b0f3f8d3f8d662d6d5d57dc5c82626e/145/1920x1080_6046040/index.m3u8"
+      "https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/cb543d167c6c618784cb3760cef342a0f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7352db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a1af1c56953145f59647c0dd4ebdd4d20883448e7fa7099c93a68ace42d381c77efc02b036510f7a2fc98528cbfbb5d7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d1c52c03f0204bcef7f8a228e0d5a19ff73a71c90e6a7e5bbc011eaac66e1174c86298122a2d9cf28173eea645c7e673d5e62e7559b158362bb90a43b810f4f8fc9ba8aec6bf9d083f4209079454a19b22e828d24798cf062d5377e3ccf048e989c3573c6e4ec9d5108453538ed28587d019288a4e2f1ab930970b5e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe36342612c930bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df957953468f03683006657dfc33df67db0f5e136e984ea1cb2740c5577163b6dd703733419fcba38e94d9cc50c716fec6fe2b20285665a9496b036ad4b3cd14bd0f42707e52971c262499024949fe9ad9effad13a9b7c05109ca8a6054b0f3f8d3f8d662d6d5d57dc5c82626e/145/1920x1080_6046040/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/masterchef/masterchef.m3u8"
     ]
   },
   {
@@ -3301,7 +3446,7 @@
     "id": "142",
     "nome": "Nickelodeon",
     "categoria": "Infantil",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/nickelodeon.png",
     "urls": [
       "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8"
     ]
@@ -3331,6 +3476,7 @@
     "logo": "https://i.imgur.com/ZJgD38F.png",
     "urls": [
       "http://45.162.64.114/REDE_TV/index.m3u8",
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
       "http://168.197.104.22/REDE_TV/index.m3u8",
       "http://170.83.16.50/REDE_TV/index.m3u8",
       "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
@@ -3381,7 +3527,7 @@
     "id": "149",
     "nome": "AEROPORTO AREA RESTRITA",
     "categoria": "24 Horas",
-    "logo": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
+    "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://vivlar.me:80/live/497238/KK8Kdy/150488.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/150489.m3u8",
@@ -3397,7 +3543,7 @@
     "id": "150",
     "nome": "FILHINHO DA MAMAE",
     "categoria": "24 Horas",
-    "logo": "http://xvbroker.click:80/images/dsAt8cMDBjbP3mVNdeYR4Vln2ZyBZpf6UImqVMpJX6g5QngYjG1K5Rghi2qcfLTA.png",
+    "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://64.31.23.207:80/59471019/60849037/2945301.m3u8"
     ]
@@ -3408,8 +3554,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/primevideo.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo/primevideo.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/primevideo.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo/primevideo.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460179.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/292698.m3u8"
     ]
@@ -3420,8 +3566,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/primevideo.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo2/primevideo2.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/primevideo2.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo2/primevideo2.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460180.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/121180.m3u8"
     ]
@@ -3468,10 +3614,13 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/combate.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/7d57bfa6e9334f879ac96923e91f97f4/combate.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/2efdf4bb8d37d788058cb2f63909e9a5/error.txt",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/combate.txt",
+      "https://aws.s13-s1001604.lat/stream/a223f90f63881dde78c7f0bb46488689/combate.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/combate/combate.m3u8",
       "https://16-5-0-235.sslip.io/combate/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTE0Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/combate.txt",
       "http://64.31.23.207:80/59471019/60849037/297542.m3u8",
       "http://64.31.23.207:80/59471019/60849037/297543.m3u8",
       "http://64.31.23.207:80/59471019/60849037/297544.m3u8",
@@ -3520,8 +3669,7 @@
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/296915.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169095.m3u8"
+      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169096.m3u8"
     ]
   },
   {
@@ -3530,60 +3678,11 @@
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/296916.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169096.m3u8"
-    ]
-  },
-  {
-    "id": "162",
-    "nome": "Disney+ 03",
-    "categoria": "Esportes",
-    "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/296917.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169097.m3u8"
-    ]
-  },
-  {
-    "id": "163",
-    "nome": "Disney+ 04",
-    "categoria": "Esportes",
-    "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/296918.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169098.m3u8"
     ]
   },
   {
-    "id": "164",
-    "nome": "Disney+ 05",
-    "categoria": "Esportes",
-    "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/296919.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169099.m3u8"
-    ]
-  },
-  {
-    "id": "165",
-    "nome": "Mr Olympia 01",
-    "categoria": "Esportes",
-    "logo": "",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/3460265.m3u8"
-    ]
-  },
-  {
-    "id": "166",
-    "nome": "Mr Olympia 02",
-    "categoria": "Esportes",
-    "logo": "",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/3460266.m3u8"
-    ]
-  },
-  {
-    "id": "167",
+    "id": "162",
     "nome": "NBA 01",
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/nba.png",
@@ -3592,16 +3691,16 @@
     ]
   },
   {
-    "id": "168",
+    "id": "163",
     "nome": "N Sports (Jogo 1)",
     "categoria": "Esportes",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/nsports.png",
     "urls": [
       "http://64.31.23.207:80/59471019/60849037/3460254.m3u8"
     ]
   },
   {
-    "id": "169",
+    "id": "164",
     "nome": "Paramount+ (Jogo 1)",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/paramountplus.png",
@@ -3611,7 +3710,7 @@
     ]
   },
   {
-    "id": "170",
+    "id": "165",
     "nome": "Paramount+ (Jogo 2)",
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
@@ -3620,7 +3719,7 @@
     ]
   },
   {
-    "id": "171",
+    "id": "166",
     "nome": "Paramount+ (Jogo 3)",
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
@@ -3629,7 +3728,7 @@
     ]
   },
   {
-    "id": "172",
+    "id": "167",
     "nome": "Paramount+ (Jogo 6)",
     "categoria": "Esportes",
     "logo": "https://logos.appscms.xyz/logos/2025/Paramount.png",
@@ -3638,7 +3737,7 @@
     ]
   },
   {
-    "id": "173",
+    "id": "168",
     "nome": "SportyNet 01",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -3657,7 +3756,7 @@
     ]
   },
   {
-    "id": "174",
+    "id": "169",
     "nome": "UFC Fight Pass 01",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/ufcfightpass.png",
@@ -3669,7 +3768,7 @@
     ]
   },
   {
-    "id": "175",
+    "id": "170",
     "nome": "UFC Fight Pass 03",
     "categoria": "Esportes",
     "logo": "http://logos.imperioapps.top/UFC_FIGHT_PASS.png",
@@ -3679,10 +3778,10 @@
     ]
   },
   {
-    "id": "176",
+    "id": "171",
     "nome": "Canal Brasil",
     "categoria": "Filmes e Séries",
-    "logo": "http://www.imgu.top/logos/CANAL%20BRASIL.jpg",
+    "logo": "https://img.faz-o-eli.online/canalbrasil.png",
     "urls": [
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzAyLm0zdTg.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103518.m3u8",
@@ -3702,57 +3801,43 @@
     ]
   },
   {
-    "id": "177",
+    "id": "172",
     "nome": "Cine SKY 01",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.dev/logos/canais/cinesky.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/1832882.m3u8",
-      "http://64.31.23.207:80/59471019/60849037/1882617.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/13071.m3u8"
     ]
   },
   {
-    "id": "178",
+    "id": "173",
     "nome": "Cine SKY 02",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.org/logos/canais/cinesky.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/1882618.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/13072.m3u8"
     ]
   },
   {
-    "id": "179",
+    "id": "174",
     "nome": "Cine SKY 03",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.org/logos/canais/cinesky.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/1882619.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/13073.m3u8"
     ]
   },
   {
-    "id": "180",
-    "nome": "Cine SKY 04",
-    "categoria": "Filmes e Séries",
-    "logo": "http://www.fontedecanais.org/logos/canais/cinesky.png",
-    "urls": [
-      "http://64.31.23.207:80/59471019/60849037/1882620.m3u8"
-    ]
-  },
-  {
-    "id": "181",
+    "id": "175",
     "nome": "Cine SKY 05",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.org/logos/canais/cinesky.png",
     "urls": [
-      "http://64.31.23.207:80/59471019/60849037/1882621.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/13075.m3u8"
     ]
   },
   {
-    "id": "182",
+    "id": "176",
     "nome": "Lifetime",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.me/logos/canais/lifetime.png",
@@ -3780,38 +3865,38 @@
     ]
   },
   {
-    "id": "183",
+    "id": "177",
     "nome": "MAX 01",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max1/max1.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460233.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/594007.m3u8",
-      "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTgxLm0zdTg.m3u8"
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max1/max1.m3u8",
+      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/594007.m3u8"
     ]
   },
   {
-    "id": "184",
+    "id": "178",
     "nome": "MAX 02",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max2/max2.m3u8",
       "http://64.31.23.207:80/59471019/60849037/3460234.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max2/max2.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/594010.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTgyLm0zdTg.m3u8"
     ]
   },
   {
-    "id": "185",
+    "id": "179",
     "nome": "Studio Universal",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/studiouniversal.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/studiouniversal.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/5fdc62d1bb4e3bb5e088b3970fffa107/error.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/studiouniversal/studiouniversal.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MzM3Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/studiouniversal.txt",
       "http://64.31.23.207:80/59471019/60849037/324392.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103467.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72334.m3u8",
@@ -3832,14 +3917,14 @@
     ]
   },
   {
-    "id": "186",
+    "id": "180",
     "nome": "Gloob",
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/gloob.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/gloob.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/gloob/gloob.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NDE1Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/gloob.txt",
       "http://64.31.23.207:80/59471019/60849037/1882625.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882626.m3u8",
       "http://64.31.23.207:80/59471019/60849037/1882627.m3u8",
@@ -3860,7 +3945,7 @@
     ]
   },
   {
-    "id": "187",
+    "id": "181",
     "nome": "Gloobinho",
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/GLOBINHO.png",
@@ -3887,7 +3972,7 @@
     ]
   },
   {
-    "id": "188",
+    "id": "182",
     "nome": "TV Rá Tim Bum",
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
@@ -3911,7 +3996,7 @@
     ]
   },
   {
-    "id": "189",
+    "id": "183",
     "nome": "Band Campinas",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3922,7 +4007,7 @@
     ]
   },
   {
-    "id": "190",
+    "id": "184",
     "nome": "Band Curitiba",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3932,7 +4017,7 @@
     ]
   },
   {
-    "id": "191",
+    "id": "185",
     "nome": "Band MG",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3942,7 +4027,7 @@
     ]
   },
   {
-    "id": "192",
+    "id": "186",
     "nome": "Band Pará",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3951,7 +4036,7 @@
     ]
   },
   {
-    "id": "193",
+    "id": "187",
     "nome": "Band Recife TV Tribuna",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3961,19 +4046,19 @@
     ]
   },
   {
-    "id": "194",
+    "id": "188",
     "nome": "Band RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandrj/bandrj.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/bandrj.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/bandrj/bandrj.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324366.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/20524.m3u8"
     ]
   },
   {
-    "id": "195",
+    "id": "189",
     "nome": "Band RN",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3983,7 +4068,7 @@
     ]
   },
   {
-    "id": "196",
+    "id": "190",
     "nome": "Band Sergipe",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -3992,7 +4077,7 @@
     ]
   },
   {
-    "id": "197",
+    "id": "191",
     "nome": "Rede Família",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.gs/logos/canais/redefamilia.png",
@@ -4001,7 +4086,7 @@
     ]
   },
   {
-    "id": "198",
+    "id": "192",
     "nome": "SBT Alterosa",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4014,7 +4099,7 @@
     ]
   },
   {
-    "id": "199",
+    "id": "193",
     "nome": "SBT BA",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4024,7 +4109,7 @@
     ]
   },
   {
-    "id": "200",
+    "id": "194",
     "nome": "SBT GO",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4033,7 +4118,7 @@
     ]
   },
   {
-    "id": "201",
+    "id": "195",
     "nome": "SBT Londrina",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4042,7 +4127,7 @@
     ]
   },
   {
-    "id": "202",
+    "id": "196",
     "nome": "SBT Maringá",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4051,7 +4136,7 @@
     ]
   },
   {
-    "id": "203",
+    "id": "197",
     "nome": "SBT MG",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4061,7 +4146,7 @@
     ]
   },
   {
-    "id": "204",
+    "id": "198",
     "nome": "SBT PI",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4071,7 +4156,7 @@
     ]
   },
   {
-    "id": "205",
+    "id": "199",
     "nome": "SBT PR",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/sbt.png",
@@ -4081,14 +4166,14 @@
     ]
   },
   {
-    "id": "206",
+    "id": "200",
     "nome": "SBT RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sbtrj.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sbtrj/sbtrj.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMDg2ODEubTN1OA.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sbtrj.txt",
       "http://64.31.23.207:80/59471019/60849037/324302.m3u8",
       "http://64.31.23.207:80/59471019/60849037/324303.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMDg2ODIubTN1OA.m3u8",
@@ -4104,7 +4189,7 @@
     ]
   },
   {
-    "id": "207",
+    "id": "201",
     "nome": "TVE Bahia",
     "categoria": "TV Aberta",
     "logo": "http://i.imgur.com/IWGyp65.jpeg",
@@ -4114,7 +4199,7 @@
     ]
   },
   {
-    "id": "208",
+    "id": "202",
     "nome": "Tv Goiania",
     "categoria": "TV Aberta",
     "logo": "http://www.fontedecanais.me/logos/canais/band.png",
@@ -4123,7 +4208,7 @@
     ]
   },
   {
-    "id": "209",
+    "id": "203",
     "nome": "BIS",
     "categoria": "Variedades",
     "logo": "http://www.fontedecanais.me/logos/canais/bis.png",
@@ -4151,14 +4236,17 @@
     ]
   },
   {
-    "id": "210",
+    "id": "204",
     "nome": "Food Network",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/foodnetwork.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/1cabec2a5257e1af7f711a4c7fd32a1e/foodnetwork.m3u8",
+      "https://dadinhodetapioca.fun/play/foodnetwork.html",
+      "https://aws.s13-s1001604.lat/stream/8975189bb51c75df99a767cdecf542d0/foodnetwork.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/foodnetwork.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/foodnetwork/foodnetwork.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTA2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/foodnetwork.txt",
       "http://64.31.23.207:80/59471019/60849037/518566.m3u8",
       "http://64.31.23.207:80/59471019/60849037/518567.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103501.m3u8",
@@ -4180,7 +4268,7 @@
     ]
   },
   {
-    "id": "211",
+    "id": "205",
     "nome": "Modo Viagem",
     "categoria": "Variedades",
     "logo": "http://www.fontedecanais.me/logos/canais/modoviagem.png",
@@ -4205,19 +4293,19 @@
     ]
   },
   {
-    "id": "212",
+    "id": "206",
     "nome": "24H Chaves",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://vivlar.me:80/live/497238/KK8Kdy/137139.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_chaves/24h_chaves.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137140.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137141.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137142.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137143.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137144.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/137145.m3u8",
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_chaves/24h_chaves.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_chaves.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/137139.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/137140.m3u8",
@@ -4231,33 +4319,39 @@
     ]
   },
   {
-    "id": "213",
+    "id": "207",
     "nome": "24H Dragon Ball Z",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_dragonball/24h_dragonball.m3u8",
+      "https://aws.s13-s1001604.lat/stream/52e5b4e936ba314127ebe4742e6ae12f/24h_dragonball.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_dragonball.txt",
+      "https://aws.s13-s1001604.lat/stream/f7e69dd96cbbf642e6041bc64cb8667e/24h_dragonball.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_dragonball/24h_dragonball.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169226.m3u8"
     ]
   },
   {
-    "id": "214",
+    "id": "208",
     "nome": "24H Naruto Clássico",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_naruto/24h_naruto.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_naruto.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_naruto.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_naruto/24h_naruto.m3u8"
     ]
   },
   {
-    "id": "215",
+    "id": "209",
     "nome": "24H Os Simpsons",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/2efddc40d3e9b9d781d88441ec82e8ce/24h_simpsons.m3u8",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/997cce902d6abfb4633575ba9ffc6c86/error.txt",
       "http://vivlar.me:80/live/497238/KK8Kdy/135601.m3u8",
+      "https://aws.s13-s1001604.lat/stream/a9b54966fcd76b7b3266654910bb96e0/24h_simpsons.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_simpsons/24h_simpsons.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135600.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135599.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135598.m3u8",
@@ -4289,7 +4383,6 @@
       "http://vivlar.me:80/live/497238/KK8Kdy/135572.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135571.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135570.m3u8",
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_simpsons/24h_simpsons.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_simpsons.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/135601.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/135600.m3u8",
@@ -4327,7 +4420,7 @@
     ]
   },
   {
-    "id": "216",
+    "id": "210",
     "nome": "24H Pica Pau",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -4340,16 +4433,18 @@
     ]
   },
   {
-    "id": "217",
+    "id": "211",
     "nome": "24H Todo Mundo Odeia o Cris",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/02bde299980d2c1a30e472930d0a76d8/24h_odeiachris.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135469.m3u8",
+      "https://aws.s13-s1001604.lat/stream/9c7232930a640d377b286e2bfa30a03e/24h_odeiachris.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_odeiachris/24h_odeiachris.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135470.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135471.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/135472.m3u8",
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_odeiachris/24h_odeiachris.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_odeiachris.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/135469.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/135470.m3u8",
@@ -4359,12 +4454,13 @@
     ]
   },
   {
-    "id": "218",
+    "id": "212",
     "nome": "24H Friends",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://vivlar.me:80/live/497238/KK8Kdy/138814.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_friends/24h_friends.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/138815.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/138816.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/138817.m3u8",
@@ -4374,7 +4470,6 @@
       "http://vivlar.me:80/live/497238/KK8Kdy/138821.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/138822.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/138823.m3u8",
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/24h_friends/24h_friends.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/24h_friends.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/138814.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/138815.m3u8",
@@ -4389,13 +4484,14 @@
     ]
   },
   {
-    "id": "219",
+    "id": "213",
     "nome": "Discovery World",
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryworld.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryworld/discoveryworld.m3u8",
+      "https://dadinhodetapioca.fun/play/discoveryworld.html",
       "http://45.162.64.114/DISCOVERY_WORLD/index.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/discoveryworld/discoveryworld.m3u8",
       "http://138.204.86.4:8080/DISCOVERY_WORLD_HD/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDM4Lm0zdTg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/discoveryworld.txt",
@@ -4421,161 +4517,161 @@
     ]
   },
   {
-    "id": "220",
+    "id": "214",
     "nome": "CazeTV 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/caze1/caze1.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/caze1.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/caze1/caze1.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/227520.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/245798.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/245797.m3u8"
     ]
   },
   {
-    "id": "221",
+    "id": "215",
     "nome": "CazeTV 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/caze2.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/caze2/caze2.m3u8",
-      "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8zODQ0NjMubTN1OA.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/caze2.txt"
+      "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8zODQ0NjMubTN1OA.m3u8"
     ]
   },
   {
-    "id": "222",
+    "id": "216",
     "nome": "PT - A Bola",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_abola.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_abola/pt_abola.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_abola.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_abola.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_abola/pt_abola.m3u8"
     ]
   },
   {
-    "id": "223",
+    "id": "217",
     "nome": "PT - Benfica TV",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_benficatv/pt_benficatv.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_benficatv.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_benficatv.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_benficatv/pt_benficatv.m3u8"
     ]
   },
   {
-    "id": "224",
+    "id": "218",
     "nome": "PT - Canal 11",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_canal11.prev.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_canal11/pt_canal11.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_canal11.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_canal11.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_canal11/pt_canal11.m3u8"
     ]
   },
   {
-    "id": "225",
+    "id": "219",
     "nome": "PT - Eleven 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven1/pt_eleven1.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven1.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven1.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven1/pt_eleven1.m3u8"
     ]
   },
   {
-    "id": "226",
+    "id": "220",
     "nome": "PT - Eleven 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven2/pt_eleven2.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven2.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven2.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven2/pt_eleven2.m3u8"
     ]
   },
   {
-    "id": "227",
+    "id": "221",
     "nome": "PT - Eleven 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven3/pt_eleven3.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven3.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_eleven3.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_eleven3/pt_eleven3.m3u8"
     ]
   },
   {
-    "id": "228",
+    "id": "222",
     "nome": "PT - Sporttv 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv1/pt_sportv1.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv1.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv1.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv1/pt_sportv1.m3u8"
     ]
   },
   {
-    "id": "229",
+    "id": "223",
     "nome": "PT - Sporttv 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv2/pt_sportv2.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv2.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv2.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv2/pt_sportv2.m3u8"
     ]
   },
   {
-    "id": "230",
+    "id": "224",
     "nome": "PT - Sporttv 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv3/pt_sportv3.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv3.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv3.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv3/pt_sportv3.m3u8"
     ]
   },
   {
-    "id": "231",
+    "id": "225",
     "nome": "PT - Sporttv 4",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv4/pt_sportv4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv4.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv4.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv4/pt_sportv4.m3u8"
     ]
   },
   {
-    "id": "232",
+    "id": "226",
     "nome": "PT - Sporttv 5",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv5/pt_sportv5.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv5.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv5.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv5/pt_sportv5.m3u8"
     ]
   },
   {
-    "id": "233",
+    "id": "227",
     "nome": "PT - Sporttv 6",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv6/pt_sportv6.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv6.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv6.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv6/pt_sportv6.m3u8"
     ]
   },
   {
-    "id": "234",
+    "id": "228",
     "nome": "PT - Sporttv 7",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv7/pt_sportv7.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv7.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/pt_sportv7.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/pt_sportv7/pt_sportv7.m3u8"
     ]
   },
   {
-    "id": "235",
+    "id": "229",
     "nome": "SportyNet+ 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -4586,7 +4682,7 @@
     ]
   },
   {
-    "id": "236",
+    "id": "230",
     "nome": "SportyNet+ 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -4596,7 +4692,7 @@
     ]
   },
   {
-    "id": "237",
+    "id": "231",
     "nome": "SportyNet+ 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -4607,75 +4703,75 @@
     ]
   },
   {
-    "id": "238",
+    "id": "232",
     "nome": "Globo AM",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoam/globoam.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoam.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoam.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoam/globoam.m3u8"
     ]
   },
   {
-    "id": "239",
+    "id": "233",
     "nome": "Globo CE",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoce/globoce.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoce.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoce.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoce/globoce.m3u8"
     ]
   },
   {
-    "id": "240",
+    "id": "234",
     "nome": "Globo ES",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoes/globoes.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoes.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globoes.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globoes/globoes.m3u8"
     ]
   },
   {
-    "id": "241",
+    "id": "235",
     "nome": "Globo GO",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globogo/globogo.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globogo.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globogo.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globogo/globogo.m3u8"
     ]
   },
   {
-    "id": "242",
+    "id": "236",
     "nome": "Globo PB",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globopb/globopb.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globopb.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globopb.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globopb/globopb.m3u8"
     ]
   },
   {
-    "id": "243",
+    "id": "237",
     "nome": "Globo PE",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globope/globope.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globope.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globope.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globope/globope.m3u8"
     ]
   },
   {
-    "id": "244",
+    "id": "238",
     "nome": "Globo RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globorj.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globorj.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globorj/globorj.m3u8",
       "https://16-5-0-235.sslip.io/globorj/index.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy83MjAyNS5tM3U4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globorj.txt",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMzExNjMubTN1OA.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8xMzExODIubTN1OA.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72025.m3u8",
@@ -4691,23 +4787,23 @@
     ]
   },
   {
-    "id": "245",
+    "id": "239",
     "nome": "Globo RS",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globors/globors.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globors.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globors.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globors/globors.m3u8"
     ]
   },
   {
-    "id": "246",
+    "id": "240",
     "nome": "Record GO",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordgo/recordgo.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/recordgo.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordgo/recordgo.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/218823.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/218822.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/218823.m3u8",
@@ -4716,39 +4812,42 @@
     ]
   },
   {
-    "id": "247",
+    "id": "241",
     "nome": "Record MG",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordmg/recordmg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/recordmg.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordmg/recordmg.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/9055.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/9054.m3u8"
     ]
   },
   {
-    "id": "248",
+    "id": "242",
     "nome": "Record RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordrj/recordrj.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/recordrj.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/recordrj/recordrj.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/106095.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/71697.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/9063.m3u8"
     ]
   },
   {
-    "id": "249",
+    "id": "243",
     "nome": "HGTV",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/hgtv.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/83388f6af00a1e30e6a19d56af52fd76/hgtv.m3u8",
+      "https://dadinhodetapioca.fun/play/hgtv.html",
+      "https://aws.s13-s1001604.lat/stream/0b7ed4f2d49df88f285464007159254d/hgtv.m3u8",
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hgtv.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/hgtv/hgtv.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MDQ2Lm0zdTg.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/hgtv.txt",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103493.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72142.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72143.m3u8",
@@ -4768,89 +4867,91 @@
     ]
   },
   {
-    "id": "250",
+    "id": "244",
     "nome": "MTV",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/mtv.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/mtv.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/mtv/mtv.m3u8",
-      "https://16-5-0-235.sslip.io/mtv/index.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/mtv.txt"
+      "https://16-5-0-235.sslip.io/mtv/index.m3u8"
     ]
   },
   {
-    "id": "251",
+    "id": "245",
     "nome": "A Fazenda 18 1",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda/afazenda.m3u8",
+      "https://aws.s13-s1001604.lat/stream/820fef4ff510e9724f894c3b408b9a93/afazenda.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/afazenda.txt",
+      "https://aws.s13-s1001604.lat/stream/6bcf28b4f7d5fbb81239a41192761927/afazenda.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda/afazenda.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470061.m3u8"
     ]
   },
   {
-    "id": "252",
+    "id": "246",
     "nome": "A Fazenda 18 2",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda2/afazenda2.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/afazenda2.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda2/afazenda2.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470062.m3u8"
     ]
   },
   {
-    "id": "253",
+    "id": "247",
     "nome": "A Fazenda 18 3",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda3/afazenda3.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/afazenda3.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda3/afazenda3.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470063.m3u8"
     ]
   },
   {
-    "id": "254",
+    "id": "248",
     "nome": "A Fazenda 18 4",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda4/afazenda4.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/afazenda4.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda4/afazenda4.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470064.m3u8"
     ]
   },
   {
-    "id": "255",
+    "id": "249",
     "nome": "A Fazenda 18 5",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda5/afazenda5.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/afazenda5.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/afazenda5/afazenda5.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470065.m3u8"
     ]
   },
   {
-    "id": "256",
+    "id": "250",
     "nome": "CazeTV 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/caze3/caze3.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/caze3.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/caze3.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/caze3/caze3.m3u8"
     ]
   },
   {
-    "id": "257",
+    "id": "251",
     "nome": "Globo DF",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globodf/globodf.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globodf.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globodf/globodf.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131151.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131164.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131116.m3u8",
@@ -4860,13 +4961,14 @@
     ]
   },
   {
-    "id": "258",
+    "id": "252",
     "nome": "Globo MG",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globomg/globomg.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/globomg.txt",
+      "https://86eb89e9b94c94323705944a729cf618.s25-cloudfront-net.lat/stream/5146a07ee6b56538b507a8e31a8e02c2/error.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/globomg/globomg.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131200.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131159.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/131209.m3u8",
@@ -4878,36 +4980,36 @@
     ]
   },
   {
-    "id": "259",
+    "id": "253",
     "nome": "MAX 03",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/max.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max3/max3.m3u8",
       "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/max3.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/max3/max3.m3u8",
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/594011.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1MTgzLm0zdTg.m3u8"
     ]
   },
   {
-    "id": "260",
+    "id": "254",
     "nome": "Amazon Prime Video 04",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/primevideo.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo4/primevideo4.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/primevideo4.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/primevideo4.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/primevideo4/primevideo4.m3u8"
     ]
   },
   {
-    "id": "261",
+    "id": "255",
     "nome": "SporTV 4",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv4.png",
     "urls": [
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv4.txt",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportv4/sportv4.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8yNzYwODkubTN1OA.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/sportv4.txt",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8yNzYwOTMubTN1OA.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8yNzYwOTAubTN1OA.m3u8",
       "https://frostview.squareweb.app/relay/m/aHR0cDovL3BhbGRpLnBybzo4MC9saXZlL3RvbmluaG8wMi9DYjQ5ODAzNy8yNzYwOTEubTN1OA.m3u8",
@@ -4919,20 +5021,20 @@
     ]
   },
   {
-    "id": "262",
+    "id": "256",
     "nome": "Star Channel",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/starchannel.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/starchannel/starchannel.m3u8",
-      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/starchannel.txt"
+      "https://52d080a3e172c33fd6886a37e7.s23-cloudfront-net.lat/8e8e8b142192ea65/starchannel.txt",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/starchannel/starchannel.m3u8"
     ]
   },
   {
-    "id": "263",
+    "id": "257",
     "nome": "Curta",
     "categoria": "Documentários",
-    "logo": "http://tvonhdbr.com/static/logos/canais/curta.png",
+    "logo": "https://img.faz-o-eli.online/curta.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71855.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/71856.m3u8",
@@ -4949,10 +5051,10 @@
     ]
   },
   {
-    "id": "264",
+    "id": "258",
     "nome": "DOG TV",
     "categoria": "Variedades",
-    "logo": "http://tvonhdbr.com/images/2ecd0b43c0ba5f0fac0f9fbb98bb79cd.jpg",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/dog-tv.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/178517.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/76922.m3u8",
@@ -4967,10 +5069,10 @@
     ]
   },
   {
-    "id": "265",
+    "id": "259",
     "nome": "Eurochannel",
     "categoria": "Notícias",
-    "logo": "http://tvonhdbr.com/images/e319732e23a51cafb209d07c7a26c615.jpg",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104910.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104913.m3u8",
@@ -4985,7 +5087,7 @@
     ]
   },
   {
-    "id": "266",
+    "id": "260",
     "nome": "FashionTV",
     "categoria": "Variedades",
     "logo": "https://i.imgur.com/1jtRh4S.png",
@@ -5004,10 +5106,10 @@
     ]
   },
   {
-    "id": "267",
+    "id": "261",
     "nome": "Film&Arts",
     "categoria": "Filmes e Séries",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/filmarts.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104914.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104920.m3u8",
@@ -5024,19 +5126,19 @@
     ]
   },
   {
-    "id": "268",
+    "id": "262",
     "nome": "Formula 1 TV",
     "categoria": "PPV",
-    "logo": "https://imgur.com/a/jyyyawL",
+    "logo": "",
     "urls": [
       "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvOTc3MDQwLm0zdTg.m3u8"
     ]
   },
   {
-    "id": "269",
+    "id": "263",
     "nome": "France 24",
     "categoria": "Notícias",
-    "logo": "",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/france-24.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103500.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104906.m3u8",
@@ -5051,10 +5153,10 @@
     ]
   },
   {
-    "id": "270",
+    "id": "264",
     "nome": "Markket",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/markket.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/164026.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/164030.m3u8",
@@ -5070,7 +5172,7 @@
     ]
   },
   {
-    "id": "271",
+    "id": "265",
     "nome": "NBA League Pass 1",
     "categoria": "Esportes",
     "logo": "https://i.imgur.com/ynW8fZF.png",
@@ -5085,7 +5187,7 @@
     ]
   },
   {
-    "id": "272",
+    "id": "266",
     "nome": "NBA League Pass 2",
     "categoria": "Esportes",
     "logo": "https://i.imgur.com/ynW8fZF.png",
@@ -5099,7 +5201,7 @@
     ]
   },
   {
-    "id": "273",
+    "id": "267",
     "nome": "NBA League Pass 3",
     "categoria": "Esportes",
     "logo": "https://i.imgur.com/ynW8fZF.png",
@@ -5113,10 +5215,10 @@
     ]
   },
   {
-    "id": "274",
+    "id": "268",
     "nome": "SportyNet 4",
     "categoria": "Esportes",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/184584.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/184585.m3u8",
@@ -5128,20 +5230,21 @@
     ]
   },
   {
-    "id": "275",
+    "id": "269",
     "nome": "SportyNet",
     "categoria": "Esportes",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportynetplus3/sportynetplus3.m3u8",
-      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1165167.m3u8"
+      "https://dadinhodetapioca.fun/play/sportynet.html",
+      "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1165167.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/sportynetplus3/sportynetplus3.m3u8"
     ]
   },
   {
-    "id": "276",
+    "id": "270",
     "nome": "Paramount + 4",
     "categoria": "Variedades",
-    "logo": "http://tvonhdbr.com/images/a2297e25c35601bed705a676d70e41df.png",
+    "logo": "https://vipcanais.net/images/paramountplus.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103521.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72989.m3u8",
@@ -5153,10 +5256,10 @@
     ]
   },
   {
-    "id": "277",
+    "id": "271",
     "nome": "Paramount Channel",
     "categoria": "Filmes e Séries",
-    "logo": "http://tvonhdbr.com/static/logos/canais/paramount.png",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/paramount-network.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72217.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72219.m3u8",
@@ -5165,10 +5268,10 @@
     ]
   },
   {
-    "id": "278",
+    "id": "272",
     "nome": "Prime Box Brazil",
     "categoria": "Variedades",
-    "logo": "http://tvonhdbr.com/static/logos/canais/primeboxbrazil.png",
+    "logo": "https://img.faz-o-eli.online/primeboxbrazil.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103476.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/72267.m3u8",
@@ -5182,10 +5285,10 @@
     ]
   },
   {
-    "id": "279",
+    "id": "273",
     "nome": "Sabor & Arte",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/112017.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/112014.m3u8",
@@ -5200,23 +5303,15 @@
     ]
   },
   {
-    "id": "280",
-    "nome": "SYFY",
-    "categoria": "Filmes e Séries",
-    "logo": "http://tvonhdbr.com/static/logos/canais/syfy.png",
-    "urls": [
-      "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/103474.m3u8",
-      "http://vivlar.me:80/live/497238/KK8Kdy/103474.m3u8"
-    ]
-  },
-  {
-    "id": "281",
+    "id": "274",
     "nome": "UFC Fight Pass",
     "categoria": "PPV",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/ufcfightpass.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/ufcfightpass/ufcfightpass.m3u8",
+      "https://aws.s13-s1001604.lat/stream/08a88b58b4cce722ea16074fd446a37c/ufcfightpass.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/184046.m3u8",
+      "https://aws.s13-s1001604.lat/stream/36357fc78b7c6b935fe4542eecbbfa8d/ufcfightpass.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/ufcfightpass/ufcfightpass.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/184047.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/184048.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/184046.m3u8",
@@ -5225,10 +5320,10 @@
     ]
   },
   {
-    "id": "282",
+    "id": "275",
     "nome": "Zoomoo",
     "categoria": "Infantil",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/zoomoo.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/178533.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/104934.m3u8",
@@ -5245,7 +5340,7 @@
     ]
   },
   {
-    "id": "283",
+    "id": "276",
     "nome": "101 Dalmatas",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/9c6a2f33abeeef86c653c2cfb53e30b3.jpg",
@@ -5256,7 +5351,7 @@
     ]
   },
   {
-    "id": "284",
+    "id": "277",
     "nome": "A Beleza Secreta dos Animais",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/841daa83c5587e962d6922d8d873a7e3.jpg",
@@ -5266,7 +5361,7 @@
     ]
   },
   {
-    "id": "285",
+    "id": "278",
     "nome": "Aladdin",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/07b77f17e21144dcbd7933ee82820906.jpg",
@@ -5276,7 +5371,7 @@
     ]
   },
   {
-    "id": "286",
+    "id": "279",
     "nome": "As Aventuras do Gato de Botas",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/10eb05c9613316dfb3cb1a39efdf13e0.jpg",
@@ -5286,17 +5381,17 @@
     ]
   },
   {
-    "id": "287",
+    "id": "280",
     "nome": "Cameras Escondidas Silvio Santos",
     "categoria": "24 Horas",
-    "logo": "http://tvonhdbr.com/images/2e635c8ad4f61ac93cc35719e5ec1d6d.jpg",
+    "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://vivlar.me:80/live/497238/KK8Kdy/152014.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/152014.m3u8"
     ]
   },
   {
-    "id": "288",
+    "id": "281",
     "nome": "Caverna do Dragao",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/7ba1bfdb706316720d0ba2bafbfd7347.jpg",
@@ -5308,7 +5403,7 @@
     ]
   },
   {
-    "id": "289",
+    "id": "282",
     "nome": "Chapolin Colorado",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/77e8debc90dbfd7e69d9decf09b9e05e.jpg",
@@ -5331,7 +5426,7 @@
     ]
   },
   {
-    "id": "290",
+    "id": "283",
     "nome": "Dois Homens e Meio",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/66a6edec30215e33b34d9a1a1fd25393.jpg",
@@ -5364,7 +5459,7 @@
     ]
   },
   {
-    "id": "291",
+    "id": "284",
     "nome": "Dora Aventureira",
     "categoria": "24 Horas",
     "logo": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/j30WV7vDXXorlbdKEHgl74stDml.jpg",
@@ -5375,7 +5470,7 @@
     ]
   },
   {
-    "id": "292",
+    "id": "285",
     "nome": "Dragon Ball Super - Saga Deus da Destruicao Bills",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
@@ -5385,7 +5480,7 @@
     ]
   },
   {
-    "id": "293",
+    "id": "286",
     "nome": "Dragon Ball Super - Trunks do Futuro",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/626e71bf1e9d0b71d194c9359413ced6.jpg",
@@ -5395,7 +5490,7 @@
     ]
   },
   {
-    "id": "294",
+    "id": "287",
     "nome": "Escolinha do Professor Raimundo",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/151df67d8d15f1c0c39c7779f27935b6.jpg",
@@ -5405,7 +5500,7 @@
     ]
   },
   {
-    "id": "295",
+    "id": "288",
     "nome": "Eu a Patroa e as Criancas",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/f8d46ebce886f39998603845cd3fc331.jpg",
@@ -5423,7 +5518,7 @@
     ]
   },
   {
-    "id": "296",
+    "id": "289",
     "nome": "Game Shakers",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/e1b30a8cf50dbe4b7da802f634c686b3.jpg",
@@ -5437,7 +5532,7 @@
     ]
   },
   {
-    "id": "297",
+    "id": "290",
     "nome": "He Man e Os Defensores do Universo",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/66c305ee7bff6c27854be94434b46c7e.jpg",
@@ -5447,7 +5542,7 @@
     ]
   },
   {
-    "id": "298",
+    "id": "291",
     "nome": "Largados e Pelados",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/2246772d199347c5251faaac1a270575.jpg",
@@ -5477,7 +5572,7 @@
     ]
   },
   {
-    "id": "299",
+    "id": "292",
     "nome": "Mestres da Sobrevivencia",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/401f441af8a5f5b0211c085d1d755d95.jpg",
@@ -5487,7 +5582,7 @@
     ]
   },
   {
-    "id": "300",
+    "id": "293",
     "nome": "Nicky Ricky Dicky e Dawn",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/fa42fec0efcb2f9a242913cad45ccba8.jpg",
@@ -5503,7 +5598,7 @@
     ]
   },
   {
-    "id": "301",
+    "id": "294",
     "nome": "Um Maluco no Pedaco",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/3e3d6036a0a8a0f316aff080eca66868.jpg",
@@ -5524,7 +5619,7 @@
     ]
   },
   {
-    "id": "302",
+    "id": "295",
     "nome": "FCF TV 1",
     "categoria": "PPV",
     "logo": "",
@@ -5534,7 +5629,7 @@
     ]
   },
   {
-    "id": "303",
+    "id": "296",
     "nome": "Carros Irado",
     "categoria": "24 Horas",
     "logo": "http://24horas.cc:80/images/2dd914ca34a6a1ad2bdbb727f3e51140.jpg",
@@ -5560,7 +5655,7 @@
     ]
   },
   {
-    "id": "304",
+    "id": "297",
     "nome": "CNBC Brasil",
     "categoria": "Notícias",
     "logo": "",
@@ -5579,7 +5674,7 @@
     ]
   },
   {
-    "id": "305",
+    "id": "298",
     "nome": "Brasileirao Serie A",
     "categoria": "Variedades",
     "logo": "",
@@ -5594,59 +5689,59 @@
     ]
   },
   {
-    "id": "306",
+    "id": "299",
     "nome": "Andorra x Malta",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317686.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/317686.m3u8"
     ]
   },
   {
-    "id": "307",
+    "id": "300",
     "nome": "Portugal x País de Gales",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317690.m3u8"
     ]
   },
   {
-    "id": "308",
+    "id": "301",
     "nome": "Áustria x Israel",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317691.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/317691.m3u8"
     ]
   },
   {
-    "id": "309",
+    "id": "302",
     "nome": "Kosovo x Irlanda",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317692.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/317692.m3u8"
     ]
   },
   {
-    "id": "310",
+    "id": "303",
     "nome": "Liechtenstein x Lituânia",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317693.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/317693.m3u8"
     ]
   },
   {
-    "id": "311",
+    "id": "304",
     "nome": "Informações em Breve",
     "categoria": "Esportes",
-    "logo": "http://tvonhdbr.com/static/logos/canais/jogos.png",
+    "logo": "",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317694.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/317695.m3u8",
@@ -5667,77 +5762,77 @@
     ]
   },
   {
-    "id": "312",
+    "id": "305",
     "nome": "Gladiadores da Natureza",
     "categoria": "24 Horas",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
       "http://vivlar.me:80/live/497238/KK8Kdy/371456.m3u8",
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/371456.m3u8"
     ]
   },
   {
-    "id": "313",
+    "id": "306",
     "nome": "A Fazenda Cam 1",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397317.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397317.m3u8"
     ]
   },
   {
-    "id": "314",
+    "id": "307",
     "nome": "A Fazenda Cam 2",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397320.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397320.m3u8"
     ]
   },
   {
-    "id": "315",
+    "id": "308",
     "nome": "A Fazenda Cam 3",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397321.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397321.m3u8"
     ]
   },
   {
-    "id": "316",
+    "id": "309",
     "nome": "A Fazenda Cam 4",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397322.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397322.m3u8"
     ]
   },
   {
-    "id": "317",
+    "id": "310",
     "nome": "A Fazenda Cam 5",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397323.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397323.m3u8"
     ]
   },
   {
-    "id": "318",
+    "id": "311",
     "nome": "A Fazenda Cam 6",
     "categoria": "Variedades",
-    "logo": "",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://vaiagora.vip:80/live/5q8VUj/5BeUd8/397324.m3u8",
       "http://vivlar.me:80/live/497238/KK8Kdy/397324.m3u8"
     ]
   },
   {
-    "id": "319",
+    "id": "312",
     "nome": "MAX 07",
     "categoria": "Filmes e Séries",
     "logo": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
@@ -5746,7 +5841,7 @@
     ]
   },
   {
-    "id": "320",
+    "id": "313",
     "nome": "MAX 08",
     "categoria": "Filmes e Séries",
     "logo": "http://i.postimg.cc/L52gtQpb/BeDFSlD.png",
@@ -5755,7 +5850,7 @@
     ]
   },
   {
-    "id": "321",
+    "id": "314",
     "nome": "PREMIERE 8 MOSAICO",
     "categoria": "Esportes",
     "logo": "http://1.bp.blogspot.com/-9NsHz_itoFc/Xk70dxuLv7I/AAAAAAAACGQ/wCExIoJZ8xgbleziCR-Guhr-AkuLgFhVQCLcBGAsYHQ/s1600/premiere_2.png",
@@ -5764,43 +5859,44 @@
     ]
   },
   {
-    "id": "322",
+    "id": "315",
     "nome": "JOGOS DE HOJE",
     "categoria": "Esportes",
-    "logo": "https://i.postimg.cc/cHHX4vYD/canal-futebol.png",
+    "logo": "",
     "urls": [
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/339310.m3u8"
     ]
   },
   {
-    "id": "323",
+    "id": "316",
     "nome": "A FAZENDA 18 MOSAICO",
     "categoria": "Variedades",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Logo_A_Fazenda_-_Atual.png",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
     "urls": [
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/2470067.m3u8"
     ]
   },
   {
-    "id": "324",
+    "id": "317",
     "nome": "CHAPOLIN",
     "categoria": "24 Horas",
-    "logo": "http://32q0d.xyz/images/1ff1de774005f8da13f42943881c655f.png",
+    "logo": "http://24horas.cc:80/images/77e8debc90dbfd7e69d9decf09b9e05e.jpg",
     "urls": [
       "http://corruptx.org:80/live/hfp5ejnrey/zq0u3kzads/1169216.m3u8"
     ]
   },
   {
-    "id": "325",
+    "id": "318",
     "nome": "Disney Plus 1",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/disneyplus.png",
     "urls": [
+      "https://aws.s13-s1001604.lat/stream/2eecadabcdddd90849d70c752a70c0e0/disneyplus1.m3u8",
       "https://fallback1.nexustvplay.bbroot.com/nxs/stream/disneyplus1/disneyplus1.m3u8"
     ]
   },
   {
-    "id": "326",
+    "id": "319",
     "nome": "Disney Plus 2",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -5809,7 +5905,7 @@
     ]
   },
   {
-    "id": "327",
+    "id": "320",
     "nome": "Disney Plus 3",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -5818,27 +5914,28 @@
     ]
   },
   {
-    "id": "328",
+    "id": "321",
     "nome": "Paramount Plus 1",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/paramountplus.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/paramountplus/paramountplus.m3u8",
-      "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTkwLm0zdTg.m3u8"
+      "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTkwLm0zdTg.m3u8",
+      "https://aws.s13-s1001604.lat/stream/a3039490692b08e47bbd910816bcd954/paramountplus.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/paramountplus/paramountplus.m3u8"
     ]
   },
   {
-    "id": "329",
+    "id": "322",
     "nome": "Paramount Plus 2",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/paramountplus.png",
     "urls": [
-      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/paramountplus2/paramountplus2.m3u8",
-      "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTkxLm0zdTg.m3u8"
+      "https://frostview.squareweb.app/relay/m/aHR0cDovL2Fic29sdXRvLnRvcC9saXZlLzIzMzczMTkyOS80MTAzMTQ1ODcvNzI1NTkxLm0zdTg.m3u8",
+      "https://fallback1.nexustvplay.bbroot.com/nxs/stream/paramountplus2/paramountplus2.m3u8"
     ]
   },
   {
-    "id": "330",
+    "id": "323",
     "nome": "Prime Video 3",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/amazonprimevideo.png",
@@ -5847,7 +5944,7 @@
     ]
   },
   {
-    "id": "331",
+    "id": "324",
     "nome": "Anime Channel TV",
     "categoria": "Infantil",
     "logo": "",
@@ -5856,7 +5953,7 @@
     ]
   },
   {
-    "id": "332",
+    "id": "325",
     "nome": "Otaku Sign TV",
     "categoria": "Infantil",
     "logo": "",
@@ -5865,7 +5962,7 @@
     ]
   },
   {
-    "id": "333",
+    "id": "326",
     "nome": "Geekdot",
     "categoria": "Infantil",
     "logo": "",
@@ -5874,7 +5971,7 @@
     ]
   },
   {
-    "id": "334",
+    "id": "327",
     "nome": "NBX TV Kids",
     "categoria": "Infantil",
     "logo": "",
@@ -5883,7 +5980,7 @@
     ]
   },
   {
-    "id": "335",
+    "id": "328",
     "nome": "SBC Kids",
     "categoria": "Infantil",
     "logo": "",
@@ -5892,7 +5989,7 @@
     ]
   },
   {
-    "id": "336",
+    "id": "329",
     "nome": "Rede Crianças",
     "categoria": "Infantil",
     "logo": "",
@@ -5901,7 +5998,7 @@
     ]
   },
   {
-    "id": "337",
+    "id": "330",
     "nome": "Kuriakos Kids",
     "categoria": "Infantil",
     "logo": "",
@@ -5910,7 +6007,7 @@
     ]
   },
   {
-    "id": "338",
+    "id": "331",
     "nome": "Gospel Cartoon",
     "categoria": "Infantil",
     "logo": "",
@@ -5919,12 +6016,175 @@
     ]
   },
   {
-    "id": "339",
+    "id": "332",
     "nome": "Jetsons TV",
     "categoria": "Infantil",
     "logo": "",
     "urls": [
       "https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "333",
+    "nome": "24H Os Smurfs",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://d144py1prrd7ns.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-affg2ev32s0dq/smrfe.m3u8"
+    ]
+  },
+  {
+    "id": "334",
+    "nome": "TV A Crítica",
+    "categoria": "TV Aberta",
+    "logo": "",
+    "urls": [
+      "https://video01.brascast.com/bdctv/bdctv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "335",
+    "nome": "FIFA+ Português",
+    "categoria": "Esportes",
+    "logo": "",
+    "urls": [
+      "https://c2657533.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8",
+      "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "336",
+    "nome": "Viva",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/viva.png",
+    "urls": [
+      "https://aws.s13-s1001604.lat/stream/5c26746b95e7ead7d92ec9b47d7f940f/viva.m3u8"
+    ]
+  },
+  {
+    "id": "337",
+    "nome": "Comedy Central",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/comedycentral.png",
+    "urls": [
+      "https://aws.s13-s1001604.lat/stream/9be6499402ccfdef84b540cb6d808fb7/comedycentral.m3u8"
+    ]
+  },
+  {
+    "id": "338",
+    "nome": "Globo Bahia",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globo.png",
+    "urls": [
+      "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8"
+    ]
+  },
+  {
+    "id": "339",
+    "nome": "Runtime Ação",
+    "categoria": "Filmes e Séries",
+    "logo": "",
+    "urls": [
+      "https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8"
+    ]
+  },
+  {
+    "id": "340",
+    "nome": "DreamWorks",
+    "categoria": "Infantil",
+    "logo": "https://img.faz-o-eli.online/dreamworks.png",
+    "urls": [
+      "https://origin-07.nxplay.com.br/DREAMWORKS/index.m3u8"
+    ]
+  },
+  {
+    "id": "341",
+    "nome": "Top TV",
+    "categoria": "Músicas",
+    "logo": "",
+    "urls": [
+      "https://isaocorp.cloudecast.com/toptv/index.m3u8"
+    ]
+  },
+  {
+    "id": "342",
+    "nome": "MovieSphere Brazil",
+    "categoria": "Filmes e Séries",
+    "logo": "",
+    "urls": [
+      "https://amg00353-amg00353c29-plex-us-3205.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg00353-lionsgatetvfast-moviespherebrazil-plexus/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "343",
+    "nome": "Trace Urban",
+    "categoria": "Músicas",
+    "logo": "",
+    "urls": [
+      "https://amg01076-lightningintern-traceurban-xiaomi-m78n3.amagi.tv/playlist/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "344",
+    "nome": "Sony One Classics",
+    "categoria": "Filmes e Séries",
+    "logo": "",
+    "urls": [
+      "https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "345",
+    "nome": "Classique Faroeste",
+    "categoria": "Filmes e Séries",
+    "logo": "",
+    "urls": [
+      "https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "346",
+    "nome": "Loading TV",
+    "categoria": "Infantil",
+    "logo": "",
+    "urls": [
+      "https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "347",
+    "nome": "Retrô Cartoon",
+    "categoria": "Infantil",
+    "logo": "",
+    "urls": [
+      "https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "348",
+    "nome": "Retro Music",
+    "categoria": "Músicas",
+    "logo": "",
+    "urls": [
+      "https://newstream.mediawork.cz/retrotv/smil:retrotv_new.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "349",
+    "nome": "Now Rock",
+    "categoria": "Músicas",
+    "logo": "",
+    "urls": [
+      "https://lightning-now90s-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "350",
+    "nome": "TV Clássicos",
+    "categoria": "Filmes e Séries",
+    "logo": "",
+    "urls": [
+      "https://stmv2.painelvideocast.com.br/multicanais/multicanais/playlist.m3u8"
     ]
   }
 ]
