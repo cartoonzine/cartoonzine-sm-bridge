@@ -3,7 +3,8 @@ name: Gerador de BD Cartoonzine
 on:
   schedule:
     # 09:00 UTC = 06:00 da manhã no horário de Brasília (logo após a atualização da fonte)
-    - cron: '0 9 * * *'
+    # Coloquei minuto 17 para evitar a fila de servidores do GitHub
+    - cron: '17 9 * * *'
 
   workflow_dispatch:
 
@@ -37,7 +38,6 @@ jobs:
           echo "VALIDAÇÃO DO CARTOONZINE-SM-BRIDGE"
           echo "========================================"
 
-          # Adicionei o teste para o canais_saimo.json aqui:
           test -s canais_saimo.json
           test -s filmes_saimo.json
           test -s series_saimo_pt1.json
@@ -75,3 +75,23 @@ jobs:
           echo "========================================"
           echo "VALIDAÇÃO OK"
           echo "========================================"
+
+      - name: Comitar novos arquivos de BD
+        shell: bash
+        run: |
+          git config --global user.name "Cartoonzine Bot"
+          git config --global user.email "bot@cartoonzine.com"
+
+          # Remove do repositório o arquivo antigo pesado, se ele existir lá
+          git rm -f series_saimo.json || true
+
+          # Adiciona todos os arquivos 
+          git add canais_saimo.json filmes_saimo.json series_saimo_pt1.json series_saimo_pt2.json series_saimo_pt3.json adultos_vod_saimo.json destaques_saimo.json
+
+          if git diff --cached --quiet; then
+            echo "Sem mudanças para comitar."
+          else
+            git commit -m "☁️ Atualização diária dos BDs Saimo em partes"
+            git pull --rebase origin main
+            git push
+          fi
