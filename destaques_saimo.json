@@ -4,21 +4,27 @@
     "itens": [
       {
         "tipo": "Filme",
+        "titulo": "Street Fighter",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/pwUb3gdkSrlyMZWs0MFOQg3N5s7.jpg"
+      },
+      {
+        "tipo": "Filme",
         "titulo": "Homem-Aranha: Um Novo Dia (2026)",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "Street Fighter",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/8nP4lF51Ea861YfHEEqhZBLYv3e.jpg"
-      },
-      {
-        "tipo": "Filme",
         "titulo": "Animals.",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/62vtHEyzKhFRuEOLLiQfPi60mSs.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Buddy",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/29QY0eScq4chCvZNBx3BIxNdbml.jpg"
       },
       {
         "tipo": "Filme",
@@ -34,9 +40,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Obsessão",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg"
+        "titulo": "Sobrenatural: Agora Entre Nós (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/8IEzyoBOCbKIvJ9DMwHgceJkNsP.jpg"
       },
       {
         "tipo": "Filme",
@@ -46,15 +52,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Sobrenatural: Agora Entre Nós (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/8IEzyoBOCbKIvJ9DMwHgceJkNsP.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Toy Story 5 (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/jTN1hdfP88Km63waezqIN1uUqT3.jpg"
+        "titulo": "Moana",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/wjAdEJoqcmyjBj8jxb3lrUN0PLJ.jpg"
       },
       {
         "tipo": "Filme",
@@ -64,15 +64,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Moana",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wjAdEJoqcmyjBj8jxb3lrUN0PLJ.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "A Morte do Demônio: Em Chamas (2026)",
+        "titulo": "Toy Story 5 (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fteLdvfRnltfLjAEnsl5E3vImnW.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/jTN1hdfP88Km63waezqIN1uUqT3.jpg"
       },
       {
         "tipo": "Filme",
@@ -82,27 +76,15 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Convite (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg"
-      },
-      {
-        "tipo": "Filme",
         "titulo": "Dia D (2026)",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/pmff1wjKrgJi92PPr346lAifzlg.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "Todo Mundo em Pânico",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Devoradores de Estrelas (2026)",
+        "titulo": "A Morte do Demônio: Em Chamas (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/fteLdvfRnltfLjAEnsl5E3vImnW.jpg"
       },
       {
         "tipo": "Filme",
@@ -112,15 +94,21 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Minions & Monstros (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/hTowtXrkCY7FJyoj4p91JckrJSE.jpg"
+        "titulo": "O Intruso",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/ymRR1YD9qJ8E6iwAJZlM6o1QP9I.jpg"
       },
       {
         "tipo": "Filme",
-        "titulo": "Cartas de Redenção (2026)",
+        "titulo": "O Convite (2026)",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/kDFNGzkXZPJPXXy1hdO4Do4X3Wh.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Devoradores de Estrelas (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg"
       },
       {
         "tipo": "Filme",
@@ -130,9 +118,87 @@
       },
       {
         "tipo": "Filme",
+        "titulo": "Todo Mundo em Pânico",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Razão e Sensibilidade",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/kuSSXcjitZy1LLGGoB9XqLBPCYl.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "O Drama",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/tM3hbeEwJZdQAjwwt5UjFn638AY.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Amigas Sem Filtro",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/kjYD7jrrkyrPo3ITTQFMjLH2OOI.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Avatar Aang: O Último Mestre do Ar (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/tiUtJXN4OZaK2PQM0q8mbbBgKS4.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Cara de Um, Focinho de Outro",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/ftPFJBGbldoWiiPrmesW96zBzdH.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Cartas de Redenção (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/kDFNGzkXZPJPXXy1hdO4Do4X3Wh.jpg"
+      },
+      {
+        "tipo": "Filme",
         "titulo": "A Hipótese do Amor",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/9TQyjZ9PHCiPR8eylF8dulUFreu.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Panico 7 (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/rEevavl5vebCVEd5imx7D1k8nmV.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Avatar Fogo e Cinzas (2025)",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/3almrQT8GnrDjnQeWotdExjJhZm.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Mortal Kombat 2",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/iILiJSRViTEcF23MHhGCbVm3mfW.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Soulm8te (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/l7zdh8qUKDNCGApX3KBOBUOoIdd.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Acampamento Miasma: Adolescência, Sexo e Morte (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/mAwGTx2EOdiY6AiWauGICPUrELg.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Superman (2025)",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/1ZLhjqbNgd0jzczAQtqMbwuMJKB.jpg"
       },
       {
         "tipo": "Filme",
@@ -145,66 +211,6 @@
         "titulo": "A Hora do Mal",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/psEJSjQr6I9GSJTdW28CKC4Kffs.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Star Wars: O Mandaloriano e Grogu (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/dNwaS0tnwgQRaQFPY5MbGxdmYXr.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Less of a Stranger",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/cRMpDyyJxDtJdwtCNd3AO4HWCrd.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Corrida Contra o Tempo (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/zPlBUyu9rWhVrdiRfSClwMkmQiT.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "A Um Passo da Guerra",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/zjFYJ642S8O3mfG4Hxn5xGBL4kY.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Maldicao da Mumia (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fI6XBw8k5CWNwxLEYZwpjA89TPg.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Hokum O Pesadelo da Bruxa (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fn5QNtG3LLXC3e7ZTQDYP92kFYc.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "O Último Tiro Certo (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/owdiTFWuWq4UxPth6nXNsO6x74Q.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Normal (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Pecadores (2025)",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/v0Ljeti537c6cNKweuEN0iaU3x4.jpg"
-      },
-      {
-        "tipo": "Filme",
-        "titulo": "Michael",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/gKWVxVJ5Q0JcQKj2Z8Hu5Qwo7s2.jpg"
       }
     ]
   },
@@ -225,81 +231,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Profundezas",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/zhaLAbSzPQchEzDGUoJoQFQaxPI.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Dragon Ball Super: Beerus",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/w5ai45092PIlV1Vbt7kswry2C03.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Terra da Mafia",
-        "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/jM7bH9b9QT22PtkTyHzxbXx4lDI.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Lanternas",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/oQkXyLAYO5YWyU6gA99TynguYwL.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "A Diplomata",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/1DoshncExMCGK9skDMA7iddHalJ.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Tulsa King",
-        "ano": "2022",
-        "capa": "https://image.tmdb.org/t/p/w342/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Black Clover",
-        "ano": "2017",
-        "capa": "https://image.tmdb.org/t/p/w342/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "South Park",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Ted Lasso",
-        "ano": "2020",
-        "capa": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Materia Escura",
-        "ano": "2024",
-        "capa": "https://image.tmdb.org/t/p/w342/mAbuZuS4CqlTI6lvWIxPRHppbVs.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Avatar: Os Sete Refúgios",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "One Piece",
-        "ano": "1999",
-        "capa": "https://image.tmdb.org/t/p/w342/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "TYSON",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg"
       },
       {
         "tipo": "Série",
@@ -309,51 +243,51 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Slow Horses",
+        "titulo": "Profundezas",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/zhaLAbSzPQchEzDGUoJoQFQaxPI.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Lanternas",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/uDApmmpVLIzBlEhUpdsJOzpplIu.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "One Piece",
+        "ano": "1999",
+        "capa": "https://image.tmdb.org/t/p/w342/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Dragon Ball Super: Beerus",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/w5ai45092PIlV1Vbt7kswry2C03.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Tulsa King",
         "ano": "2022",
-        "capa": "https://image.tmdb.org/t/p/w342/rdNvIaPXpkUZl5tQLsTP15osfu2.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Um Choque de Amor",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/ncqFauZ8eT5jq6E7jNxsopMwd8m.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Ranma1 2",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/2xhhNHGVeNzUSqHU8etqTsu30Fg.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "100 Dias de Mentiras",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/yUdCm0T0Ot6gbf6ti2hnD6oCAPC.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Diários de uma Apotecária",
-        "ano": "2023",
-        "capa": "https://image.tmdb.org/t/p/w342/t8fC3K3XnwE6Iso6b1bi5Fdo93n.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Verdade Oculta",
+        "titulo": "Terra da Mafia",
         "ano": "2025",
-        "capa": "https://image.tmdb.org/t/p/w342/mM3vPLFMzE1J4Yc8WJPkDgNiyuX.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/jM7bH9b9QT22PtkTyHzxbXx4lDI.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Mushoku Tensei: Jobless Reincarnation",
-        "ano": "2021",
-        "capa": "https://image.tmdb.org/t/p/w342/tn2mxPYSSUPHgfcAe5SCga1DO0i.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Futurama",
+        "titulo": "South Park",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Detetive Conan (1996)",
+        "ano": "1996",
+        "capa": "https://image.tmdb.org/t/p/w342/gW14n6xxONXrya8CIDhRe5Ada7U.jpg"
       },
       {
         "tipo": "Série",
@@ -363,33 +297,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "American Horror Story",
-        "ano": "2011",
-        "capa": "https://image.tmdb.org/t/p/w342/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Reacher",
-        "ano": "2022",
-        "capa": "https://image.tmdb.org/t/p/w342/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Guerra",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wPyKNt0Lf4n42cXOBOJFsgkZ16X.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Hotel Assombrado",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/xJ3SYSzJs5n9JELZHu2kJcAg0g4.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "A Leste do Éden",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/3j5f8RkkbHIoBR1W4NwAQo61giR.jpg"
+        "titulo": "Black Clover",
+        "ano": "2017",
+        "capa": "https://image.tmdb.org/t/p/w342/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg"
       },
       {
         "tipo": "Série",
@@ -399,27 +309,21 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Magic Repo Man: Dumped by My Party, I'll Cash In With a Cute Support Fairy to Become the Strongest!",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/3IxYsKJGSlxy6GDnFBIx7UJc5nP.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Coven Academy",
+        "titulo": "Um Choque de Amor",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wnyszkmpoJbwdJMSPYPtidB2Cgh.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/ncqFauZ8eT5jq6E7jNxsopMwd8m.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Hollywood Arts (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg"
+        "titulo": "Diários de uma Apotecária",
+        "ano": "2023",
+        "capa": "https://image.tmdb.org/t/p/w342/t8fC3K3XnwE6Iso6b1bi5Fdo93n.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "HORROR COLLECTOR (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/s5UFn4SrNFTjTeYKQvyC7ImPlgw.jpg"
+        "titulo": "Uma Família da Pesada",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg"
       },
       {
         "tipo": "Série",
@@ -429,15 +333,51 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Silo",
-        "ano": "2023",
-        "capa": "https://image.tmdb.org/t/p/w342/tVR4q9FazxJuCEpaYxiCijUlvM3.jpg"
+        "titulo": "Avatar: Os Sete Refugios",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "A Lista Terminal",
+        "titulo": "Helluva Boss",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/3f7lVELRz23j4GOEh3419UyR3XA.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Invasao a Paris",
+        "ano": "2024",
+        "capa": "https://image.tmdb.org/t/p/w342/xUF1yckF44zzK0m2xKY1agZvY1a.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Slow Horses",
+        "ano": "2022",
+        "capa": "https://image.tmdb.org/t/p/w342/rdNvIaPXpkUZl5tQLsTP15osfu2.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "100 Dias de Mentiras",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/yUdCm0T0Ot6gbf6ti2hnD6oCAPC.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Mushoku Tensei: Jobless Reincarnation",
+        "ano": "2021",
+        "capa": "https://image.tmdb.org/t/p/w342/tn2mxPYSSUPHgfcAe5SCga1DO0i.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "American Horror Story",
+        "ano": "2011",
+        "capa": "https://image.tmdb.org/t/p/w342/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Bob Esponja",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/yXrtQINkVRyNmfUQFyVG2LuoTqm.jpg"
       },
       {
         "tipo": "Série",
@@ -447,9 +387,75 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Bob Esponja",
+        "titulo": "Hollywood Arts (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "TYSON",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/yXrtQINkVRyNmfUQFyVG2LuoTqm.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Jujutsu Kaisen",
+        "ano": "2020",
+        "capa": "https://image.tmdb.org/t/p/w342/8R1mMSC1gX1cg5ed7ns49JOEqw3.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "NCIS: Investigação Naval",
+        "ano": "2003",
+        "capa": "https://image.tmdb.org/t/p/w342/abjNx4jqvaJn5UvsuLaBVRVndyJ.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Verdade Oculta",
+        "ano": "2025",
+        "capa": "https://image.tmdb.org/t/p/w342/mM3vPLFMzE1J4Yc8WJPkDgNiyuX.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "HORROR COLLECTOR (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/s5UFn4SrNFTjTeYKQvyC7ImPlgw.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "That Time I Got Reincarnated as a Slime",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/9YcNx1dnNkZ3PZzrMqc52WjCEcw.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "A Leste do Éden",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/3j5f8RkkbHIoBR1W4NwAQo61giR.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Hotel Assombrado",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/xJ3SYSzJs5n9JELZHu2kJcAg0g4.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Chicago Fire: Heróis Contra o Fogo",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/iD8lx0VgmpCZMhycI0Xw72wCuRS.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Parede de Gelo",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/d03KBIFklbUjz3aHP77dqo9iagN.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Reacher",
+        "ano": "2022",
+        "capa": "https://image.tmdb.org/t/p/w342/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
       }
     ]
   },
@@ -490,7 +496,7 @@
         "tipo": "Filme",
         "titulo": "Street Fighter",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/8nP4lF51Ea861YfHEEqhZBLYv3e.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/ccxdepKqORLwccbzvO4eAGkN0IC.jpg"
       },
       {
         "tipo": "Filme",
@@ -506,9 +512,9 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Obsessão",
+        "titulo": "Buddy",
         "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/29QY0eScq4chCvZNBx3BIxNdbml.jpg"
       },
       {
         "tipo": "Filme",
@@ -596,8 +602,8 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Captura",
-        "ano": "",
+        "titulo": "La Captura (2026)",
+        "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/z1BazG57E5JaNbxQ5kpXt8h8whv.jpg"
       },
       {
@@ -668,12 +674,6 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Razão e Sensibilidade",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/kuSSXcjitZy1LLGGoB9XqLBPCYl.jpg"
-      },
-      {
-        "tipo": "Filme",
         "titulo": "Como Magica (2026)",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2TZiL4ZYOwWeIjGfz3glpMuPqpN.jpg"
@@ -695,6 +695,12 @@
         "titulo": "A Morte de Robin Hood (2026)",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/o0QndnepFPWget2kdKpzh26RBYt.jpg"
+      },
+      {
+        "tipo": "Filme",
+        "titulo": "Lindas e Letais (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/3PdG3VE95F7fcawJrAfm9bdUvMy.jpg"
       }
     ]
   },
@@ -703,21 +709,27 @@
     "itens": [
       {
         "tipo": "Série",
-        "titulo": "Avatar: Os Sete Refúgios",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg"
+        "titulo": "Crystal Lake (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Crystal Lake (2026)",
+        "titulo": "Avatar: Os Sete Refugios",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/sIj9WcA1LkcjGbYjrbfV3pGegbF.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg"
       },
       {
         "tipo": "Série",
         "titulo": "Lanternas",
         "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/oQkXyLAYO5YWyU6gA99TynguYwL.jpg"
+        "capa": "https://image.tmdb.org/t/p/w342/uDApmmpVLIzBlEhUpdsJOzpplIu.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Dragon Ball Super: Beerus",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/w5ai45092PIlV1Vbt7kswry2C03.jpg"
       },
       {
         "tipo": "Série",
@@ -733,21 +745,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Dragon Ball Super: Beerus",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/w5ai45092PIlV1Vbt7kswry2C03.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Marshals: Uma História de Yellowstone",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/kqzWUZKQYomcJhXA5mDcaZFTWiG.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "A Coroa Perfeita",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/vS70MWKvCb6bT9kYj8OTmumcsWq.jpg"
       },
       {
         "tipo": "Série",
@@ -757,15 +757,15 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Hana Kimi",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/4BoA0q0oh1FJiRe9PlZCxlqX26T.jpg"
+        "titulo": "Amigos Sexo e Jogos (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/72Xo63mlPdftbj65CC6WRtUGWBg.jpg"
       },
       {
         "tipo": "Série",
-        "titulo": "Margo Esta em Apuros",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/1OLkF9vLM2PsIm0duu7seQbnfyU.jpg"
+        "titulo": "A Coroa Perfeita",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/vS70MWKvCb6bT9kYj8OTmumcsWq.jpg"
       },
       {
         "tipo": "Série",
@@ -775,15 +775,21 @@
       },
       {
         "tipo": "Série",
-        "titulo": "A Leste do Éden",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/3j5f8RkkbHIoBR1W4NwAQo61giR.jpg"
+        "titulo": "Margo Esta em Apuros",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/1OLkF9vLM2PsIm0duu7seQbnfyU.jpg"
       },
       {
         "tipo": "Série",
         "titulo": "Off Campus Amores Improvaveis",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/iQ1WbmoC08ql4qRZkfUD2LlzNOL.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Monstro: A História de Lizzie Borden",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/cLP2z0O78DLiMqH8pvtB8EYq8KY.jpg"
       },
       {
         "tipo": "Série",
@@ -799,21 +805,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Monstro: A História de Lizzie Borden",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/cLP2z0O78DLiMqH8pvtB8EYq8KY.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "100 Dias de Mentiras",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/yUdCm0T0Ot6gbf6ti2hnD6oCAPC.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Amigos Sexo e Jogos (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/72Xo63mlPdftbj65CC6WRtUGWBg.jpg"
       },
       {
         "tipo": "Série",
@@ -823,21 +817,27 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Amor Doce Amor (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/qzH80C1YNzucLsVJfW23RxvX9vS.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Presidente Curtis",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/bslvJffCHQSJxUKuEEzjkYPNrTn.jpg"
       },
       {
         "tipo": "Série",
+        "titulo": "Amor Doce Amor (2026)",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/qzH80C1YNzucLsVJfW23RxvX9vS.jpg"
+      },
+      {
+        "tipo": "Série",
         "titulo": "Rancho Dutton",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aJVroxZZKReiSlASpODQ23qrdGa.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Um Amor Diferente do Seu",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/vvywxGVcFihxOWxXoAxECOQ20pi.jpg"
       },
       {
         "tipo": "Série",
@@ -859,39 +859,21 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Cabo do Medo",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/2gi4vszQOpVsB33FDgt000VIQMo.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Neagley: Detetive Particular",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/kdERESUYePDvSrJ1kTNV8PiLOqJ.jpg"
       },
       {
         "tipo": "Série",
+        "titulo": "Cabo do Medo",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/2gi4vszQOpVsB33FDgt000VIQMo.jpg"
+      },
+      {
+        "tipo": "Série",
         "titulo": "Apenas um Show As Fitas Perdidas",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/pSkAZX9qqg9Wn2WaBIlQYZczymH.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Um Amor Diferente do Seu",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/vvywxGVcFihxOWxXoAxECOQ20pi.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "CIA",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Parede de Gelo",
-        "ano": "",
-        "capa": "https://image.tmdb.org/t/p/w342/d03KBIFklbUjz3aHP77dqo9iagN.jpg"
       },
       {
         "tipo": "Série",
@@ -907,27 +889,9 @@
       },
       {
         "tipo": "Série",
-        "titulo": "Dele & Dela",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/ib9AXiiZPOHlU8TwvPAI8Uo0Sdp.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Twisted Tie (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/etZ2mRnlt4Rip1011nlb6zm3HoS.jpg"
-      },
-      {
-        "tipo": "Série",
         "titulo": "Scrubs",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/vYmEEiuYU3O1BmlHhJwnNEOOTxn.jpg"
-      },
-      {
-        "tipo": "Série",
-        "titulo": "Firefly Wedding (2026)",
-        "ano": "2026",
-        "capa": "https://image.tmdb.org/t/p/w342/1RXEvHmis1oKTAWtKOrzJqenpb6.jpg"
       },
       {
         "tipo": "Série",
@@ -937,9 +901,51 @@
       },
       {
         "tipo": "Série",
+        "titulo": "Elle: Legalmente Loira",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/2yYFavbSBNwW0dNCbVKw57qSaQZ.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Em Busca de Jade",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/8gRGnJvWzDZmQLcWmKj0cHOvPS.jpg"
+      },
+      {
+        "tipo": "Série",
         "titulo": "Stuart Não Consegue Salvar o Universo",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/7kqLBWdtCSm3rs8zj38epC6jkjH.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Dele & Dela",
+        "ano": "2026",
+        "capa": "https://image.tmdb.org/t/p/w342/ib9AXiiZPOHlU8TwvPAI8Uo0Sdp.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Memory of a Killer",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/exoHO1kWoiOlwroAvVUJQc0lc8K.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Smoking Behind the Supermarket with You",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/aRTMLZWEtBUy4fG01aqVicRD2wx.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "R.J. Decker Investigador Privado",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/6fl67oS4Ia60jitn7L0uxqqRhIa.jpg"
+      },
+      {
+        "tipo": "Série",
+        "titulo": "Scum of the Brave",
+        "ano": "",
+        "capa": "https://image.tmdb.org/t/p/w342/zUdByBz1zWn4Prgw5nkVmgfFzfI.jpg"
       }
     ]
   },
